@@ -32,3 +32,8 @@ exclude_patterns = []
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'sphinx_book_theme'
+html_theme_options = {
+  "use_repository_button": True,
+  "repository_url": "https://github.com/LuYingYiLong/daedalus-docs",
+  "use_issues_button": True,
+}
