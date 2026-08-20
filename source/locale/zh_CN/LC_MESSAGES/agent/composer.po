@@ -207,3 +207,7 @@ msgid ""
 "**Enter** or **Tab** inserts the selected command or Skill, and "
 "**Escape** closes the menu."
 msgstr "按 **Enter** 发送。按 **Shift+Enter** 插入新行。补全菜单打开时，**Arrow Up/Down** 更改选中项，**Enter** 或 **Tab** 插入选中的命令或 Skill，**Escape** 关闭菜单。"
+
+#: ../../source/agent/composer.rst:112
+msgid "Press **Ctrl+Enter** to add the draft as a guide instead of sending it as a normal message. Guides appear in the **Guides** queue and steer a subsequent request without becoming part of the conversation history."
+msgstr "按 **Ctrl+Enter** 将草稿作为引导加入队列，而不是作为普通消息发送。引导会显示在 **Guides** 队列中，用于影响后续请求，但不会成为对话历史的一部分。"

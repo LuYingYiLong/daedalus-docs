@@ -107,3 +107,7 @@ Keyboard behavior
 Press **Enter** to send. Press **Shift+Enter** to insert a new line. When the
 completion menu is open, **Arrow Up/Down** changes the selection, **Enter** or
 **Tab** inserts the selected command or Skill, and **Escape** closes the menu.
+
+Press **Ctrl+Enter** to add the draft as a guide instead of sending it as a
+normal message. Guides appear in the **Guides** queue and steer a subsequent
+request without becoming part of the conversation history.
