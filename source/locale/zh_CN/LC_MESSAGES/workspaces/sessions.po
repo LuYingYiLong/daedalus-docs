@@ -82,28 +82,84 @@ msgid "Continue an interrupted or approval-paused run when it is safe to do so."
 msgstr "在安全的情况下，继续被中断或因等待审批而暂停的运行。"
 
 #: ../../source/workspaces/sessions.rst:31
+msgid "Move a session to another workspace when the conversation belongs with a different project."
+msgstr "当对话属于另一个项目时，将会话移动到其他工作区。"
+
+#: ../../source/workspaces/sessions.rst:33
 msgid ""
 "Fork a session when you want to explore a different approach without "
 "changing the original conversation."
 msgstr "想要探索不同方法但不改变原始对话时，复制一个会话分支。"
 
-#: ../../source/workspaces/sessions.rst:33
+#: ../../source/workspaces/sessions.rst:35
 msgid ""
 "Archive a completed or inactive session. Archived sessions remain "
 "searchable from **Settings > Archived sessions**."
 msgstr "归档已完成或不活跃的会话。归档后的会话仍可从 **Settings > Archived sessions** 搜索。"
 
-#: ../../source/workspaces/sessions.rst:35
+#: ../../source/workspaces/sessions.rst:37
 msgid ""
 "Export session content when you need a portable record, after checking it"
 " for private prompts, file paths, and credentials."
 msgstr "需要可携带的记录时，可以导出会话内容；导出前请检查其中是否包含私密提示词、文件路径和凭据。"
 
-#: ../../source/workspaces/sessions.rst:39
+#: ../../source/workspaces/sessions.rst:41
+msgid "Move a session to another workspace"
+msgstr "将会话移动到其他工作区"
+
+#: ../../source/workspaces/sessions.rst:43
+msgid "A session can move between registered workspaces from the workspace tree. This changes the project context attached to the session; it does not move, copy, or modify files in either project."
+msgstr "会话可以通过工作区树在已注册的工作区之间移动。此操作只会更改会话关联的项目上下文，不会移动、复制或修改任一项目中的文件。"
+
+#: ../../source/workspaces/sessions.rst:47
+msgid "Use either method:"
+msgstr "可以使用以下任一方法："
+
+#: ../../source/workspaces/sessions.rst:49
+msgid "Open the session's context menu and choose **Move session to...**, then select the target workspace."
+msgstr "打开会话的上下文菜单，选择 **Move session to...**，然后选择目标工作区。"
+
+#: ../../source/workspaces/sessions.rst:51
+msgid "Drag the session onto the target workspace in the workspace tree."
+msgstr "将会话拖到工作区树中的目标工作区上。"
+
+#: ../../source/workspaces/sessions.rst:53
+msgid "The session remains available with its conversation history, attachments, agent runs, plans, approvals, and other persisted session data. Studio refreshes the session under the target workspace and resets the session's file-panel workspace state. Reopen files from the new workspace before continuing."
+msgstr "会话的对话历史、附件、agent 运行、计划、审批及其他已持久化的会话数据都会保留。Studio 会在目标工作区下刷新会话，并重置会话的文件面板工作区状态。继续操作前，请从新工作区重新打开文件。"
+
+#: ../../source/workspaces/sessions.rst:59
+msgid "Before moving a session, make sure that:"
+msgstr "移动会话前，请确认："
+
+#: ../../source/workspaces/sessions.rst:61
+msgid "the session is idle: no active assistant run, pending approval, queued message, or other in-flight operation;"
+msgstr "会话处于空闲状态：没有正在运行的助手任务、待处理审批、排队消息或其他进行中的操作；"
+
+#: ../../source/workspaces/sessions.rst:63
+msgid "all terminals in the session are closed;"
+msgstr "会话中的所有终端都已关闭；"
+
+#: ../../source/workspaces/sessions.rst:64
+msgid "unsaved file changes are saved or discarded;"
+msgstr "未保存的文件修改已保存或放弃；"
+
+#: ../../source/workspaces/sessions.rst:65
+msgid "project files or code selections have been removed from the Composer context;"
+msgstr "Composer 上下文中已移除项目文件或代码选择；"
+
+#: ../../source/workspaces/sessions.rst:67
+msgid "the session has no managed worktree. Hand off or delete the managed worktree first."
+msgstr "会话没有托管工作树。如果有，请先 Handoff 或删除托管工作树。"
+
+#: ../../source/workspaces/sessions.rst:70
+msgid "A move can fail if the target workspace was removed or the session is already bound to that workspace. The operation is available in Daedalus Studio; it does not move project files or change either project on disk."
+msgstr "如果目标工作区已被删除，或会话已经属于该工作区，移动可能会失败。此操作仅在 Daedalus Studio 中可用；它不会移动项目文件，也不会更改磁盘上的任一项目。"
+
+#: ../../source/workspaces/sessions.rst:75
 msgid "Layouts and terminal tabs"
 msgstr "布局和终端标签页"
 
-#: ../../source/workspaces/sessions.rst:41
+#: ../../source/workspaces/sessions.rst:77
 msgid ""
 "Panel positions, tabs, and dimensions are saved per session where "
 "applicable. Terminal processes are isolated by session and are not "
@@ -111,11 +167,11 @@ msgid ""
 " task after a restart and re-check its working directory."
 msgstr "在适用的情况下，面板位置、标签页和尺寸会按会话保存。终端进程按会话隔离，Studio 重启后不会作为正在运行的进程恢复。重启后请启动新的终端任务，并重新检查其工作目录。"
 
-#: ../../source/workspaces/sessions.rst:47
+#: ../../source/workspaces/sessions.rst:83
 msgid "Search and navigation"
 msgstr "搜索和导航"
 
-#: ../../source/workspaces/sessions.rst:49
+#: ../../source/workspaces/sessions.rst:85
 msgid ""
 "Use conversation search to find a message, tool result, or verification "
 "detail inside the current history. Use the archived-session search when "
