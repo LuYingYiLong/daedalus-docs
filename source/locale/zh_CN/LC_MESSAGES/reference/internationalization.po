@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, LuYingYiLong
+# This file is distributed under the same license as the Daedalus Studio
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Daedalus Studio User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-20 02:49+0800\n"
+"PO-Revision-Date: 2026-08-20 02:50+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/reference/internationalization.rst:2
+msgid "Internationalization and Chinese Builds"
+msgstr "国际化与中文构建"
+
+#: ../../source/reference/internationalization.rst:4
+msgid ""
+"The documentation source is written in English and lives under "
+"``source/``. Translations are maintained as gettext catalogs under "
+"``source/locale/<language>/LC_MESSAGES``. This keeps the English pages "
+"easy to review while allowing Read the Docs to build a localized version "
+"from the same source tree."
+msgstr "文档源文件使用英文编写，位于 ``source/`` 下。翻译以 gettext catalog 的形式维护在 ``source/locale/<language>/LC_MESSAGES`` 下。这样既便于审查英文页面，也可以让 Read the Docs 从同一源代码树构建本地化版本。"
+
+#: ../../source/reference/internationalization.rst:11
+msgid "Chinese support"
+msgstr "中文支持"
+
+#: ../../source/reference/internationalization.rst:13
+msgid ""
+"The Simplified Chinese locale is ``zh_CN``. The current catalogs are "
+"stored in ``source/locale/zh_CN/LC_MESSAGES``. All current user-facing "
+"pages have Chinese translations. This keeps the published Chinese site "
+"consistent while still allowing new source strings to fall back to English"
+" until they are translated. The fallback is intentional: a new source "
+"string must not make the localized site blank or fail to build."
+msgstr "简体中文 locale 是 ``zh_CN``。当前 catalog 保存在 ``source/locale/zh_CN/LC_MESSAGES``。所有当前面向用户的页面都已有中文翻译。这可以保持已发布中文网站的一致性，同时允许新增源字符串在翻译完成前回退到英文。这种回退是有意设计的：新增源字符串不应导致本地化网站空白或构建失败。"
+
+#: ../../source/reference/internationalization.rst:20
+msgid "Build the Chinese site locally with::"
+msgstr "使用以下命令在本地构建中文网站："
+
+#: ../../source/reference/internationalization.rst:24
+msgid "On Windows, the equivalent Make target is::"
+msgstr "在 Windows 上，对应的 Make 目标是："
+
+#: ../../source/reference/internationalization.rst:28
+msgid "The default English build remains::"
+msgstr "默认英文构建仍然使用："
+
+#: ../../source/reference/internationalization.rst:33
+msgid "Updating catalogs"
+msgstr "更新 catalog"
+
+#: ../../source/reference/internationalization.rst:35
+msgid ""
+"When an English page changes, regenerate the gettext templates and update"
+" the Chinese catalogs from the repository root::"
+msgstr "英文页面发生变化时，请重新生成 gettext 模板，并从仓库根目录更新中文 catalog："
+
+#: ../../source/reference/internationalization.rst:41
+msgid "The Make targets wrap these commands::"
+msgstr "Make 目标封装了这些命令："
+
+#: ../../source/reference/internationalization.rst:46
+msgid ""
+"On Windows, use ``make.bat gettext`` and ``make.bat update-po``. The "
+"``sphinx-intl`` command is installed by ``requirements.txt``. Keep the "
+"English source as the canonical text, translate only the ``msgstr`` "
+"values, and preserve Sphinx roles such as ``:doc:`...````, inline "
+"literals, option names, and code examples."
+msgstr "在 Windows 上使用 ``make.bat gettext`` 和 ``make.bat update-po``。``sphinx-intl`` 命令由 ``requirements.txt`` 安装。请将英文源文档作为规范文本，只翻译 ``msgstr`` 值，并保留 ``:doc:`...``` 等 Sphinx 角色、内联字面量、选项名称和代码示例。"
+
+#: ../../source/reference/internationalization.rst:53
+msgid "Read the Docs setup"
+msgstr "Read the Docs 设置"
+
+#: ../../source/reference/internationalization.rst:55
+msgid ""
+"The repository includes ``.readthedocs.yaml``. It pins the build "
+"environment, installs the documentation requirements, points Read the "
+"Docs at ``source/conf.py``, and treats warnings as build failures. The "
+"configuration does not create a language matrix by itself. In Read the "
+"Docs, create a translation project for the Chinese version and select "
+"``zh_CN`` as its language; the project can then use the same repository "
+"and configuration while passing ``-D language=zh_CN`` to the Sphinx "
+"build."
+msgstr "仓库包含 ``.readthedocs.yaml``。它固定构建环境、安装文档依赖、将 Read the Docs 指向 ``source/conf.py``，并将警告视为构建失败。该配置本身不会创建语言矩阵。在 Read the Docs 中，为中文版本创建翻译项目并选择 ``zh_CN`` 作为语言；随后该项目可以使用同一仓库和配置，并向 Sphinx 构建传入 ``-D language=zh_CN``。"
+
+#: ../../source/reference/internationalization.rst:63
+msgid ""
+"Before publishing a translation, run both language builds and inspect the"
+" output for missing-reference or malformed-inline-markup warnings. A "
+"translated catalog should be updated whenever the corresponding English "
+"page changes."
+msgstr "发布翻译前，请运行两种语言的构建，并检查输出中是否有缺少引用或内联标记格式错误的警告。对应的英文页面发生变化时，应同步更新翻译 catalog。"

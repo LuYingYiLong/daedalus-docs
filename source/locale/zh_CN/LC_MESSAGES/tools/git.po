@@ -1,0 +1,139 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, LuYingYiLong
+# This file is distributed under the same license as the Daedalus Studio
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Daedalus Studio User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-20 02:49+0800\n"
+"PO-Revision-Date: 2026-08-20 02:50+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/tools/git.rst:2
+msgid "Review Git Changes"
+msgstr "审查 Git 变更"
+
+#: ../../source/tools/git.rst:4
+msgid ""
+"Studio does not replace Git, but it makes the current workspace state "
+"easier to inspect and use as context for a conversation."
+msgstr "Studio 不会替代 Git，但会让当前工作区状态更容易检查，也更容易作为对话上下文使用。"
+
+#: ../../source/tools/git.rst:8
+msgid "Open the Changes panel"
+msgstr "打开 Changes 面板"
+
+#: ../../source/tools/git.rst:10
+msgid "Select a Git workspace."
+msgstr "选择 Git 工作区。"
+
+#: ../../source/tools/git.rst:11
+msgid "Open a **Changes** panel from the dock or from a session summary."
+msgstr "从停靠区或会话摘要打开 **Changes** 面板。"
+
+#: ../../source/tools/git.rst:12
+msgid "Choose the source folder when the workspace contains more than one."
+msgstr "工作区包含多个源文件夹时，选择源文件夹。"
+
+#: ../../source/tools/git.rst:13
+msgid "Refresh the diff after an agent run or after an external Git operation."
+msgstr "agent 运行或外部 Git 操作后刷新 diff。"
+
+#: ../../source/tools/git.rst:15
+msgid ""
+"The panel shows changed files and additions/deletions. Small text diffs "
+"load first. Large files stay collapsed or may be truncated so that the "
+"review panel remains responsive; open a file directly when you need more "
+"context."
+msgstr "面板会显示变更文件以及新增/删除内容。小型文本 diff 会优先加载。大文件会保持折叠或可能被截断，以便审查面板保持响应；需要更多上下文时，请直接打开文件。"
+
+#: ../../source/tools/git.rst:20
+msgid "Request a change on a line"
+msgstr "请求修改某一行"
+
+#: ../../source/tools/git.rst:22
+msgid ""
+"In a diff, select the line that needs work and choose **Request changes "
+"on this line**. Write what should change and add the comment. Studio "
+"attaches the review comment to the next request so the agent can act on a"
+" precise location."
+msgstr "在 diff 中选择需要处理的行，然后选择 **Request changes on this line**。写明应如何修改并添加评论。Studio 会将审查评论附加到下一条请求，让 agent 可以针对精确位置采取行动。"
+
+#: ../../source/tools/git.rst:26
+msgid "This is useful for review language such as:"
+msgstr "这适合使用如下审查表述："
+
+#: ../../source/tools/git.rst:28
+msgid "“Keep this public method compatible with existing callers.”"
+msgstr "“保持此公共方法与现有调用方兼容。”"
+
+#: ../../source/tools/git.rst:29
+msgid "“Add a test for the empty-array case.”"
+msgstr "“为数组为空的情况添加测试。”"
+
+#: ../../source/tools/git.rst:30
+msgid "“This file is unrelated to the task; revert it.”"
+msgstr "“这个文件与任务无关；请还原它。”"
+
+#: ../../source/tools/git.rst:33
+msgid "Branches"
+msgstr "分支"
+
+#: ../../source/tools/git.rst:35
+msgid ""
+"Use the branch action to search existing branches and check one out, or "
+"use **Create & Checkout** to create a new branch. If the working tree has"
+" changes, Studio asks whether to commit them before switching. Read the "
+"changed-file summary before committing."
+msgstr "使用分支操作搜索现有分支并切换到其中一个，或使用 **Create & Checkout** 创建并切换到新分支。如果工作树有变更，Studio 会询问是否在切换前提交。提交前请阅读变更文件摘要。"
+
+#: ../../source/tools/git.rst:41
+msgid "Commit and push"
+msgstr "提交和推送"
+
+#: ../../source/tools/git.rst:43
+msgid "The **Commit or push** action can:"
+msgstr "**Commit or push** 操作可以："
+
+#: ../../source/tools/git.rst:45
+msgid "commit the selected workspace changes;"
+msgstr "提交选定的工作区变更；"
+
+#: ../../source/tools/git.rst:46
+msgid "push changes to the configured remote;"
+msgstr "将变更推送到已配置的远程仓库；"
+
+#: ../../source/tools/git.rst:47
+msgid "commit and push in one action."
+msgstr "在一次操作中完成提交和推送。"
+
+#: ../../source/tools/git.rst:49
+msgid ""
+"You can enter a commit message or let the configured Git commit model "
+"draft one from the diff. Treat a generated message as a draft: check that"
+" it says what actually changed. Pushing is an external repository action,"
+" so review the branch, files, remote, and approval prompt before "
+"confirming."
+msgstr "你可以输入提交消息，也可以让已配置的 Git 提交模型根据 diff 起草消息。请将生成的消息视为草稿，检查它是否准确描述了实际变更。推送属于外部仓库操作，因此确认前请审查分支、文件、远程仓库和审批提示。"
+
+#: ../../source/tools/git.rst:55
+msgid "Good Git habits"
+msgstr "良好的 Git 习惯"
+
+#: ../../source/tools/git.rst:57
+msgid ""
+"Create a branch before a risky experiment, inspect the diff after every "
+"agent-written batch, and commit only a coherent state. Git is your "
+"recovery path when a Goal or manual edit does not produce the result you "
+"wanted."
+msgstr "进行高风险实验前创建分支，每批 agent 写入后检查 diff，并且只提交完整一致的状态。当 Goal 或手动编辑没有产生预期结果时，Git 是你的恢复路径。"

@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, LuYingYiLong
+# This file is distributed under the same license as the Daedalus Studio
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Daedalus Studio User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-20 02:49+0800\n"
+"PO-Revision-Date: 2026-08-20 02:49+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/agent/review.rst:2
+msgid "Review Changes and Verification"
+msgstr "审查变更和验证"
+
+#: ../../source/agent/review.rst:4
+msgid ""
+"Treat every agent run as a change proposal with evidence. The "
+"conversation timeline is the place to decide whether to continue, "
+"approve, revise, or stop."
+msgstr "将每次 agent 运行都视为一份带有证据的变更提案。你可以在对话时间线中决定是继续、批准、修改还是停止。"
+
+#: ../../source/agent/review.rst:8
+msgid "What to review"
+msgstr "审查什么"
+
+#: ../../source/agent/review.rst:10
+msgid "Before accepting an implementation, inspect:"
+msgstr "接受实现前，请检查："
+
+#: ../../source/agent/review.rst:12
+msgid "the request and the workspace selected for the run;"
+msgstr "请求以及运行所选的工作区；"
+
+#: ../../source/agent/review.rst:13
+msgid "tool names and inputs, especially commands and paths;"
+msgstr "工具名称和输入，尤其是命令和路径；"
+
+#: ../../source/agent/review.rst:14
+msgid "file patches and inline diffs;"
+msgstr "文件补丁和内联 diff；"
+
+#: ../../source/agent/review.rst:15
+msgid "Git diff and the list of changed files;"
+msgstr "Git diff 和变更文件列表；"
+
+#: ../../source/agent/review.rst:16
+msgid "terminal output, warnings, and diagnostics;"
+msgstr "终端输出、警告和诊断信息；"
+
+#: ../../source/agent/review.rst:17
+msgid "the verification status and the exact check that ran."
+msgstr "验证状态以及实际运行的具体检查。"
+
+#: ../../source/agent/review.rst:19
+msgid ""
+"A successful tool call is not the same as a correct feature. Compare the "
+"actual diff with the requested outcome and run a project-specific test or"
+" Godot check when the available validator is too broad or too weak."
+msgstr "工具调用成功不等于功能正确。请将实际 diff 与请求的结果进行比较；当现有验证器范围过大或能力不足时，运行项目专属测试或 Godot 检查。"
+
+#: ../../source/agent/review.rst:24
+msgid "Godot changes"
+msgstr "Godot 变更"
+
+#: ../../source/agent/review.rst:26
+msgid ""
+"For editor-aware changes, the Bridge can expose typed inspection and "
+"patch operations when the connected plugin advertises the required "
+"capability. Patch proposals include normalized operations, summaries, "
+"warnings, and a fingerprint. A stale fingerprint is rejected rather than "
+"applied partially. Editor mutations are committed through Godot's "
+"Undo/Redo transaction when the editor bridge supports the operation."
+msgstr "对于编辑器感知的变更，当已连接插件声明所需能力时，Bridge 可以提供类型化检查和补丁操作。补丁提案包含规范化操作、摘要、警告和指纹。过期指纹会被拒绝，而不会部分应用。编辑器桥接支持相应操作时，编辑器变更会通过 Godot 的 Undo/Redo 事务提交。"
+
+#: ../../source/agent/review.rst:34
+msgid "If verification is missing"
+msgstr "如果缺少验证"
+
+#: ../../source/agent/review.rst:36
+msgid ""
+"Studio reports missing validation as a warning. A missing validator does "
+"not mean the change passed. If an applicable validator fails, treat the "
+"run as failed even when the agent provides a confident explanation."
+msgstr "Studio 会将缺少验证报告为警告。没有验证器不代表变更通过。如果适用的验证器失败，即使 agent 给出了自信的解释，也应将本次运行视为失败。"
+
+#: ../../source/agent/review.rst:41
+msgid "Safe completion checklist"
+msgstr "安全完成检查清单"
+
+#: ../../source/agent/review.rst:43
+msgid "Confirm the change is inside the intended workspace."
+msgstr "确认变更位于预期工作区内。"
+
+#: ../../source/agent/review.rst:44
+msgid "Read the complete diff, not only the final summary."
+msgstr "阅读完整 diff，而不只是最终摘要。"
+
+#: ../../source/agent/review.rst:45
+msgid ""
+"Check that generated files, configuration, and unrelated formatting did "
+"not change unexpectedly."
+msgstr "检查生成文件、配置和无关格式是否发生了预期之外的变化。"
+
+#: ../../source/agent/review.rst:47
+msgid ""
+"Read the verification output and reproduce the important check when the "
+"result matters."
+msgstr "阅读验证输出；结果重要时，重新执行关键检查。"
+
+#: ../../source/agent/review.rst:49
+msgid "Commit or save through your normal project workflow only after review."
+msgstr "审查完成后，再通过平时的项目流程提交或保存。"

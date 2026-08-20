@@ -1,0 +1,156 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, LuYingYiLong
+# This file is distributed under the same license as the Daedalus Studio
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Daedalus Studio User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-20 02:49+0800\n"
+"PO-Revision-Date: 2026-08-20 02:49+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/agent/modes.rst:2
+msgid "Choose a Conversation Mode"
+msgstr "选择对话模式"
+
+#: ../../source/agent/modes.rst:4
+msgid ""
+"The composer offers four modes. The mode influences how much planning and"
+" tool-driven execution Studio expects from the request; it does not "
+"remove the need to review changes."
+msgstr "Composer 提供四种模式。模式会影响 Studio 对请求所需规划程度和工具驱动执行的预期，但不会免除审查变更的必要。"
+
+#: ../../source/agent/modes.rst:12
+msgid "Mode"
+msgstr "模式"
+
+#: ../../source/agent/modes.rst:13
+msgid "Use it when"
+msgstr "适用场景"
+
+#: ../../source/agent/modes.rst:14
+msgid "What to expect"
+msgstr "预期行为"
+
+#: ../../source/agent/modes.rst:15
+msgid "Ask"
+msgstr "Ask"
+
+#: ../../source/agent/modes.rst:16
+msgid "You want an explanation, recommendation, or answer."
+msgstr "你需要解释、建议或答案。"
+
+#: ../../source/agent/modes.rst:17
+msgid "Prefer this for read-only discussion and focused questions."
+msgstr "只读讨论和有针对性的问题优先使用此模式。"
+
+#: ../../source/agent/modes.rst:18
+msgid "Agent"
+msgstr "Agent"
+
+#: ../../source/agent/modes.rst:19
+msgid "You want the agent to inspect or complete a bounded task."
+msgstr "你希望 agent 检查或完成一个范围明确的任务。"
+
+#: ../../source/agent/modes.rst:20
+msgid "The agent may use tools, make approved edits, and run targeted checks."
+msgstr "agent 可以使用工具、执行已批准的编辑，并运行有针对性的检查。"
+
+#: ../../source/agent/modes.rst:21
+msgid "Plan"
+msgstr "Plan"
+
+#: ../../source/agent/modes.rst:22
+msgid "You know the outcome but want to review the sequence before execution."
+msgstr "你知道期望结果，但希望在执行前审查工作步骤。"
+
+#: ../../source/agent/modes.rst:23
+msgid "Studio builds a plan that you can revise before allowing implementation."
+msgstr "Studio 会生成一份计划，你可以在允许实施前修改它。"
+
+#: ../../source/agent/modes.rst:24
+msgid "Goal"
+msgstr "Goal"
+
+#: ../../source/agent/modes.rst:25
+msgid "You have a larger objective that may require several stages."
+msgstr "你有一个可能需要多个阶段才能完成的较大目标。"
+
+#: ../../source/agent/modes.rst:26
+msgid ""
+"Studio tracks progress, checkpoints, Todo items, approvals, and "
+"verification across a longer run."
+msgstr "Studio 会在较长的运行过程中跟踪进度、检查点、Todo 项、审批和验证。"
+
+#: ../../source/agent/modes.rst:30
+msgid "Practical selection guide"
+msgstr "实用选择指南"
+
+#: ../../source/agent/modes.rst:32
+msgid ""
+"Start with **Ask** when you are still learning what is wrong. Switch to "
+"**Plan** when the change crosses several systems or files. Use **Agent** "
+"for a small, well-scoped implementation. Use **Goal** when you can "
+"describe the outcome but expect discovery, multiple edits, and repeated "
+"verification."
+msgstr "还在了解问题时，从 **Ask** 开始。变更涉及多个系统或文件时，切换到 **Plan**。小型且范围明确的实现使用 **Agent**。能够描述结果，但预计需要探索、多次编辑和反复验证时，使用 **Goal**。"
+
+#: ../../source/agent/modes.rst:37
+msgid "You can state a constraint in any mode, for example:"
+msgstr "你可以在任何模式中声明约束，例如："
+
+#: ../../source/agent/modes.rst:39
+msgid "“Read only; do not modify files.”"
+msgstr "“只读；不要修改文件。”"
+
+#: ../../source/agent/modes.rst:40
+msgid "“Propose the scene patch first and wait for approval.”"
+msgstr "“先提议场景补丁，等待审批。”"
+
+#: ../../source/agent/modes.rst:41
+msgid "“Keep the public API unchanged and run the existing tests.”"
+msgstr "“保持公共 API 不变，并运行现有测试。”"
+
+#: ../../source/agent/modes.rst:42
+msgid "“Stop if the required Godot version is not available.”"
+msgstr "“如果所需的 Godot 版本不可用，就停止。”"
+
+#: ../../source/agent/modes.rst:45
+msgid "Writing effective requests"
+msgstr "编写有效请求"
+
+#: ../../source/agent/modes.rst:47
+msgid "Include four pieces when possible:"
+msgstr "尽可能包含四项内容："
+
+#: ../../source/agent/modes.rst:49
+msgid "the desired behavior or outcome;"
+msgstr "期望的行为或结果；"
+
+#: ../../source/agent/modes.rst:50
+msgid "the relevant project area or file;"
+msgstr "相关项目区域或文件；"
+
+#: ../../source/agent/modes.rst:51
+msgid "constraints such as compatibility, style, or files that must not change;"
+msgstr "兼容性、风格或不得修改的文件等约束；"
+
+#: ../../source/agent/modes.rst:52
+msgid "the check that should prove the result."
+msgstr "能够证明结果的检查。"
+
+#: ../../source/agent/modes.rst:54
+msgid ""
+"The more concrete the acceptance condition, the easier it is to tell "
+"whether the final verification actually answers your request."
+msgstr "验收条件越具体，就越容易判断最终验证是否真正回答了你的请求。"

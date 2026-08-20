@@ -1,0 +1,131 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, LuYingYiLong
+# This file is distributed under the same license as the Daedalus Studio
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Daedalus Studio User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-20 02:49+0800\n"
+"PO-Revision-Date: 2026-08-20 02:50+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/settings/maintenance.rst:2
+msgid "Maintenance, Usage, and Updates"
+msgstr "维护、用量与更新"
+
+#: ../../source/settings/maintenance.rst:4
+msgid ""
+"These Settings pages help you understand, move, and maintain local Studio"
+" data."
+msgstr "这些设置页面帮助你了解、迁移和维护本地 Studio 数据。"
+
+#: ../../source/settings/maintenance.rst:8
+msgid "Statistics"
+msgstr "统计"
+
+#: ../../source/settings/maintenance.rst:10
+msgid ""
+"**Settings > Statistics** shows usage for the last 7 days, 30 days, 90 "
+"days, or all time. It can include:"
+msgstr "**Settings > Statistics** 显示最近 7 天、30 天、90 天或全部时间的用量。它可能包括："
+
+#: ../../source/settings/maintenance.rst:13
+msgid "number of LLM requests and the success rate;"
+msgstr "LLM 请求数量和成功率；"
+
+#: ../../source/settings/maintenance.rst:14
+msgid "total token use and token activity over time;"
+msgstr "token 总用量和随时间变化的 token 活动；"
+
+#: ../../source/settings/maintenance.rst:15
+msgid "cache hit rate;"
+msgstr "缓存命中率；"
+
+#: ../../source/settings/maintenance.rst:16
+msgid "average request duration and time to first token;"
+msgstr "平均请求持续时间和首 token 时间；"
+
+#: ../../source/settings/maintenance.rst:17
+msgid "token share by provider and model."
+msgstr "按供应商和模型划分的 token 占比。"
+
+#: ../../source/settings/maintenance.rst:19
+msgid ""
+"Use these numbers to compare configurations and notice a sudden increase "
+"in cost or latency. They describe recorded runtime usage, not the quality"
+" of a response. If the metrics database is unavailable, the page cannot "
+"reconstruct the missing data from the conversation alone."
+msgstr "使用这些数字比较配置，并注意成本或延迟是否突然增加。它们描述的是记录的运行时用量，而不是回复质量。如果指标数据库不可用，页面无法仅凭对话重建缺失数据。"
+
+#: ../../source/settings/maintenance.rst:25
+msgid "Archived sessions"
+msgstr "归档会话"
+
+#: ../../source/settings/maintenance.rst:27
+msgid ""
+"Open **Settings > Archived sessions** to search old sessions. Filter by "
+"all sessions or sessions without a workspace, then choose **Unarchive** "
+"to return one to active use. **Delete** removes an archived session "
+"permanently, and **Delete all** removes every session matching the "
+"current filter. Use export or another backup before deletion when the "
+"history matters."
+msgstr "打开 **Settings > Archived sessions** 搜索旧会话。按全部会话或没有工作区的会话筛选，然后选择 **Unarchive** 将会话恢复为活动状态。**Delete** 会永久移除归档会话，**Delete all** 会移除符合当前筛选条件的所有会话。历史记录重要时，删除前请使用导出或其他方式备份。"
+
+#: ../../source/settings/maintenance.rst:34
+msgid "Import session data"
+msgstr "导入会话数据"
+
+#: ../../source/settings/maintenance.rst:36
+msgid ""
+"The **Import** page accepts a SQLite file exported from Studio's "
+"workspace tree. Choose the file, review the import action, and confirm. "
+"Studio can restore the session and its available files; a missing "
+"external file may not be recoverable from the SQLite file. Review "
+"imported prompts and paths before continuing the session in a write-"
+"capable mode."
+msgstr "**Import** 页面接受从 Studio 工作区树导出的 SQLite 文件。选择文件，审查导入操作，然后确认。Studio 可以恢复会话及其可用文件；缺失的外部文件可能无法从 SQLite 文件中恢复。在可写模式中继续会话前，请审查导入的提示词和路径。"
+
+#: ../../source/settings/maintenance.rst:43
+msgid "About and backend maintenance"
+msgstr "About 和后端维护"
+
+#: ../../source/settings/maintenance.rst:45
+msgid ""
+"**Settings > About** shows Studio, backend, protocol, runtime, port, "
+"process, log path, package, and license information. Use this page when "
+"reporting a problem or checking that the coordinated components are "
+"compatible."
+msgstr "**Settings > About** 显示 Studio、后端、协议、运行时、端口、进程、日志路径、软件包和许可证信息。报告问题或检查协同组件兼容性时，请使用此页面。"
+
+#: ../../source/settings/maintenance.rst:49
+msgid ""
+"You can refresh backend details, restart the backend, repair it, check "
+"for updates, update the backend, and open the update history. Repair "
+"stops and reinstalls the backend bundled with the current Studio version,"
+" so an active model response may be interrupted. Studio defers restart, "
+"repair, and update actions while an AI response is running when it can do"
+" so safely."
+msgstr "你可以刷新后端详情、重启后端、修复后端、检查更新、更新后端并打开更新历史。修复会停止并重新安装当前 Studio 版本随附的后端，因此可能中断正在进行的模型回复。AI 回复运行期间，只要安全可行，Studio 会推迟重启、修复和更新操作。"
+
+#: ../../source/settings/maintenance.rst:56
+msgid "Updates and release notes"
+msgstr "更新和发行说明"
+
+#: ../../source/settings/maintenance.rst:58
+msgid ""
+"Studio may update the client, backend, or both. It can download a "
+"differential update and fall back to the full installer if the smaller "
+"download fails. A failed automatic update can be retried or completed "
+"from the matching GitHub Releases page. Read the changelog after updating"
+" so you know which behavior changed."
+msgstr "Studio 可以更新客户端、后端或二者。它可以下载差分更新；如果较小的下载失败，则回退到完整安装程序。自动更新失败时，可以重试，或从匹配的 GitHub Releases 页面完成更新。更新后请阅读变更日志，了解哪些行为发生了变化。"

@@ -1,0 +1,64 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, LuYingYiLong
+# This file is distributed under the same license as the Daedalus Studio
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Daedalus Studio User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-20 02:49+0800\n"
+"PO-Revision-Date: 2026-08-20 02:49+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/getting-started/index.rst:2
+msgid "Getting Started"
+msgstr "开始使用"
+
+#: ../../source/getting-started/index.rst:4
+msgid ""
+"Use this section to get from a fresh installation to your first useful "
+"session."
+msgstr "本节将帮助你从全新安装开始，完成第一个有用的会话。"
+
+#: ../../source/getting-started/index.rst:15
+msgid "The shortest path"
+msgstr "最短路径"
+
+#: ../../source/getting-started/index.rst:17
+msgid "Install Studio on Windows."
+msgstr "在 Windows 上安装 Studio。"
+
+#: ../../source/getting-started/index.rst:18
+msgid ""
+"Complete the first-run setup, or skip optional steps and return to them "
+"in Settings."
+msgstr "完成首次运行设置，或跳过可选步骤，稍后再从设置中完成。"
+
+#: ../../source/getting-started/index.rst:20
+msgid "Add a workspace for your project."
+msgstr "为项目添加一个工作区。"
+
+#: ../../source/getting-started/index.rst:21
+msgid "Create a session, choose a model, and describe one concrete task."
+msgstr "创建会话，选择模型，并描述一个具体任务。"
+
+#: ../../source/getting-started/index.rst:22
+msgid "Review the proposed changes and verification output."
+msgstr "审查提议的变更和验证输出。"
+
+#: ../../source/getting-started/index.rst:24
+msgid ""
+"You do not need to configure every integration before asking a question. "
+"A provider is the only essential integration for an AI conversation; "
+"Godot and offline documentation become important when you want Godot-"
+"aware work."
+msgstr "提问前不需要配置所有集成。对于 AI 对话，供应商是唯一必要的集成；当你需要进行 Godot 感知的工作时，Godot 和离线文档才会变得重要。"

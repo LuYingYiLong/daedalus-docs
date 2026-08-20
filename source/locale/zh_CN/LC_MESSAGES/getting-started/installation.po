@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, LuYingYiLong
+# This file is distributed under the same license as the Daedalus Studio
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Daedalus Studio User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-20 02:49+0800\n"
+"PO-Revision-Date: 2026-08-20 02:49+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/getting-started/installation.rst:2
+msgid "Install Daedalus Studio"
+msgstr "安装 Daedalus Studio"
+
+#: ../../source/getting-started/installation.rst:5
+msgid "Requirements"
+msgstr "系统要求"
+
+#: ../../source/getting-started/installation.rst:7
+msgid ""
+"The supported desktop target is Windows 10 or Windows 11 on x64. To use "
+"the full Godot integration, install Godot 4.5 or newer as well."
+msgstr "支持的桌面系统是 x64 版本的 Windows 10 或 Windows 11。要使用完整的 Godot 集成，还需要安装 Godot 4.5 或更高版本。"
+
+#: ../../source/getting-started/installation.rst:10
+msgid ""
+"You also need an account and API key for at least one model provider "
+"before you can run an AI conversation. The provider may be one of the "
+"built-in providers or a compatible custom provider."
+msgstr "在运行 AI 对话前，你还需要至少一个模型供应商的账号和 API key。供应商可以是内置供应商，也可以是兼容的自定义供应商。"
+
+#: ../../source/getting-started/installation.rst:15
+msgid "Download and install"
+msgstr "下载并安装"
+
+#: ../../source/getting-started/installation.rst:17
+msgid ""
+"Download the latest Studio installer from the `Daedalus Studio releases "
+"page <https://github.com/LuYingYiLong/daedalus-studio/releases/latest>`_."
+msgstr "从 `Daedalus Studio releases page <https://github.com/LuYingYiLong/daedalus-studio/releases/latest>`_ 下载最新的 Studio 安装程序。"
+
+#: ../../source/getting-started/installation.rst:20
+msgid "Run ``Daedalus-Studio-Setup-<version>.exe``."
+msgstr "运行 ``Daedalus-Studio-Setup-<version>.exe``。"
+
+#: ../../source/getting-started/installation.rst:21
+msgid ""
+"Launch Studio and wait for the first startup check to finish. Studio "
+"verifies and installs the bundled backend as part of this process."
+msgstr "启动 Studio，并等待首次启动检查完成。Studio 会在此过程中验证并安装随附的后端。"
+
+#: ../../source/getting-started/installation.rst:23
+msgid "Continue through the setup wizard described in :doc:`first-run`."
+msgstr "继续完成 :doc:`first-run` 中介绍的设置向导。"
+
+#: ../../source/getting-started/installation.rst:26
+msgid ""
+"Studio manages the backend it ships with. A normal installation does not "
+"require a global Node.js or npm installation."
+msgstr "Studio 会管理随附的后端。普通安装不需要全局安装 Node.js 或 npm。"
+
+#: ../../source/getting-started/installation.rst:30
+msgid "Where data is stored"
+msgstr "数据存储位置"
+
+#: ../../source/getting-started/installation.rst:32
+msgid ""
+"Studio keeps application window preferences in Electron's user-data "
+"directory. Daedalus runtime data is stored under::"
+msgstr "Studio 会将应用窗口偏好设置保存在 Electron 的 user-data 目录中。Daedalus 运行时数据保存在："
+
+#: ../../source/getting-started/installation.rst:37
+msgid ""
+"This directory can contain sessions, attachments, logs, workspace "
+"settings, provider metadata, and personal Skills. API keys are stored "
+"through the operating-system credential store rather than in ordinary "
+"Daedalus JSON configuration."
+msgstr "此目录可能包含会话、附件、日志、工作区设置、供应商元数据和个人 Skill。API key 会通过操作系统凭据存储保存，而不会写入普通的 Daedalus JSON 配置。"
+
+#: ../../source/getting-started/installation.rst:42
+msgid ""
+"Treat this directory as private. See :doc:`../reference/privacy` before "
+"sharing diagnostics or backups."
+msgstr "请将此目录视为私密数据。在分享诊断信息或备份前，请参阅 :doc:`../reference/privacy`。"
+
+#: ../../source/getting-started/installation.rst:46
+msgid "Updates and compatibility"
+msgstr "更新与兼容性"
+
+#: ../../source/getting-started/installation.rst:48
+msgid ""
+"Use Studio's own update flow when it offers an update. Studio checks the "
+"compatibility of the desktop client, backend, and Godot Bridge before "
+"startup; if a managed component is unhealthy, it can repair or roll back "
+"the component instead of silently continuing with an incompatible "
+"version."
+msgstr "Studio 提供更新时，请使用 Studio 自带的更新流程。Studio 会在启动前检查桌面客户端、后端和 Godot Bridge 的兼容性；如果托管组件不健康，它可以修复或回滚该组件，而不是默默使用不兼容的版本继续运行。"

@@ -1,0 +1,37 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, LuYingYiLong
+# This file is distributed under the same license as the Daedalus Studio
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Daedalus Studio User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-20 02:49+0800\n"
+"PO-Revision-Date: 2026-08-20 02:50+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/godot/index.rst:2
+msgid "Godot Development"
+msgstr "Godot 开发"
+
+#: ../../source/godot/index.rst:4
+msgid ""
+"Daedalus Studio is Godot-first. It can work with project files offline "
+"and can connect to a running Godot editor for live editor operations."
+msgstr "Daedalus Studio 以 Godot 为首要目标。它可以离线处理项目文件，也可以连接正在运行的 Godot 编辑器，执行实时编辑器操作。"
+
+#: ../../source/godot/index.rst:14
+msgid ""
+"Use :doc:`setup` when the plugin or Godot executable is not configured. "
+"Use :doc:`project-work` for guidance on choosing static project tools, "
+"editor bridge operations, and verification."
+msgstr "插件或 Godot 可执行文件尚未配置时，请使用 :doc:`setup`。有关如何选择静态项目工具、编辑器桥接操作和验证方式，请参阅 :doc:`project-work`。"

@@ -1,0 +1,37 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, LuYingYiLong
+# This file is distributed under the same license as the Daedalus Studio
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Daedalus Studio User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-20 02:49+0800\n"
+"PO-Revision-Date: 2026-08-20 02:50+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/workspaces/index.rst:2
+msgid "Workspaces and Sessions"
+msgstr "工作区和会话"
+
+#: ../../source/workspaces/index.rst:4
+msgid ""
+"Workspaces define where Studio is allowed to work. Sessions keep the work"
+" organized inside those boundaries."
+msgstr "工作区定义 Studio 可以在哪里工作，会话则帮助你在这些边界内整理工作。"
+
+#: ../../source/workspaces/index.rst:15
+msgid ""
+"Choose a workspace for the task you are doing. If you have several Godot "
+"projects, keep them as separate workspaces so file paths, Git changes, "
+"and Godot context stay easy to understand."
+msgstr "请为当前任务选择一个工作区。如果你有多个 Godot 项目，请将它们分别作为独立工作区，这样文件路径、Git 变更和 Godot 上下文会更容易理解。"

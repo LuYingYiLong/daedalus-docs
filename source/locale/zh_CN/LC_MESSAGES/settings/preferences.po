@@ -1,0 +1,148 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, LuYingYiLong
+# This file is distributed under the same license as the Daedalus Studio
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Daedalus Studio User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-20 02:49+0800\n"
+"PO-Revision-Date: 2026-08-20 02:50+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/settings/preferences.rst:2
+msgid "Preferences and Maintenance"
+msgstr "偏好设置与维护"
+
+#: ../../source/settings/preferences.rst:4
+msgid ""
+"The Settings window also includes preferences that shape how Studio feels"
+" and how it keeps your workspace organized."
+msgstr "设置窗口还包含影响 Studio 使用感受以及工作区组织方式的偏好。"
+
+#: ../../source/settings/preferences.rst:8
+msgid "General and appearance"
+msgstr "常规和外观"
+
+#: ../../source/settings/preferences.rst:10
+msgid ""
+"Use **General** and **Appearance** to configure interface behavior, "
+"fonts, theme, Godot defaults, notifications, and other client "
+"preferences. These preferences affect Studio's presentation and local "
+"behavior; they do not rewrite your Godot project."
+msgstr "使用 **General** 和 **Appearance** 配置界面行为、字体、主题、Godot 默认值、通知以及其他客户端偏好。这些偏好会影响 Studio 的呈现和本地行为，不会重写 Godot 项目。"
+
+#: ../../source/settings/preferences.rst:15
+msgid ""
+"General settings can also control whether Studio checks for updates, "
+"minimizes to the system tray when closed, and which Godot executable is "
+"used when a workspace does not provide its own path. A workspace-specific"
+" path takes precedence over the general default. You can also choose the "
+"display language or follow the system default. General settings also "
+"include whether to show a system notification when a background AI reply "
+"finishes and whether to show a next-step suggestion in the empty "
+"composer."
+msgstr "常规设置还可以控制 Studio 是否检查更新、关闭时是否最小化到系统托盘，以及工作区未提供路径时使用哪个 Godot 可执行文件。工作区专属路径优先于常规默认值。你也可以选择显示语言，或跟随系统默认设置。常规设置还包括后台 AI 回复完成时是否显示系统通知，以及空 Composer 中是否显示下一步建议。"
+
+#: ../../source/settings/preferences.rst:23
+msgid ""
+"Appearance settings control the application theme and accent color, "
+"dynamic effects, UI font size, body font, and code font used by the "
+"editor and terminal. If text is hard to read, change the font size rather"
+" than adding formatting instructions to every request."
+msgstr "外观设置控制应用主题和强调色、动态效果、UI 字体大小，以及编辑器和终端使用的正文和代码字体。文字难以阅读时，请调整字体大小，而不是在每个请求中添加格式要求。"
+
+#: ../../source/settings/preferences.rst:29
+msgid "Keyboard shortcuts"
+msgstr "键盘快捷键"
+
+#: ../../source/settings/preferences.rst:31
+msgid ""
+"Open **Keyboard shortcuts** to search the available actions and replace a"
+" binding. Studio checks for conflicts and requires a modifier for "
+"printable keys. The default Windows bindings are listed in "
+":doc:`../reference/shortcuts`."
+msgstr "打开 **Keyboard shortcuts** 搜索可用操作并替换快捷键绑定。Studio 会检查冲突，并要求可打印按键使用修饰键。默认 Windows 绑定列在 :doc:`../reference/shortcuts` 中。"
+
+#: ../../source/settings/preferences.rst:37
+msgid "Personalization"
+msgstr "个性化"
+
+#: ../../source/settings/preferences.rst:39
+msgid ""
+"The **Personalization** page lets you adjust user, Git commit, and "
+"command review prompts. Keep instructions specific and avoid putting "
+"secrets or instructions that would weaken review into these fields."
+msgstr "**Personalization** 页面允许你调整用户提示词、Git 提交提示词和命令审查提示词。请保持指令具体，不要在这些字段中放入 secret 或会削弱审查的指令。"
+
+#: ../../source/settings/preferences.rst:43
+msgid ""
+"The Git commit prompt affects the optional commit-message model. The "
+"command review prompt affects how free terminal commands are reviewed in "
+"Auto-safe mode. Keep these prompts short and specific; they guide review "
+"but do not replace the tool policy."
+msgstr "Git 提交提示词会影响可选的提交消息模型。命令审查提示词会影响 Auto-safe 模式下如何审查自由终端命令。请保持这些提示词简短具体；它们可以引导审查，但不能替代工具策略。"
+
+#: ../../source/settings/preferences.rst:48
+msgid ""
+"The general user prompt is appended to new AI requests. It is a good "
+"place for stable preferences such as “use GDScript 4 style” or “explain "
+"risky changes before editing.” Do not put API keys or a request-specific "
+"requirement here."
+msgstr "常规用户提示词会附加到新的 AI 请求中。这里适合放置稳定偏好，例如“使用 GDScript 4 风格”或“编辑前解释高风险变更”。不要在此放入 API key 或特定请求的要求。"
+
+#: ../../source/settings/preferences.rst:53
+msgid "Web Search"
+msgstr "网页搜索"
+
+#: ../../source/settings/preferences.rst:55
+msgid ""
+"The **Search** page is a separate switch for current-information lookups."
+" It does not turn every model into a search model and it does not change "
+"the conversation's normal model selection. See :doc:`providers` for the "
+"result count, keyword breadth, and billing trade-off."
+msgstr "**Search** 页面是查询当前信息的独立开关。它不会将每个模型变成搜索模型，也不会改变对话的正常模型选择。有关结果数量、关键词范围和计费取舍，请参阅 :doc:`providers`。"
+
+#: ../../source/settings/preferences.rst:61
+msgid "Archived sessions and import"
+msgstr "归档会话和导入"
+
+#: ../../source/settings/preferences.rst:63
+msgid ""
+"Use **Archived sessions** to find, filter, reopen, or remove old "
+"conversations. Use **Import** for supported session import flows. Review "
+"imported content before continuing it in a write-capable mode; imported "
+"prompts and attachments may contain stale paths or assumptions."
+msgstr "使用 **Archived sessions** 查找、筛选、重新打开或移除旧对话。支持的会话导入流程使用 **Import**。在可写模式中继续导入的会话前，请审查导入内容；导入的提示词和附件可能包含过期路径或假设。"
+
+#: ../../source/settings/preferences.rst:69
+msgid "Statistics and About"
+msgstr "Statistics 和 About"
+
+#: ../../source/settings/preferences.rst:71
+msgid ""
+"**Statistics** helps you understand usage and context pressure over a "
+"selected range. **About** shows application and backend information "
+"useful for support and compatibility checks."
+msgstr "**Statistics** 帮助你了解选定时间范围内的用量和上下文压力。**About** 显示适合支持和兼容性检查的应用与后端信息。"
+
+#: ../../source/settings/preferences.rst:76
+msgid "Data reset"
+msgstr "重置数据"
+
+#: ../../source/settings/preferences.rst:78
+msgid ""
+"If you need to reset local application data, first export or back up "
+"anything you need and read :doc:`../reference/privacy`. A reset can "
+"remove sessions, preferences, or other local state and should not be used"
+" as a first response to a single failed run."
+msgstr "如果需要重置本地应用数据，请先导出或备份所需内容，并阅读 :doc:`../reference/privacy`。重置可能移除会话、偏好或其他本地状态，不应作为单次运行失败时的第一反应。"

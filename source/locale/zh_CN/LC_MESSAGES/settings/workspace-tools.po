@@ -1,0 +1,221 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, LuYingYiLong
+# This file is distributed under the same license as the Daedalus Studio
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Daedalus Studio User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-20 02:49+0800\n"
+"PO-Revision-Date: 2026-08-20 02:50+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/settings/workspace-tools.rst:2
+msgid "Workspace Tools in Settings"
+msgstr "设置中的工作区工具"
+
+#: ../../source/settings/workspace-tools.rst:4
+msgid ""
+"Several Settings pages control how Studio prepares and maintains project "
+"workspaces. They do not replace the normal workspace and session "
+"controls; they define reusable defaults for them."
+msgstr "多个设置页面控制 Studio 如何准备和维护项目工作区。它们不会替代普通的工作区和会话控件，而是为这些控件定义可复用的默认值。"
+
+#: ../../source/settings/workspace-tools.rst:9
+msgid "Development environments"
+msgstr "开发环境"
+
+#: ../../source/settings/workspace-tools.rst:11
+msgid ""
+"An environment profile is a named setup for a project or managed "
+"worktree. It can contain:"
+msgstr "环境配置文件是项目或托管 worktree 的命名设置。它可以包含："
+
+#: ../../source/settings/workspace-tools.rst:14
+msgid "a setup script that prepares dependencies or generated files;"
+msgstr "准备依赖或生成文件的设置脚本；"
+
+#: ../../source/settings/workspace-tools.rst:15
+msgid "whether the setup may use the network;"
+msgstr "设置是否可以使用网络；"
+
+#: ../../source/settings/workspace-tools.rst:16
+msgid "named terminal actions for common tasks;"
+msgstr "用于常见任务的命名终端操作；"
+
+#: ../../source/settings/workspace-tools.rst:17
+msgid "whether each action may use the network."
+msgstr "每个操作是否可以使用网络。"
+
+#: ../../source/settings/workspace-tools.rst:19
+msgid ""
+"Use **Settings > Environments** to create or edit a profile for a source "
+"folder. Before trusting it, read every script and command. Studio "
+"describes the sandbox: with network disabled, scripts can write only to "
+"the worktree and isolated cache; with network enabled, the script can "
+"reach the network while the filesystem boundary still applies."
+msgstr "使用 **Settings > Environments** 为源文件夹创建或编辑配置文件。信任前请阅读每个脚本和命令。Studio 会说明沙箱范围：禁用网络时，脚本只能写入 worktree 和隔离缓存；启用网络时，脚本可以访问网络，但文件系统边界仍然适用。"
+
+#: ../../source/settings/workspace-tools.rst:25
+msgid ""
+"Trusting an environment allows its commands to be used as intended. It "
+"does not make every command in the project trustworthy, and it does not "
+"grant the agent permission to leave the workspace."
+msgstr "信任环境可以按预期使用其中的命令。但这不会让项目中的每条命令都变得可信，也不会授予 agent 离开工作区的权限。"
+
+#: ../../source/settings/workspace-tools.rst:30
+msgid "Git worktrees"
+msgstr "Git worktree"
+
+#: ../../source/settings/workspace-tools.rst:32
+msgid ""
+"A Git worktree is a second checkout of the same repository. It lets you "
+"keep one session's experiment separate from the files in your main "
+"checkout."
+msgstr "Git worktree 是同一仓库的第二个检出副本。它可以让一个会话的实验与主检出中的文件保持分离。"
+
+#: ../../source/settings/workspace-tools.rst:35
+msgid "Use **Settings > Worktrees** to:"
+msgstr "使用 **Settings > Worktrees**："
+
+#: ../../source/settings/workspace-tools.rst:37
+msgid "choose the root directory where managed worktrees are created;"
+msgstr "选择创建托管 worktree 的根目录；"
+
+#: ../../source/settings/workspace-tools.rst:38
+msgid "restore the default worktree root;"
+msgstr "恢复默认 worktree 根目录；"
+
+#: ../../source/settings/workspace-tools.rst:39
+msgid "fetch and prune remotes before creating a worktree;"
+msgstr "创建 worktree 前获取并清理远程分支；"
+
+#: ../../source/settings/workspace-tools.rst:40
+msgid "set a limit for managed session worktrees;"
+msgstr "设置托管会话 worktree 的数量限制；"
+
+#: ../../source/settings/workspace-tools.rst:41
+msgid "automatically remove old archived managed worktrees;"
+msgstr "自动移除旧的已归档托管 worktree；"
+
+#: ../../source/settings/workspace-tools.rst:42
+msgid "inspect managed, permanent, and orphaned worktrees;"
+msgstr "检查托管、永久和孤立 worktree；"
+
+#: ../../source/settings/workspace-tools.rst:43
+msgid "repair a worktree registration or create/delete a permanent worktree."
+msgstr "修复 worktree 注册，或创建/删除永久 worktree。"
+
+#: ../../source/settings/workspace-tools.rst:45
+msgid ""
+"Automatic cleanup removes old managed session worktrees first. Permanent "
+"worktrees are not removed automatically. Deletion requires a clean "
+"worktree with no active task or terminal and no unnamed commits, so save "
+"or commit anything you need before deleting it."
+msgstr "自动清理会优先移除旧的托管会话 worktree。永久 worktree 不会自动移除。删除要求 worktree 干净，没有活动任务或终端，也没有未命名提交，因此删除前请保存或提交需要保留的内容。"
+
+#: ../../source/settings/workspace-tools.rst:51
+msgid "Hooks"
+msgstr "Hook"
+
+#: ../../source/settings/workspace-tools.rst:53
+msgid ""
+"Hooks are lifecycle commands stored in a project or user configuration. "
+"They can run when a project or session event occurs, so treat a Hook as a"
+" script that may execute without you typing a terminal command at that "
+"moment."
+msgstr "Hook 是存储在项目或用户配置中的生命周期命令。它们可以在项目或会话事件发生时运行，因此应将 Hook 视为可能在你没有输入终端命令时执行的脚本。"
+
+#: ../../source/settings/workspace-tools.rst:57
+msgid ""
+"In **Settings > Hooks** you can choose a configuration source, create a "
+"template, format or reload the JSON, review configured commands, and "
+"inspect recent Hook runs. Saving a file never trusts commands "
+"automatically. Review each event, matcher, failure policy, and permission"
+" scope, then trust only the commands you recognize."
+msgstr "在 **Settings > Hooks** 中，你可以选择配置来源、创建模板、格式化或重新加载 JSON、审查已配置命令，并检查最近的 Hook 运行。保存文件不会自动信任命令。请审查每个事件、匹配器、失败策略和权限范围，只信任你认识的命令。"
+
+#: ../../source/settings/workspace-tools.rst:63
+msgid ""
+"Studio shows the Hook sandbox in the review panel: the target source "
+"folder is writable, other sources are read-only, and network access is "
+"disabled unless the configuration explicitly permits it. A Hook's "
+"fingerprint helps you notice when its command changed. If the JSON is "
+"invalid, fix it in the editor before trying to enable the Hook."
+msgstr "Studio 会在审查面板中显示 Hook 沙箱：目标源文件夹可写，其他源只读，除非配置明确允许，否则网络访问会被禁用。Hook 指纹可以帮助你注意到命令发生了变化。JSON 无效时，请先在编辑器中修复，再尝试启用 Hook。"
+
+#: ../../source/settings/workspace-tools.rst:70
+msgid "Godot Projects"
+msgstr "Godot Projects"
+
+#: ../../source/settings/workspace-tools.rst:72
+msgid ""
+"**Settings > Godot Projects** is the project-level view of the Bridge "
+"plugin. Use **Add project** or **Rescan** to let Studio find projects, "
+"then inspect the Godot version, plugin version, and status for each "
+"project."
+msgstr "**Settings > Godot Projects** 是 Bridge 插件的项目级视图。使用 **Add project** 或 **Rescan** 让 Studio 查找项目，然后检查每个项目的 Godot 版本、插件版本和状态。"
+
+#: ../../source/settings/workspace-tools.rst:76
+msgid "Common statuses mean:"
+msgstr "常见状态的含义："
+
+#: ../../source/settings/workspace-tools.rst:78
+msgid "**Not installed** — the Bridge is not present;"
+msgstr "**Not installed** — Bridge 不存在；"
+
+#: ../../source/settings/workspace-tools.rst:79
+msgid "**Current** — the bundled plugin matches the Studio release;"
+msgstr "**Current** — 随附插件与 Studio 版本匹配；"
+
+#: ../../source/settings/workspace-tools.rst:80
+msgid "**Outdated** or **Modified** — review before upgrading or repairing;"
+msgstr "**Outdated** 或 **Modified** — 升级或修复前请审查；"
+
+#: ../../source/settings/workspace-tools.rst:81
+msgid ""
+"**Pending** or **Waiting for Godot** — Studio is waiting for Godot to "
+"close;"
+msgstr "**Pending** 或 **Waiting for Godot** — Studio 正在等待 Godot 关闭；"
+
+#: ../../source/settings/workspace-tools.rst:82
+msgid "**Failed** — the operation needs attention or a retry."
+msgstr "**Failed** — 操作需要处理或重试。"
+
+#: ../../source/settings/workspace-tools.rst:84
+msgid ""
+"Use **Install**, **Upgrade**, **Upgrade all**, **Repair**, **Uninstall**," 
+" or **Retry pending** only after checking which projects are selected. "
+"Plugin changes are staged safely and may apply after all Godot editors "
+"exit."
+msgstr "确认选中了哪些项目后，再使用 **Install**、**Upgrade**、**Upgrade all**、**Repair**、**Uninstall** 或 **Retry pending**。插件变更会安全暂存，可能会在所有 Godot 编辑器退出后应用。"
+
+#: ../../source/settings/workspace-tools.rst:89
+msgid "Offline documentation"
+msgstr "离线文档"
+
+#: ../../source/settings/workspace-tools.rst:91
+msgid ""
+"The Documentation page installs or imports a local ``godot-docs`` source "
+"and builds a searchable local index. You can download an official branch "
+"from the Godot documentation repository or choose an extracted "
+"directory/ZIP archive. The original local source is not modified."
+msgstr "Documentation 页面会安装或导入本地 ``godot-docs`` 源，并构建可搜索的本地索引。你可以从 Godot 文档仓库下载官方分支，也可以选择解压后的目录或 ZIP 压缩包。原始本地源不会被修改。"
+
+#: ../../source/settings/workspace-tools.rst:96
+msgid ""
+"Use **Check index** to verify SQLite integrity, metadata, counts, and "
+"hashes. Use **Repair index** when the status is degraded or unavailable. "
+"Repair may use a previous healthy index, a cached source, a local source,"
+" or a confirmed network download. Studio validates the rebuilt index "
+"before activating it."
+msgstr "使用 **Check index** 验证 SQLite 完整性、元数据、数量和哈希。状态降级或不可用时，使用 **Repair index**。修复可能使用之前健康的索引、缓存源、本地源或已确认的网络下载。Studio 会在激活前验证重建的索引。"

@@ -1,0 +1,110 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, LuYingYiLong
+# This file is distributed under the same license as the Daedalus Studio
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Daedalus Studio User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-20 02:49+0800\n"
+"PO-Revision-Date: 2026-08-20 02:49+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/getting-started/first-run.rst:2
+msgid "Complete First-Run Setup"
+msgstr "完成首次运行设置"
+
+#: ../../source/getting-started/first-run.rst:4
+msgid ""
+"The setup wizard prepares the pieces that make Godot work useful. Every "
+"step is optional and can be changed later in Settings, but configuring a "
+"provider and Godot executable now makes the first session smoother."
+msgstr "设置向导会准备好让 Godot 工作顺利进行所需的组件。每一步都是可选的，之后也可以在设置中修改；不过现在配置好供应商和 Godot 可执行文件，会让第一次会话更加顺畅。"
+
+#: ../../source/getting-started/first-run.rst:9
+msgid "Setup steps"
+msgstr "设置步骤"
+
+#: ../../source/getting-started/first-run.rst:11
+msgid "Provider"
+msgstr "供应商"
+
+#: ../../source/getting-started/first-run.rst:12
+msgid ""
+"Choose a provider, enter its API key, test the connection, and select a "
+"model. The selected model becomes the default for new conversations."
+msgstr "选择供应商，输入 API key，测试连接，然后选择模型。选定的模型会成为新对话的默认模型。"
+
+#: ../../source/getting-started/first-run.rst:15
+msgid "Godot executable"
+msgstr "Godot 可执行文件"
+
+#: ../../source/getting-started/first-run.rst:16
+msgid ""
+"Select the Godot executable Studio should use for project validation, "
+"launch actions, and version-aware documentation. Studio validates the "
+"selected executable before saving it."
+msgstr "选择 Studio 用于项目验证、启动操作和版本相关文档的 Godot 可执行文件。Studio 会在保存前验证选定的可执行文件。"
+
+#: ../../source/getting-started/first-run.rst:20
+msgid "Offline documentation"
+msgstr "离线文档"
+
+#: ../../source/getting-started/first-run.rst:21
+msgid ""
+"Install an official ``godot-docs`` branch and enable offline search. This"
+" lets the agent look up unfamiliar Godot APIs without depending on web "
+"access. The download is optional and can be managed later in **Settings >"
+" Documentation**."
+msgstr "安装官方 ``godot-docs`` 分支并启用离线搜索。这样 agent 就能查找不熟悉的 Godot API，而不依赖网络访问。下载是可选的，之后可以在 **Settings > Documentation** 中管理。"
+
+#: ../../source/getting-started/first-run.rst:26
+msgid "Godot Bridge"
+msgstr "Godot Bridge"
+
+#: ../../source/getting-started/first-run.rst:27
+msgid ""
+"Select one or more Godot projects and install the bundled editor plugin. "
+"Plugin changes may be staged until Godot closes. The full editor bridge "
+"requires Godot 4.5 or newer."
+msgstr "选择一个或多个 Godot 项目，并安装随附的编辑器插件。插件变更可能会暂存到 Godot 关闭后才应用。完整的编辑器桥接功能要求 Godot 4.5 或更高版本。"
+
+#: ../../source/getting-started/first-run.rst:32
+msgid "If you skip a step"
+msgstr "如果跳过某一步"
+
+#: ../../source/getting-started/first-run.rst:34
+msgid ""
+"You can enter Studio after skipping optional setup. Use the corresponding"
+" Settings page when you are ready:"
+msgstr "跳过可选设置后仍然可以进入 Studio。准备好后，请使用对应的设置页面："
+
+#: ../../source/getting-started/first-run.rst:37
+msgid "**Provider** and **Default model** configure model access."
+msgstr "**Provider** 和 **Default model** 用于配置模型访问。"
+
+#: ../../source/getting-started/first-run.rst:38
+msgid "**Godot Projects** manages project detection and the bundled plugin."
+msgstr "**Godot Projects** 用于管理项目检测和随附插件。"
+
+#: ../../source/getting-started/first-run.rst:39
+msgid ""
+"**Documentation** manages offline Godot documentation and its search "
+"index."
+msgstr "**Documentation** 用于管理离线 Godot 文档及其搜索索引。"
+
+#: ../../source/getting-started/first-run.rst:41
+msgid ""
+"If a setup operation fails, record the version shown in **Settings > "
+"About**, the step that failed, and the sanitized error message. Do not "
+"include an API key or a custom MCP secret in a bug report."
+msgstr "如果设置操作失败，请记录 **Settings > About** 中显示的版本、失败的步骤以及脱敏后的错误消息。提交错误报告时不要包含 API key 或自定义 MCP secret。"

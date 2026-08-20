@@ -1,0 +1,202 @@
+# Daedalus Studio User Guide Chinese translation.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Daedalus Studio User Guide\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-20 02:40+0800\n"
+"PO-Revision-Date: 2026-08-20 03:00+0800\n"
+"Last-Translator: Daedalus Studio contributors\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/overview.rst:2
+msgid "What Daedalus Studio Does"
+msgstr "Daedalus Studio 能做什么"
+
+#: ../../source/overview.rst:4
+msgid ""
+"Studio is designed for development work that should leave a clear, "
+"reviewable result in your project. You can ask a question, inspect a "
+"project, make a bounded edit, or let the agent coordinate a larger "
+"workflow. Studio shows the important evidence in the session timeline "
+"instead of hiding all activity behind a chat reply."
+msgstr ""
+"Studio 面向需要在项目中留下清晰、可审查结果的开发工作。你可以提问、检查项目、执行范围明确的编辑，或让 agent "
+"协调更大的工作流。Studio 会在会话时间线中展示重要证据，而不是把所有活动隐藏在一条聊天回复后面。"
+
+#: ../../source/overview.rst:10
+msgid "The three parts of a normal installation are:"
+msgstr "一次普通安装包含三个部分："
+
+#: ../../source/overview.rst:12
+msgid ""
+"**Studio** is the desktop application. It owns the windows, workspaces, "
+"sessions, settings, updates, and the managed local backend lifecycle."
+msgstr "**Studio** 是桌面应用程序，负责窗口、工作区、会话、设置、更新，以及本地托管后端的生命周期。"
+
+#: ../../source/overview.rst:14
+msgid ""
+"**Backend** runs provider connections, agent runs, tools, approvals, "
+"session persistence, and project services."
+msgstr "**Backend** 负责供应商连接、agent 运行、工具、审批、会话持久化和项目服务。"
+
+#: ../../source/overview.rst:16
+msgid ""
+"**Godot Daedalus** is the editor plugin. It connects a running Godot "
+"editor to editor-aware tools and diagnostics when a project needs live "
+"editor access."
+msgstr "**Godot Daedalus** 是编辑器插件。当项目需要实时访问编辑器时，它会把正在运行的 Godot 编辑器连接到编辑器工具和诊断功能。"
+
+#: ../../source/overview.rst:20
+msgid ""
+"The backend is local to your computer by default. Model requests still go"
+" to the provider you configure, and any external MCP server or web-search"
+" service you enable is an additional trust boundary."
+msgstr ""
+"默认情况下，后端运行在你的电脑本地。模型请求仍会发送给你配置的供应商，而你启用的任何外部 MCP server "
+"或网页搜索服务都会形成额外的信任边界。"
+
+#: ../../source/overview.rst:25
+msgid "What you can do"
+msgstr "你可以做什么"
+
+#: ../../source/overview.rst:27
+msgid ""
+"Studio combines several activities that are usually spread across "
+"separate windows:"
+msgstr "Studio 将通常分散在多个窗口中的活动集中在一起："
+
+#: ../../source/overview.rst:30
+msgid "Keep multiple project workspaces and persistent sessions."
+msgstr "维护多个项目工作区和持久会话。"
+
+#: ../../source/overview.rst:31
+msgid "Attach files, folders, images, or other project context to a request."
+msgstr "为请求附加文件、文件夹、图像或其他项目上下文。"
+
+#: ../../source/overview.rst:32
+msgid "Inspect and edit Godot scenes, resources, scripts, and project settings."
+msgstr "检查和编辑 Godot 场景、资源、脚本及项目设置。"
+
+#: ../../source/overview.rst:33
+msgid "Review file patches and Git diffs before accepting a result."
+msgstr "在接受结果前审查文件补丁和 Git diff。"
+
+#: ../../source/overview.rst:34
+msgid "Run terminal checks and read diagnostics from Godot tooling."
+msgstr "运行终端检查，并读取 Godot 工具提供的诊断信息。"
+
+#: ../../source/overview.rst:35
+msgid ""
+"Pause for approval, resume after an interruption, and retry from recorded"
+" evidence rather than blindly replaying completed writes."
+msgstr "在等待审批时暂停，在中断后恢复，并依据已记录的证据重试，而不是盲目重放已经完成的写入。"
+
+#: ../../source/overview.rst:37
+msgid ""
+"Add providers, custom models, MCP servers, and Skills while keeping them "
+"inside Studio's tool and approval policies."
+msgstr "添加供应商、自定义模型、MCP server 和 Skill，同时让它们受 Studio 的工具与审批策略约束。"
+
+#: ../../source/overview.rst:41
+msgid "How to think about Studio"
+msgstr "如何理解 Studio"
+
+#: ../../source/overview.rst:43
+msgid "There are four useful layers:"
+msgstr "可以把 Studio 理解为四个层次："
+
+#: ../../source/overview.rst:45
+msgid "``Workspace``"
+msgstr "工作区 ``Workspace``"
+
+#: ../../source/overview.rst:46
+msgid ""
+"A project or directory boundary. File, Git, Godot, and terminal "
+"operations are checked against this boundary."
+msgstr "项目或目录边界。文件、Git、Godot 和终端操作都会针对这个边界进行检查。"
+
+#: ../../source/overview.rst:49
+msgid "``Session``"
+msgstr "会话 ``Session``"
+
+#: ../../source/overview.rst:50
+msgid ""
+"A durable conversation and its project context. A session remembers its "
+"messages, attachments, run history, approvals, and layout state."
+msgstr "持久化的对话及其项目上下文。会话会记住消息、附件、运行历史、审批和布局状态。"
+
+#: ../../source/overview.rst:53
+msgid "``Run``"
+msgstr "运行 ``Run``"
+
+#: ../../source/overview.rst:54
+msgid ""
+"One execution of a request. A run may be a direct answer, an inspection, "
+"a small edit, or a multi-stage workflow."
+msgstr "一次请求的执行。一次运行可以是直接回答、检查、少量编辑或多阶段工作流。"
+
+#: ../../source/overview.rst:57
+msgid "``Evidence``"
+msgstr "证据 ``Evidence``"
+
+#: ../../source/overview.rst:58
+msgid ""
+"The inputs and results that let you judge the run: tool calls, patches, "
+"terminal output, diagnostics, warnings, and verification status."
+msgstr "帮助你判断运行结果的输入和产物：工具调用、补丁、终端输出、诊断、警告和验证状态。"
+
+#: ../../source/overview.rst:61
+msgid ""
+"The most reliable habit is to state the desired outcome, give the agent "
+"the smallest useful context, and inspect the evidence before you accept a"
+" change."
+msgstr "最可靠的使用习惯是说明期望结果，向 agent 提供最小但有用的上下文，并在接受变更前检查证据。"
+
+#: ../../source/overview.rst:65
+msgid "Find the right feature"
+msgstr "找到合适的功能"
+
+#: ../../source/overview.rst:67
+msgid "If you want to..."
+msgstr "如果你想要……"
+
+#: ../../source/overview.rst:69
+msgid "set up Studio for the first time, start with :doc:`getting-started/index`;"
+msgstr "首次设置 Studio，请从 :doc:`getting-started/index` 开始；"
+
+#: ../../source/overview.rst:70
+msgid ""
+"understand the main window and its panels, read "
+":doc:`workspaces/workbench`;"
+msgstr "了解主窗口及其面板，请阅读 :doc:`workspaces/workbench`；"
+
+#: ../../source/overview.rst:72
+msgid "write or review a request, read :doc:`agent/composer`;"
+msgstr "编写或审查请求，请阅读 :doc:`agent/composer`；"
+
+#: ../../source/overview.rst:73
+msgid "understand what happened during a run, read :doc:`agent/timeline`;"
+msgstr "了解一次运行中发生了什么，请阅读 :doc:`agent/timeline`；"
+
+#: ../../source/overview.rst:74
+msgid "make a longer task track its own progress, read :doc:`agent/goals`;"
+msgstr "让较长任务跟踪自身进度，请阅读 :doc:`agent/goals`；"
+
+#: ../../source/overview.rst:75
+msgid "inspect files, Git, commands, or web pages, read :doc:`tools/index`;"
+msgstr "检查文件、Git、命令或网页，请阅读 :doc:`tools/index`；"
+
+#: ../../source/overview.rst:76
+msgid "connect Godot, read :doc:`godot/index`;"
+msgstr "连接 Godot，请阅读 :doc:`godot/index`；"
+
+#: ../../source/overview.rst:77
+msgid "configure providers and integrations, read :doc:`settings/index`."
+msgstr "配置供应商和集成，请阅读 :doc:`settings/index`。"

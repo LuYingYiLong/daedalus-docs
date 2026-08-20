@@ -1,0 +1,170 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, LuYingYiLong
+# This file is distributed under the same license as the Daedalus Studio
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Daedalus Studio User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-20 02:49+0800\n"
+"PO-Revision-Date: 2026-08-20 02:50+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/workspaces/workbench.rst:2
+msgid "Understand the Studio Workbench"
+msgstr "了解 Studio 工作台"
+
+#: ../../source/workspaces/workbench.rst:4
+msgid ""
+"The main Studio window is a workbench. It gives different jobs their own "
+"place, but they all use the same workspace and session."
+msgstr "Studio 主窗口是一个工作台。不同工作各有对应区域，但它们都使用同一个工作区和会话。"
+
+#: ../../source/workspaces/workbench.rst:8
+msgid "The main areas"
+msgstr "主要区域"
+
+#: ../../source/workspaces/workbench.rst:10
+msgid "**Workspace sidebar**"
+msgstr "**工作区侧栏**"
+
+#: ../../source/workspaces/workbench.rst:11
+msgid ""
+"The left side lists projects and sessions. It is where you change "
+"projects, create sessions, pin important sessions, and find recent, "
+"running, unread, or archived work."
+msgstr "左侧列出项目和会话。你可以在这里切换项目、创建会话、置顶重要会话，以及查找最近使用、运行中、未读或已归档的工作。"
+
+#: ../../source/workspaces/workbench.rst:15
+msgid "**Conversation area**"
+msgstr "**对话区域**"
+
+#: ../../source/workspaces/workbench.rst:16
+msgid ""
+"The center shows the current session. User messages, assistant replies, "
+"plans, tool calls, file changes, terminal output, approvals, and warnings"
+" appear in one timeline."
+msgstr "中间区域显示当前会话。用户消息、助手回复、计划、工具调用、文件变更、终端输出、审批和警告都会出现在同一条时间线中。"
+
+#: ../../source/workspaces/workbench.rst:20
+msgid "**Composer**"
+msgstr "**Composer**"
+
+#: ../../source/workspaces/workbench.rst:21
+msgid ""
+"The composer is the input area at the bottom. It controls the workspace, "
+"mode, model, reasoning effort, approval mode, additional context, and the"
+" message you want to send. See :doc:`../agent/composer`."
+msgstr "Composer 是底部的输入区域。它控制工作区、模式、模型、推理力度、审批模式、额外上下文以及要发送的消息。请参阅 :doc:`../agent/composer`。"
+
+#: ../../source/workspaces/workbench.rst:25
+msgid "**Side dock**"
+msgstr "**侧边停靠区**"
+
+#: ../../source/workspaces/workbench.rst:26
+msgid ""
+"The side dock is useful for Git changes and file or browser panels. Open "
+"it when you want to keep the conversation visible while inspecting a "
+"result."
+msgstr "侧边停靠区适合查看 Git 变更以及文件或浏览器面板。当你希望检查结果时仍保持对话可见，可以打开它。"
+
+#: ../../source/workspaces/workbench.rst:29
+msgid "**Bottom dock**"
+msgstr "**底部停靠区**"
+
+#: ../../source/workspaces/workbench.rst:30
+msgid ""
+"The bottom dock is useful for terminal sessions. It can also host files, "
+"browser panels, or the Git review panel when that arrangement suits your "
+"work."
+msgstr "底部停靠区适合运行终端会话。根据工作需要，它也可以承载文件、浏览器面板或 Git 审查面板。"
+
+#: ../../source/workspaces/workbench.rst:35
+msgid "Home and session views"
+msgstr "主页和会话视图"
+
+#: ../../source/workspaces/workbench.rst:37
+msgid ""
+"When no session is selected, Studio shows a home view. It helps you "
+"choose a workspace, start a session, and launch common project actions. "
+"When a session is selected, the central area becomes the conversation "
+"view."
+msgstr "未选择会话时，Studio 会显示主页视图。你可以在这里选择工作区、启动会话和执行常用项目操作。选择会话后，中间区域会变成对话视图。"
+
+#: ../../source/workspaces/workbench.rst:41
+msgid ""
+"The session summary can show environment information, Godot information, "
+"plans, and source attachments. From the summary you may also be able to "
+"run the Godot project, run a selected scene, open a diff, or start a Git "
+"commit action, depending on the workspace and available tools."
+msgstr "会话摘要可以显示环境信息、Godot 信息、计划和源文件附件。根据工作区和可用工具，你还可能可以从摘要中运行 Godot 项目、运行选定场景、打开 diff 或启动 Git 提交操作。"
+
+#: ../../source/workspaces/workbench.rst:47
+msgid "Panels and tabs"
+msgstr "面板和标签页"
+
+#: ../../source/workspaces/workbench.rst:49
+msgid ""
+"Use the ``+`` action in a dock to add another panel. Studio supports "
+"these panel types:"
+msgstr "使用停靠区中的 ``+`` 操作添加其他面板。Studio 支持以下面板类型："
+
+#: ../../source/workspaces/workbench.rst:52
+msgid "**Changes** — review the Git diff for the workspace;"
+msgstr "**Changes** — 审查工作区的 Git diff；"
+
+#: ../../source/workspaces/workbench.rst:53
+msgid "**Terminal** — run and watch a terminal process;"
+msgstr "**Terminal** — 运行并观察终端进程；"
+
+#: ../../source/workspaces/workbench.rst:54
+msgid "**Files** — browse and edit text files;"
+msgstr "**Files** — 浏览和编辑文本文件；"
+
+#: ../../source/workspaces/workbench.rst:55
+msgid ""
+"**Browser** — open a web page and optionally provide page context to the "
+"agent."
+msgstr "**Browser** — 打开网页，并可选择向 agent 提供页面上下文。"
+
+#: ../../source/workspaces/workbench.rst:58
+msgid ""
+"You can move between tabs, close tabs, resize a dock, and place a dock in"
+" fullscreen. Studio remembers the arrangement for the session. A terminal"
+" process is still stopped when you leave the session or restart Studio; "
+"panel layout persistence does not mean process persistence."
+msgstr "你可以切换标签页、关闭标签页、调整停靠区大小，或将停靠区置于全屏。Studio 会记住会话的布局。离开会话或重启 Studio 时，终端进程仍会停止；面板布局持久化不代表进程持久化。"
+
+#: ../../source/workspaces/workbench.rst:64
+msgid "Notifications and unread work"
+msgstr "通知和未读工作"
+
+#: ../../source/workspaces/workbench.rst:66
+msgid ""
+"Studio can show a native notification when a run finishes, a Goal reaches"
+" a terminal state, an approval is waiting, or a clarification is needed. "
+"If you were looking at another session, the workspace tree can mark the "
+"completed session as unread. Open that session and read the timeline "
+"before acting on the notification alone."
+msgstr "运行完成、Goal 到达终止状态、等待审批或需要澄清时，Studio 可以显示系统通知。如果你当时正在查看其他会话，工作区树可以将已完成的会话标记为未读。请打开该会话并阅读时间线，不要只根据通知采取行动。"
+
+#: ../../source/workspaces/workbench.rst:73
+msgid "If the layout feels crowded"
+msgstr "如果布局显得拥挤"
+
+#: ../../source/workspaces/workbench.rst:75
+msgid ""
+"Hide the workspace sidebar, session sidebar, or bottom dock with the "
+"toolbar controls or the shortcuts in :doc:`../reference/shortcuts`. You "
+"can restore a panel at any time; hiding a panel does not delete its tabs "
+"or its session history."
+msgstr "使用工具栏控件或 :doc:`../reference/shortcuts` 中的快捷键隐藏工作区侧栏、会话侧栏或底部停靠区。你可以随时恢复面板；隐藏面板不会删除其标签页或会话历史。"

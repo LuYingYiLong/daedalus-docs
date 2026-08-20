@@ -1,0 +1,131 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, LuYingYiLong
+# This file is distributed under the same license as the Daedalus Studio
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Daedalus Studio User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-20 02:49+0800\n"
+"PO-Revision-Date: 2026-08-20 02:50+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/godot/diagnostics.rst:2
+msgid "Run and Diagnose Godot Projects"
+msgstr "运行并诊断 Godot 项目"
+
+#: ../../source/godot/diagnostics.rst:4
+msgid ""
+"Studio can use Godot as both a project tool and a source of read-only "
+"evidence. This helps you move from “the file looks right” to “the project"
+" actually runs.”"
+msgstr "Studio 可以将 Godot 同时作为项目工具和只读证据来源。这能帮助你从“文件看起来没问题”走向“项目确实可以运行”。"
+
+#: ../../source/godot/diagnostics.rst:9
+msgid "Launch and stop"
+msgstr "启动和停止"
+
+#: ../../source/godot/diagnostics.rst:11
+msgid ""
+"From a session summary or an agent request, Studio can launch the Godot "
+"editor, run the project, run a selected scene, stop the project, and read"
+" debug output when the configured executable and Bridge capabilities "
+"allow it."
+msgstr "根据会话摘要或 agent 请求，在配置的可执行文件和 Bridge 能力允许时，Studio 可以启动 Godot 编辑器、运行项目、运行选定场景、停止项目并读取调试输出。"
+
+#: ../../source/godot/diagnostics.rst:16
+msgid "Running a scene"
+msgstr "运行场景"
+
+#: ../../source/godot/diagnostics.rst:18
+msgid ""
+"The session summary can search the project's scene files. Choose a scene "
+"and confirm it before running. If no scenes are found, check that the "
+"workspace source folder is correct and that the files use the expected "
+"``.tscn`` or ``.scn`` extension."
+msgstr "会话摘要可以搜索项目的场景文件。运行前请选择并确认场景。如果没有找到场景，请检查工作区源文件夹是否正确，以及文件是否使用预期的 ``.tscn`` 或 ``.scn`` 扩展名。"
+
+#: ../../source/godot/diagnostics.rst:23
+msgid ""
+"Use a scene run to verify one feature quickly. Use a full project run "
+"when the feature depends on project settings, autoloads, input actions, "
+"or scene transitions."
+msgstr "使用场景运行可以快速验证一项功能。当功能依赖项目设置、自动加载、输入操作或场景切换时，请运行完整项目。"
+
+#: ../../source/godot/diagnostics.rst:28
+msgid "Language server diagnostics"
+msgstr "语言服务器诊断"
+
+#: ../../source/godot/diagnostics.rst:30
+msgid ""
+"Godot LSP tools can report server status, file diagnostics, document "
+"symbols, symbol hover information, and definitions. They are useful for "
+"questions such as:"
+msgstr "Godot LSP 工具可以报告服务器状态、文件诊断、文档符号、符号悬停信息和定义。它们适合回答以下问题："
+
+#: ../../source/godot/diagnostics.rst:34
+msgid "“Why is this class name unresolved?”"
+msgstr "“为什么找不到这个类名？”"
+
+#: ../../source/godot/diagnostics.rst:35
+msgid "“Where is this signal or method defined?”"
+msgstr "“这个信号或方法在哪里定义？”"
+
+#: ../../source/godot/diagnostics.rst:36
+msgid "“Which warning is attached to this line?”"
+msgstr "“这一行关联了哪条警告？”"
+
+#: ../../source/godot/diagnostics.rst:38
+msgid ""
+"LSP results are read-only. They help the agent understand the code but do"
+" not change the project."
+msgstr "LSP 结果是只读的。它们帮助 agent 理解代码，但不会修改项目。"
+
+#: ../../source/godot/diagnostics.rst:42
+msgid "Debugger data"
+msgstr "调试器数据"
+
+#: ../../source/godot/diagnostics.rst:44
+msgid ""
+"The first Daedalus DAP integration is intentionally read-only. It can "
+"report debugger status, the last debugger error, a stack trace, and "
+"debugger variables. It does not launch or control execution, set "
+"breakpoints, evaluate arbitrary expressions, or call runtime methods."
+msgstr "第一版 Daedalus DAP 集成有意保持只读。它可以报告调试器状态、最近的调试器错误、堆栈跟踪和调试器变量，但不会启动或控制执行、设置断点、计算任意表达式或调用运行时方法。"
+
+#: ../../source/godot/diagnostics.rst:50
+msgid "Logs and editor state"
+msgstr "日志和编辑器状态"
+
+#: ../../source/godot/diagnostics.rst:52
+msgid ""
+"Godot tools can inspect project log configuration, list and read project "
+"logs, read editor settings summaries, browse editor configuration files, "
+"inspect editor project state, and list recent projects. Logs can contain "
+"local paths, user names, errors, or game data; review them before "
+"attaching them to a conversation or issue."
+msgstr "Godot 工具可以检查项目日志配置、列出并读取项目日志、读取编辑器设置摘要、浏览编辑器配置文件、检查编辑器项目状态以及列出最近项目。日志可能包含本机路径、用户名、错误或游戏数据；附加到对话或 issue 前请先审查。"
+
+#: ../../source/godot/diagnostics.rst:59
+msgid "An evidence-first debugging request"
+msgstr "以证据为先的调试请求"
+
+#: ../../source/godot/diagnostics.rst:61
+msgid "Try a request like::"
+msgstr "可以尝试这样的请求："
+
+#: ../../source/godot/diagnostics.rst:67
+msgid ""
+"This keeps diagnosis separate from repair. After you understand the "
+"cause, start a Plan or Agent request for the smallest fix and run the "
+"same check again."
+msgstr "这样可以将诊断与修复分开。了解原因后，启动 Plan 或 Agent 请求来完成最小修复，并再次运行相同的检查。"

@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, LuYingYiLong
+# This file is distributed under the same license as the Daedalus Studio
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Daedalus Studio User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-20 02:49+0800\n"
+"PO-Revision-Date: 2026-08-20 02:50+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/workspaces/sessions.rst:2
+msgid "Sessions and Conversation History"
+msgstr "会话和对话历史"
+
+#: ../../source/workspaces/sessions.rst:4
+msgid ""
+"A session is a durable working thread for one project context. It "
+"contains the conversation timeline, attachments, agent runs, plans, "
+"approvals, tool results, and relevant layout state."
+msgstr "会话是围绕一个项目上下文持续存在的工作线程。它包含对话时间线、附件、agent 运行、计划、审批、工具结果以及相关的布局状态。"
+
+#: ../../source/workspaces/sessions.rst:9
+msgid "Use sessions intentionally"
+msgstr "有意识地使用会话"
+
+#: ../../source/workspaces/sessions.rst:11
+msgid ""
+"Create a new session when the task has a different goal, risk level, or "
+"context. Continue the existing session when the new request depends on "
+"the same investigation and evidence."
+msgstr "当任务的目标、风险级别或上下文不同时，创建新会话。当新请求依赖同一项调查和证据时，继续使用现有会话。"
+
+#: ../../source/workspaces/sessions.rst:15
+msgid "Examples:"
+msgstr "示例："
+
+#: ../../source/workspaces/sessions.rst:17
+msgid "Keep a scene refactor and its follow-up validation in one session."
+msgstr "将场景重构及其后续验证放在同一个会话中。"
+
+#: ../../source/workspaces/sessions.rst:18
+msgid ""
+"Start a separate session for a new feature so its context does not "
+"compete with the refactor."
+msgstr "为新功能启动单独的会话，避免它的上下文与重构任务相互干扰。"
+
+#: ../../source/workspaces/sessions.rst:20
+msgid ""
+"Use a read-only session to investigate a bug before opening a session "
+"that is allowed to edit files."
+msgstr "先使用只读会话调查问题，再打开允许编辑文件的会话。"
+
+#: ../../source/workspaces/sessions.rst:24
+msgid "Session actions"
+msgstr "会话操作"
+
+#: ../../source/workspaces/sessions.rst:26
+msgid "Studio supports the following session lifecycle actions:"
+msgstr "Studio 支持以下会话生命周期操作："
+
+#: ../../source/workspaces/sessions.rst:28
+msgid "Create a new session from the workspace."
+msgstr "从工作区创建新会话。"
+
+#: ../../source/workspaces/sessions.rst:29
+msgid "Move between previous and next sessions."
+msgstr "在上一个和下一个会话之间切换。"
+
+#: ../../source/workspaces/sessions.rst:30
+msgid "Continue an interrupted or approval-paused run when it is safe to do so."
+msgstr "在安全的情况下，继续被中断或因等待审批而暂停的运行。"
+
+#: ../../source/workspaces/sessions.rst:31
+msgid ""
+"Fork a session when you want to explore a different approach without "
+"changing the original conversation."
+msgstr "想要探索不同方法但不改变原始对话时，复制一个会话分支。"
+
+#: ../../source/workspaces/sessions.rst:33
+msgid ""
+"Archive a completed or inactive session. Archived sessions remain "
+"searchable from **Settings > Archived sessions**."
+msgstr "归档已完成或不活跃的会话。归档后的会话仍可从 **Settings > Archived sessions** 搜索。"
+
+#: ../../source/workspaces/sessions.rst:35
+msgid ""
+"Export session content when you need a portable record, after checking it"
+" for private prompts, file paths, and credentials."
+msgstr "需要可携带的记录时，可以导出会话内容；导出前请检查其中是否包含私密提示词、文件路径和凭据。"
+
+#: ../../source/workspaces/sessions.rst:39
+msgid "Layouts and terminal tabs"
+msgstr "布局和终端标签页"
+
+#: ../../source/workspaces/sessions.rst:41
+msgid ""
+"Panel positions, tabs, and dimensions are saved per session where "
+"applicable. Terminal processes are isolated by session and are not "
+"restored as running processes after Studio restarts. Start a new terminal"
+" task after a restart and re-check its working directory."
+msgstr "在适用的情况下，面板位置、标签页和尺寸会按会话保存。终端进程按会话隔离，Studio 重启后不会作为正在运行的进程恢复。重启后请启动新的终端任务，并重新检查其工作目录。"
+
+#: ../../source/workspaces/sessions.rst:47
+msgid "Search and navigation"
+msgstr "搜索和导航"
+
+#: ../../source/workspaces/sessions.rst:49
+msgid ""
+"Use conversation search to find a message, tool result, or verification "
+"detail inside the current history. Use the archived-session search when "
+"you need a session that is no longer in the active workspace tree."
+msgstr "使用对话搜索在当前历史记录中查找消息、工具结果或验证细节。当需要查找已不在活动工作区树中的会话时，使用归档会话搜索。"

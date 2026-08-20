@@ -1,0 +1,117 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, LuYingYiLong
+# This file is distributed under the same license as the Daedalus Studio
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Daedalus Studio User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-20 02:49+0800\n"
+"PO-Revision-Date: 2026-08-20 02:50+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/tools/files.rst:2
+msgid "Browse and Edit Files"
+msgstr "浏览和编辑文件"
+
+#: ../../source/tools/files.rst:4
+msgid ""
+"The **Files** panel is a small project file browser and text editor. It "
+"is useful when you want to inspect a file yourself, give a precise file "
+"to the agent, or make a small manual correction without leaving Studio."
+msgstr "**Files** 面板是一个小型项目文件浏览器和文本编辑器。当你想自己检查文件、向 agent 提供精确文件，或不离开 Studio 进行小幅手动修正时，它很有用。"
+
+#: ../../source/tools/files.rst:9
+msgid "Open a file"
+msgstr "打开文件"
+
+#: ../../source/tools/files.rst:11
+msgid "Open a **Files** panel from the side or bottom dock."
+msgstr "从侧边或底部停靠区打开 **Files** 面板。"
+
+#: ../../source/tools/files.rst:12
+msgid "Choose the source folder if the workspace has more than one."
+msgstr "工作区包含多个源文件夹时，选择源文件夹。"
+
+#: ../../source/tools/files.rst:13
+msgid "Expand folders in the tree or search for a file or path."
+msgstr "在树中展开文件夹，或搜索文件或路径。"
+
+#: ../../source/tools/files.rst:14
+msgid "Select a text file to open it in a tab."
+msgstr "选择文本文件，在标签页中打开。"
+
+#: ../../source/tools/files.rst:16
+msgid ""
+"You can double-click a file to open it. A tab that is not pinned is "
+"treated as a preview tab and may be reused when you open another file. "
+"Pin a tab when you want to keep it open."
+msgstr "你可以双击文件将其打开。未置顶的标签页会被视为预览标签页，打开其他文件时可能会复用。希望保留标签页时，请将其置顶。"
+
+#: ../../source/tools/files.rst:21
+msgid "Edit and save"
+msgstr "编辑和保存"
+
+#: ../../source/tools/files.rst:23
+msgid ""
+"The editor provides familiar actions such as undo, redo, cut, copy, "
+"paste, select all, and save. ``Ctrl+S`` saves the active file on Windows."
+" Use **Save as** when you want a new path instead of overwriting the "
+"current file."
+msgstr "编辑器提供撤销、重做、剪切、复制、粘贴、全选和保存等常用操作。在 Windows 上，``Ctrl+S`` 会保存当前文件。希望使用新路径而不是覆盖当前文件时，请使用 **Save as**。"
+
+#: ../../source/tools/files.rst:27
+msgid ""
+"Studio can edit UTF-8 text files up to 2 MiB in the Files panel. Binary "
+"files and larger files are shown as not editable; use **Open in external "
+"app** when that is the right tool."
+msgstr "Studio 可以在 Files 面板中编辑最大 2 MiB 的 UTF-8 文本文件。二进制文件和更大的文件会显示为不可编辑；适合时请使用 **Open in external app**。"
+
+#: ../../source/tools/files.rst:31
+msgid ""
+"If the file changed outside Studio, Studio shows a conflict. Reload the "
+"disk version if the external change is correct, or save your draft as a "
+"new file if you need to preserve both versions. Do not overwrite a "
+"conflict without checking which copy contains the changes you want."
+msgstr "如果文件在 Studio 外部发生了变化，Studio 会显示冲突。外部变更正确时，请重新加载磁盘版本；如果需要保留两个版本，请将草稿另存为新文件。确认哪一份副本包含你需要的变更前，不要覆盖冲突文件。"
+
+#: ../../source/tools/files.rst:37
+msgid "Use files as context"
+msgstr "将文件用作上下文"
+
+#: ../../source/tools/files.rst:39
+msgid ""
+"Right-click a file and choose **Add to context**, or select code and use "
+"**Add to context**. The selected file, range, or note is then visible in "
+"the composer's context strip. This is often more precise than telling the"
+" agent to read an entire folder."
+msgstr "右键单击文件并选择 **Add to context**，或选中代码后使用 **Add to context**。选中的文件、范围或备注随后会显示在 Composer 的上下文条中。相比告诉 agent 读取整个文件夹，这通常更加精确。"
+
+#: ../../source/tools/files.rst:44
+msgid ""
+"You can also comment on selected code. A comment is a focused instruction"
+" for the agent, for example “Why is this signal never disconnected?” or "
+"“Change this to use the project input action.”"
+msgstr "你也可以对选中的代码发表评论。评论是给 agent 的聚焦指令，例如“为什么这个信号从未断开连接？”或“将其改为使用项目输入操作。”"
+
+#: ../../source/tools/files.rst:49
+msgid "Paths and external apps"
+msgstr "路径和外部应用"
+
+#: ../../source/tools/files.rst:51
+msgid ""
+"The file menu can copy an absolute path or a workspace-relative path. "
+"Markdown links in the conversation can open a file in the current "
+"workspace app, open it with another configured target, save it, or reveal"
+" it in File Explorer. Studio refuses to open a linked file outside the "
+"current source folders."
+msgstr "文件菜单可以复制绝对路径或工作区相对路径。对话中的 Markdown 链接可以在当前工作区应用中打开文件、使用其他已配置目标打开文件、保存文件，或在文件资源管理器中显示文件。Studio 拒绝打开当前源文件夹之外的链接文件。"

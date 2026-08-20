@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, LuYingYiLong
+# This file is distributed under the same license as the Daedalus Studio
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Daedalus Studio User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-20 02:49+0800\n"
+"PO-Revision-Date: 2026-08-20 02:50+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/tools/index.rst:2
+msgid "Files, Git, Terminal, and Browser"
+msgstr "文件、Git、终端和浏览器"
+
+#: ../../source/tools/index.rst:4
+msgid ""
+"Studio includes practical tools around the agent. You can use them "
+"yourself, or let the agent request them inside a session."
+msgstr "Studio 在 agent 周围提供了一组实用工具。你可以自己使用它们，也可以让 agent 在会话中请求使用。"
+
+#: ../../source/tools/index.rst:15
+msgid "The important distinction is simple:"
+msgstr "重要区别很简单："
+
+#: ../../source/tools/index.rst:17
+msgid "a **read** operation tells you what is already there;"
+msgstr "**read** 操作告诉你当前已有的内容；"
+
+#: ../../source/tools/index.rst:18
+msgid "a **propose** operation shows what a write would do;"
+msgstr "**propose** 操作展示写入将会做什么；"
+
+#: ../../source/tools/index.rst:19
+msgid "a **write** operation changes the project;"
+msgstr "**write** 操作会修改项目；"
+
+#: ../../source/tools/index.rst:20
+msgid "a **verify** operation checks the result."
+msgstr "**verify** 操作会检查结果。"
+
+#: ../../source/tools/index.rst:22
+msgid ""
+"The approval mode and tool policy decide which operations pause for your "
+"permission. You should still review the target and the result."
+msgstr "审批模式和工具策略决定哪些操作需要暂停并等待你的许可。你仍应审查目标和结果。"

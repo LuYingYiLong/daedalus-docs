@@ -1,0 +1,180 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, LuYingYiLong
+# This file is distributed under the same license as the Daedalus Studio
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Daedalus Studio User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-20 02:49+0800\n"
+"PO-Revision-Date: 2026-08-20 02:50+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/reference/shortcuts.rst:2
+msgid "Keyboard Shortcuts"
+msgstr "键盘快捷键"
+
+#: ../../source/reference/shortcuts.rst:4
+msgid ""
+"The bindings below are the default bindings on Windows and Linux. ``Mod``"
+" means ``Ctrl`` on Windows and Linux, and ``Cmd`` on macOS if you run a "
+"compatible build. You can change them from **Settings > Keyboard "
+"shortcuts**."
+msgstr "下面列出的是 Windows 和 Linux 上的默认绑定。``Mod`` 在 Windows 和 Linux 上表示 ``Ctrl``，如果运行兼容版本，在 macOS 上表示 ``Cmd``。你可以从 **Settings > Keyboard shortcuts** 修改它们。"
+
+#: ../../source/reference/shortcuts.rst:12
+msgid "Action"
+msgstr "操作"
+
+#: ../../source/reference/shortcuts.rst:13
+msgid "Default binding"
+msgstr "默认绑定"
+
+#: ../../source/reference/shortcuts.rst:14
+msgid "Purpose"
+msgstr "用途"
+
+#: ../../source/reference/shortcuts.rst:15
+msgid "Toggle workspace sidebar"
+msgstr "切换工作区侧栏"
+
+#: ../../source/reference/shortcuts.rst:16
+msgid "``Ctrl+B``"
+msgstr "``Ctrl+B``"
+
+#: ../../source/reference/shortcuts.rst:17
+msgid "Show or hide the workspace tree."
+msgstr "显示或隐藏工作区树。"
+
+#: ../../source/reference/shortcuts.rst:18
+msgid "Toggle bottom panel"
+msgstr "切换底部面板"
+
+#: ../../source/reference/shortcuts.rst:19
+msgid "``Ctrl+J``"
+msgstr "``Ctrl+J``"
+
+#: ../../source/reference/shortcuts.rst:20
+msgid "Show or hide terminal and other bottom panels."
+msgstr "显示或隐藏终端和其他底部面板。"
+
+#: ../../source/reference/shortcuts.rst:21
+msgid "Toggle session sidebar"
+msgstr "切换会话侧栏"
+
+#: ../../source/reference/shortcuts.rst:22
+msgid "``Ctrl+Alt+B``"
+msgstr "``Ctrl+Alt+B``"
+
+#: ../../source/reference/shortcuts.rst:23
+msgid "Show or hide the session-side panel."
+msgstr "显示或隐藏会话侧边面板。"
+
+#: ../../source/reference/shortcuts.rst:24
+msgid "New session"
+msgstr "新会话"
+
+#: ../../source/reference/shortcuts.rst:25
+msgid "``Ctrl+N``"
+msgstr "``Ctrl+N``"
+
+#: ../../source/reference/shortcuts.rst:26
+msgid "Create a session in the current workspace."
+msgstr "在当前工作区创建会话。"
+
+#: ../../source/reference/shortcuts.rst:27
+msgid "Previous session"
+msgstr "上一个会话"
+
+#: ../../source/reference/shortcuts.rst:28
+msgid "``Ctrl+PageUp``"
+msgstr "``Ctrl+PageUp``"
+
+#: ../../source/reference/shortcuts.rst:29
+msgid "Move to the previous session."
+msgstr "移动到上一个会话。"
+
+#: ../../source/reference/shortcuts.rst:30
+msgid "Next session"
+msgstr "下一个会话"
+
+#: ../../source/reference/shortcuts.rst:31
+msgid "``Ctrl+PageDown``"
+msgstr "``Ctrl+PageDown``"
+
+#: ../../source/reference/shortcuts.rst:32
+msgid "Move to the next session."
+msgstr "移动到下一个会话。"
+
+#: ../../source/reference/shortcuts.rst:33
+msgid "Previous conversation turn"
+msgstr "上一个对话轮次"
+
+#: ../../source/reference/shortcuts.rst:34
+msgid "``PageUp``"
+msgstr "``PageUp``"
+
+#: ../../source/reference/shortcuts.rst:35
+msgid "Move to the previous turn."
+msgstr "移动到上一个轮次。"
+
+#: ../../source/reference/shortcuts.rst:36
+msgid "Next conversation turn"
+msgstr "下一个对话轮次"
+
+#: ../../source/reference/shortcuts.rst:37
+msgid "``PageDown``"
+msgstr "``PageDown``"
+
+#: ../../source/reference/shortcuts.rst:38
+msgid "Move to the next turn."
+msgstr "移动到下一个轮次。"
+
+#: ../../source/reference/shortcuts.rst:39
+msgid "Find in conversation"
+msgstr "在对话中查找"
+
+#: ../../source/reference/shortcuts.rst:40
+msgid "``Ctrl+F``"
+msgstr "``Ctrl+F``"
+
+#: ../../source/reference/shortcuts.rst:41
+msgid "Search the current conversation."
+msgstr "搜索当前对话。"
+
+#: ../../source/reference/shortcuts.rst:44
+msgid "Changing a binding"
+msgstr "更改绑定"
+
+#: ../../source/reference/shortcuts.rst:46
+msgid "Open **Settings > Keyboard shortcuts**."
+msgstr "打开 **Settings > Keyboard shortcuts**。"
+
+#: ../../source/reference/shortcuts.rst:47
+msgid "Search for the action."
+msgstr "搜索操作。"
+
+#: ../../source/reference/shortcuts.rst:48
+msgid "Select the action and press the new shortcut."
+msgstr "选择操作并按下新的快捷键。"
+
+#: ../../source/reference/shortcuts.rst:49
+msgid "Save the change."
+msgstr "保存变更。"
+
+#: ../../source/reference/shortcuts.rst:51
+msgid ""
+"Printable keys cannot be used by themselves, and Studio rejects a "
+"shortcut that conflicts with another configured action. If a shortcut "
+"does not work, check whether a text field or the operating system is "
+"currently consuming the same key combination."
+msgstr "可打印按键不能单独使用，Studio 会拒绝与其他已配置操作冲突的快捷键。如果快捷键不起作用，请检查文本字段或操作系统是否正在占用相同的按键组合。"

@@ -1,0 +1,120 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, LuYingYiLong
+# This file is distributed under the same license as the Daedalus Studio
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Daedalus Studio User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-20 02:49+0800\n"
+"PO-Revision-Date: 2026-08-20 02:50+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/tools/browser.rst:2
+msgid "Use the Integrated Browser"
+msgstr "使用集成浏览器"
+
+#: ../../source/tools/browser.rst:4
+msgid ""
+"The **Browser** panel is an embedded browser for documentation, web "
+"research, and browser-based project work. It can be used manually, or the"
+" agent can control it after you explicitly allow AI browser control for "
+"the current session."
+msgstr "**Browser** 面板是一个内置浏览器，可用于文档、网页研究和基于浏览器的项目工作。你可以手动使用它；明确允许当前会话中的 AI 控制浏览器后，agent 也可以控制它。"
+
+#: ../../source/tools/browser.rst:10
+msgid "Browse manually"
+msgstr "手动浏览"
+
+#: ../../source/tools/browser.rst:12
+msgid "Open a **Browser** tab from a dock."
+msgstr "从停靠区打开 **Browser** 标签页。"
+
+#: ../../source/tools/browser.rst:13
+msgid "Enter a URL in the address bar."
+msgstr "在地址栏输入 URL。"
+
+#: ../../source/tools/browser.rst:14
+msgid "Use Back, Forward, Reload, or Stop as needed."
+msgstr "按需使用后退、前进、重新加载或停止。"
+
+#: ../../source/tools/browser.rst:15
+msgid ""
+"Use the browser menu to open history, downloads, settings, or privacy "
+"controls."
+msgstr "使用浏览器菜单打开历史记录、下载、设置或隐私控件。"
+
+#: ../../source/tools/browser.rst:18
+msgid ""
+"If a page is useful to the conversation, annotate a web element and add "
+"it to context. The annotation can include a short note such as “Use this "
+"API signature, not the deprecated one.”"
+msgstr "如果某个页面对对话有用，可以标注网页元素并将其添加到上下文。标注可以包含简短备注，例如“使用这个 API 签名，不要使用已弃用的那个。”"
+
+#: ../../source/tools/browser.rst:23
+msgid "Allow agent control"
+msgstr "允许 agent 控制"
+
+#: ../../source/tools/browser.rst:25
+msgid ""
+"Go to **Settings > Browser** and enable **Allow AI to control the browser"
+" (CDP)**. This allows the agent in the current session to observe pages, "
+"navigate, scroll, click, type, select options, wait for a page, and "
+"capture a screenshot."
+msgstr "前往 **Settings > Browser**，启用 **Allow AI to control the browser (CDP)**。这样当前会话中的 agent 就可以观察页面、导航、滚动、点击、输入、选择选项、等待页面和截取屏幕截图。"
+
+#: ../../source/tools/browser.rst:30
+msgid ""
+"The agent uses the browser's existing signed-in state. It cannot read the"
+" password vault directly, but a signed-in page can still expose private "
+"data to the agent through the page itself. Approve browser actions one at"
+" a time when the target account or data matters."
+msgstr "agent 会使用浏览器现有的登录状态。它无法直接读取密码库，但已登录页面仍可能通过页面本身向 agent 暴露私密数据。当目标账号或数据重要时，请逐项批准浏览器操作。"
+
+#: ../../source/tools/browser.rst:36
+msgid "Downloads and history"
+msgstr "下载和历史记录"
+
+#: ../../source/tools/browser.rst:38
+msgid ""
+"The download manager shows progress, completed files, cancelled "
+"downloads, and interrupted downloads. You can choose a fixed download "
+"directory or ask where to save every file. Clearing download records does"
+" not delete the files already downloaded."
+msgstr "下载管理器会显示进度、已完成文件、已取消下载和已中断下载。你可以选择固定下载目录，也可以每次询问文件保存位置。清除下载记录不会删除已经下载的文件。"
+
+#: ../../source/tools/browser.rst:43
+msgid ""
+"History and site data can be cleared by time range. Site storage and "
+"cache are cleared for all time by the browser implementation even when a "
+"narrower time range is selected; read the confirmation carefully."
+msgstr "历史记录和网站数据可以按时间范围清除。即使选择了较窄的时间范围，浏览器实现仍会清除全部时间范围内的网站存储和缓存；请仔细阅读确认信息。"
+
+#: ../../source/tools/browser.rst:48
+msgid "Passwords, profiles, and permissions"
+msgstr "密码、配置文件和权限"
+
+#: ../../source/tools/browser.rst:50
+msgid ""
+"Studio can import cookies and saved passwords from Chrome or Edge, fill "
+"an explicitly chosen saved account, and manage site permissions. "
+"Passwords use operating-system secure storage. Import only the profile "
+"you intend to use, and do not enable password saving or import on a "
+"shared computer without understanding the consequences."
+msgstr "Studio 可以从 Chrome 或 Edge 导入 cookie 和已保存密码，填写明确选定的已保存账号，并管理网站权限。密码使用操作系统安全存储。只导入你打算使用的配置文件；在共享电脑上启用保存密码或导入前，请先了解其后果。"
+
+#: ../../source/tools/browser.rst:56
+msgid ""
+"When a site requests a permission, choose **Block**, **Allow once**, or "
+"**Always allow** based on the site and the task. Prefer **Allow once** "
+"while testing an unfamiliar site."
+msgstr "网站请求权限时，请根据网站和任务选择 **Block**、**Allow once** 或 **Always allow**。测试不熟悉的网站时，优先选择 **Allow once**。"

@@ -1,0 +1,37 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, LuYingYiLong
+# This file is distributed under the same license as the Daedalus Studio
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Daedalus Studio User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-20 02:49+0800\n"
+"PO-Revision-Date: 2026-08-20 02:50+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/settings/index.rst:2
+msgid "Configure Studio"
+msgstr "配置 Studio"
+
+#: ../../source/settings/index.rst:4
+msgid ""
+"Open the separate Settings window to configure providers, defaults, "
+"integrations, appearance, and data-related preferences."
+msgstr "打开独立的设置窗口，配置供应商、默认值、集成、外观和数据相关偏好。"
+
+#: ../../source/settings/index.rst:16
+msgid ""
+"Settings are grouped by user task. You do not need to configure every "
+"page; start with **Provider**, **Default model**, and **Godot Projects** "
+"for a basic Godot workflow."
+msgstr "设置按用户任务分组。不需要配置每个页面；要开始基本的 Godot 工作流，请先设置 **Provider**、**Default model** 和 **Godot Projects**。"

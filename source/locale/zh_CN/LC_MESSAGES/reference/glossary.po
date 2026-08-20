@@ -1,0 +1,186 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, LuYingYiLong
+# This file is distributed under the same license as the Daedalus Studio
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Daedalus Studio User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-20 02:49+0800\n"
+"PO-Revision-Date: 2026-08-20 02:50+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/reference/glossary.rst:2
+msgid "Studio Glossary"
+msgstr "Studio 术语表"
+
+#: ../../source/reference/glossary.rst:4
+msgid ""
+"These words appear throughout Studio. Knowing the difference makes the UI"
+" much easier to read."
+msgstr "这些词汇会在 Studio 中反复出现。了解它们之间的区别，可以让界面更容易阅读。"
+
+#: ../../source/reference/glossary.rst:7
+msgid "Workspace"
+msgstr "工作区"
+
+#: ../../source/reference/glossary.rst:8
+msgid ""
+"The project or set of source folders that define the file and tool "
+"boundary."
+msgstr "定义文件和工具边界的项目或源文件夹集合。"
+
+#: ../../source/reference/glossary.rst:11
+msgid "Source folder"
+msgstr "源文件夹"
+
+#: ../../source/reference/glossary.rst:12
+msgid ""
+"One folder inside a workspace. A multi-root workspace can have several; "
+"one can be marked primary."
+msgstr "工作区中的一个文件夹。多根工作区可以包含多个源文件夹，其中一个可以标记为主要文件夹。"
+
+#: ../../source/reference/glossary.rst:15
+msgid "Session"
+msgstr "会话"
+
+#: ../../source/reference/glossary.rst:16
+msgid ""
+"A durable conversation with its messages, attachments, plans, run "
+"history, and layout preferences."
+msgstr "持久化的对话，包含消息、附件、计划、运行历史和布局偏好。"
+
+#: ../../source/reference/glossary.rst:19
+msgid "Run"
+msgstr "运行"
+
+#: ../../source/reference/glossary.rst:20
+msgid "One execution of a request inside a session."
+msgstr "会话中一次请求的执行。"
+
+#: ../../source/reference/glossary.rst:22
+msgid "Agent"
+msgstr "Agent"
+
+#: ../../source/reference/glossary.rst:23
+msgid ""
+"The model-driven process that reads context, chooses tools, and returns "
+"answers or changes."
+msgstr "由模型驱动的过程，它读取上下文、选择工具，并返回答案或变更。"
+
+#: ../../source/reference/glossary.rst:26
+msgid "Tool"
+msgstr "工具"
+
+#: ../../source/reference/glossary.rst:27
+msgid ""
+"A named operation the agent can request, such as reading a file, running "
+"a command, or patching a scene."
+msgstr "agent 可以请求的命名操作，例如读取文件、运行命令或修改场景。"
+
+#: ../../source/reference/glossary.rst:30
+msgid "Approval"
+msgstr "审批"
+
+#: ../../source/reference/glossary.rst:31
+msgid "Your decision to allow or reject a tool, plan, or continuation."
+msgstr "你对是否允许或拒绝工具、计划或继续执行所作的决定。"
+
+#: ../../source/reference/glossary.rst:33
+msgid "Proposal"
+msgstr "提案"
+
+#: ../../source/reference/glossary.rst:34
+msgid ""
+"A description of a write before it is applied. Proposals are useful "
+"because you can check the target and scope before changing the project."
+msgstr "应用写入前对写入内容的描述。提案很有用，因为你可以在修改项目前检查目标和范围。"
+
+#: ../../source/reference/glossary.rst:37
+msgid "Verification"
+msgstr "验证"
+
+#: ../../source/reference/glossary.rst:38
+msgid ""
+"A check that runs after a change, such as a test, Godot diagnostic, scene"
+" run, or terminal command."
+msgstr "变更后运行的检查，例如测试、Godot 诊断、场景运行或终端命令。"
+
+#: ../../source/reference/glossary.rst:41
+msgid "Context"
+msgstr "上下文"
+
+#: ../../source/reference/glossary.rst:42
+msgid ""
+"Information sent with a request, including workspace paths, files, "
+"folders, images, selected text, review comments, and web elements."
+msgstr "随请求发送的信息，包括工作区路径、文件、文件夹、图像、选中文本、审查评论和网页元素。"
+
+#: ../../source/reference/glossary.rst:45
+msgid "Skill"
+msgstr "Skill"
+
+#: ../../source/reference/glossary.rst:46
+msgid ""
+"Reusable instructions that help the agent follow a project or personal "
+"workflow. A Skill is not a permission grant."
+msgstr "帮助 agent 遵循项目或个人工作流的可复用指令。Skill 不是权限授予。"
+
+#: ../../source/reference/glossary.rst:49
+msgid "MCP server"
+msgstr "MCP server"
+
+#: ../../source/reference/glossary.rst:50
+msgid ""
+"An external tool service that Studio can connect to. Its tools are an "
+"additional trust boundary."
+msgstr "Studio 可以连接的外部工具服务。它提供的工具构成额外的信任边界。"
+
+#: ../../source/reference/glossary.rst:53
+msgid "Editor Bridge"
+msgstr "Editor Bridge"
+
+#: ../../source/reference/glossary.rst:54
+msgid ""
+"The Godot plugin connection that exposes live editor context and "
+"capability-dependent editor operations."
+msgstr "Godot 插件连接，提供实时编辑器上下文和取决于能力的编辑器操作。"
+
+#: ../../source/reference/glossary.rst:57
+msgid "Worktree"
+msgstr "Worktree"
+
+#: ../../source/reference/glossary.rst:58
+msgid ""
+"A separate Git checkout used to isolate a session or a permanent line of "
+"work from the main checkout."
+msgstr "用于将会话或永久工作线与主检出隔离的独立 Git 检出副本。"
+
+#: ../../source/reference/glossary.rst:61
+msgid "Dock"
+msgstr "停靠区"
+
+#: ../../source/reference/glossary.rst:62
+msgid ""
+"A resizable side or bottom panel area that holds tabs such as Changes, "
+"Terminal, Files, and Browser."
+msgstr "可调整大小的侧边或底部面板区域，用于承载 Changes、Terminal、Files 和 Browser 等标签页。"
+
+#: ../../source/reference/glossary.rst:65
+msgid "Goal"
+msgstr "Goal"
+
+#: ../../source/reference/glossary.rst:66
+msgid ""
+"A longer-running objective with cycles, budget, progress, and a "
+"completion evaluation."
+msgstr "具有周期、预算、进度和完成评估的长期运行目标。"

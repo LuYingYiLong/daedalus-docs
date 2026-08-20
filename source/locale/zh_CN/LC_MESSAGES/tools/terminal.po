@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, LuYingYiLong
+# This file is distributed under the same license as the Daedalus Studio
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Daedalus Studio User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-20 02:49+0800\n"
+"PO-Revision-Date: 2026-08-20 02:50+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/tools/terminal.rst:2
+msgid "Use the Integrated Terminal"
+msgstr "使用集成终端"
+
+#: ../../source/tools/terminal.rst:4
+msgid ""
+"The **Terminal** panel gives a session its own command prompt. Use it for"
+" project checks, Godot headless commands, formatters, tests, and other "
+"commands you would normally run from PowerShell."
+msgstr "**Terminal** 面板为会话提供独立的命令提示符。你可以使用它运行项目检查、Godot 无头命令、格式化工具、测试以及通常会在 PowerShell 中运行的其他命令。"
+
+#: ../../source/tools/terminal.rst:9
+msgid "Start and manage a terminal"
+msgstr "启动和管理终端"
+
+#: ../../source/tools/terminal.rst:11
+msgid "Open a **Terminal** tab from a dock."
+msgstr "从停靠区打开 **Terminal** 标签页。"
+
+#: ../../source/tools/terminal.rst:12
+msgid "Wait for the terminal to start in the selected workspace."
+msgstr "等待终端在选定工作区中启动。"
+
+#: ../../source/tools/terminal.rst:13
+msgid "Run a command and read its output."
+msgstr "运行命令并阅读输出。"
+
+#: ../../source/tools/terminal.rst:14
+msgid ""
+"Use **Stop terminal** when the process should end, or **Restart "
+"terminal** when the shell is no longer responding."
+msgstr "进程应结束时使用 **Stop terminal**；shell 不再响应时使用 **Restart terminal**。"
+
+#: ../../source/tools/terminal.rst:17
+msgid ""
+"Terminal sessions are scoped to the current Studio session. When you "
+"change sessions, Studio stops the previous session's terminal processes. "
+"After a restart, start a new terminal and check its working directory "
+"instead of assuming an old process continued."
+msgstr "终端会话限定在当前 Studio 会话内。切换会话时，Studio 会停止上一个会话的终端进程。重启后请启动新的终端并检查工作目录，不要假设旧进程仍在继续。"
+
+#: ../../source/tools/terminal.rst:23
+msgid "Agent terminal actions"
+msgstr "Agent 终端操作"
+
+#: ../../source/tools/terminal.rst:25
+msgid ""
+"The agent can request a safe verification command, inspect a job's status"
+" and output, cancel a long-running job, or request a general command when"
+" the workflow allows it. A command may be paused for approval, especially"
+" when it writes files, uses the network, or has a broader effect than a "
+"read-only check."
+msgstr "agent 可以请求安全验证命令、检查任务状态和输出、取消长时间运行的任务，或在工作流允许时请求普通命令。命令可能会暂停并等待审批，尤其是在它写入文件、使用网络或影响范围大于只读检查时。"
+
+#: ../../source/tools/terminal.rst:32
+msgid "Before approving a command"
+msgstr "批准命令前"
+
+#: ../../source/tools/terminal.rst:34
+msgid ""
+"Read the full command, working directory, environment, and expected "
+"output. Watch for:"
+msgstr "阅读完整命令、工作目录、环境和预期输出。注意："
+
+#: ../../source/tools/terminal.rst:37
+msgid "commands that delete or overwrite files;"
+msgstr "删除或覆盖文件的命令；"
+
+#: ../../source/tools/terminal.rst:38
+msgid "package installation or network access;"
+msgstr "安装软件包或访问网络；"
+
+#: ../../source/tools/terminal.rst:39
+msgid "commands that use a different directory than the selected workspace;"
+msgstr "使用不同于所选工作区目录的命令；"
+
+#: ../../source/tools/terminal.rst:40
+msgid "scripts that hide additional commands;"
+msgstr "隐藏额外命令的脚本；"
+
+#: ../../source/tools/terminal.rst:41
+msgid "credentials or tokens interpolated into the command line."
+msgstr "插入命令行的凭据或 token。"
+
+#: ../../source/tools/terminal.rst:43
+msgid ""
+"Prefer a named project verification preset when one exists. If no "
+"validator exists, ask the agent to show the exact command and explain "
+"what a passing result means."
+msgstr "存在命名的项目验证预设时，优先使用它。如果没有验证器，请让 agent 显示确切命令，并解释通过结果意味着什么。"
+
+#: ../../source/tools/terminal.rst:48
+msgid "Terminal output in the timeline"
+msgstr "时间线中的终端输出"
+
+#: ../../source/tools/terminal.rst:50
+msgid ""
+"The conversation can show a command's progress, output tail, exit result,"
+" and whether the command was cancelled. A green-looking completion "
+"message is not enough: check the exit status and whether the command "
+"actually tested the artifact that changed."
+msgstr "对话可以显示命令进度、输出尾部、退出结果以及命令是否被取消。看起来绿色的完成消息还不够：请检查退出状态，以及命令是否确实测试了发生变更的产物。"

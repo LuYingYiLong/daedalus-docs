@@ -1,0 +1,209 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, LuYingYiLong
+# This file is distributed under the same license as the Daedalus Studio
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Daedalus Studio User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-20 02:49+0800\n"
+"PO-Revision-Date: 2026-08-20 02:49+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/agent/composer.rst:2
+msgid "Use the Composer"
+msgstr "使用 Composer"
+
+#: ../../source/agent/composer.rst:4
+msgid ""
+"The composer is where you tell Studio what you want. Think of it as a "
+"small control panel attached to your message: the text explains the task,"
+" and the controls explain what kind of help the agent may provide."
+msgstr "Composer 是你告诉 Studio 需求的地方。可以把它看作附在消息上的小型控制面板：文本说明任务，控件说明 agent 可以提供哪种帮助。"
+
+#: ../../source/agent/composer.rst:9
+msgid "Choose the workspace"
+msgstr "选择工作区"
+
+#: ../../source/agent/composer.rst:11
+msgid ""
+"The workspace selector tells Studio which project files and tools are in "
+"scope. Choose **No workspace** when you only want a general conversation."
+" Add or select a workspace before asking the agent to inspect or change "
+"project files."
+msgstr "工作区选择器告诉 Studio 哪些项目文件和工具在范围内。只想进行一般对话时，选择 **No workspace**。要求 agent 检查或修改项目文件前，请先添加或选择工作区。"
+
+#: ../../source/agent/composer.rst:17
+msgid "Choose the mode"
+msgstr "选择模式"
+
+#: ../../source/agent/composer.rst:19
+msgid ""
+"Use the mode menu to choose **Ask**, **Agent**, **Plan**, or **Goal**. "
+"The composer placeholder changes with the mode to remind you what kind of"
+" request works well. See :doc:`modes` for a decision guide."
+msgstr "使用模式菜单选择 **Ask**、**Agent**、**Plan** 或 **Goal**。Composer 占位提示会随模式变化，提醒你哪种请求更合适。决策指南请参阅 :doc:`modes`。"
+
+#: ../../source/agent/composer.rst:24
+msgid "Choose model and reasoning effort"
+msgstr "选择模型和推理力度"
+
+#: ../../source/agent/composer.rst:26
+msgid ""
+"The model menu groups models by provider. A model may show badges for "
+"reasoning, vision/image input, or search. Select a reasoning effort when "
+"the model supports it:"
+msgstr "模型菜单按供应商对模型分组。模型可能显示推理、视觉/图像输入或搜索能力标记。模型支持时，请选择推理力度："
+
+#: ../../source/agent/composer.rst:30
+msgid "**Low** is useful for a short answer or a simple edit;"
+msgstr "简短回答或简单编辑适合使用 **Low**；"
+
+#: ../../source/agent/composer.rst:31
+msgid "**Medium** is a practical default for most development work;"
+msgstr "大多数开发工作可以将 **Medium** 作为实用默认值；"
+
+#: ../../source/agent/composer.rst:32
+msgid ""
+"**High**, **Extra high**, or **Max** can help with a difficult analysis "
+"but may use more time and tokens."
+msgstr "困难分析可以使用 **High**、**Extra high** 或 **Max**，但可能消耗更多时间和 token。"
+
+#: ../../source/agent/composer.rst:35
+msgid ""
+"Reasoning effort changes how much work the model spends thinking. It does"
+" not grant additional tools or permission to write files."
+msgstr "推理力度会改变模型用于思考的工作量。它不会授予额外工具或写入文件的权限。"
+
+#: ../../source/agent/composer.rst:39
+msgid "Choose approval mode"
+msgstr "选择审批模式"
+
+#: ../../source/agent/composer.rst:41
+msgid ""
+"The approval menu contains **Manual**, **Auto-safe**, and **Full Trust**."
+" This is separate from the conversation mode: an Agent request can still "
+"be manual, and an Ask request can still use a configured model. Use "
+"Manual while learning the project; understand the consequences of Full "
+"Trust before enabling it."
+msgstr "审批菜单包含 **Manual**、**Auto-safe** 和 **Full Trust**。这与对话模式分开：Agent 请求仍然可以使用手动审批，Ask 请求也仍然可以使用已配置的模型。了解项目时使用 Manual；启用 Full Trust 前请理解其后果。"
+
+#: ../../source/agent/composer.rst:47
+msgid "Add context"
+msgstr "添加上下文"
+
+#: ../../source/agent/composer.rst:49
+msgid ""
+"Use the context button to add files, a folder, or images. Context items "
+"appear below the message and can be removed individually. You can also "
+"paste text or drop supported files into the composer."
+msgstr "使用上下文按钮添加文件、文件夹或图像。上下文条目会显示在消息下方，可以逐项移除。你也可以将文本粘贴到 Composer，或将支持的文件拖入其中。"
+
+#: ../../source/agent/composer.rst:53
+msgid ""
+"For a precise question, add the smallest useful item. For example, attach"
+" one script and its test instead of the entire repository. Use the Files "
+"panel or a message selection when you want only a few lines."
+msgstr "对于精确问题，请添加最小的有用内容。例如，附加一个脚本及其测试，而不是整个仓库。只需要少量行时，使用 Files 面板或选择消息中的文本。"
+
+#: ../../source/agent/composer.rst:58
+msgid "Commands and Skills"
+msgstr "命令和 Skill"
+
+#: ../../source/agent/composer.rst:60
+msgid ""
+"Type ``/`` at the start of a line to search available slash commands. "
+"Type ``@`` to search enabled Skills. Select a suggestion with the mouse, "
+"arrow keys, Enter, or Tab. ``@image-gen`` is available when the image-"
+"generation Skill and an explicit image-generation model are configured."
+msgstr "在行首输入 ``/`` 搜索可用的斜杠命令。输入 ``@`` 搜索已启用的 Skill。可以使用鼠标、方向键、Enter 或 Tab 选择建议。配置图像生成 Skill 和明确的图像生成模型后，``@image-gen`` 才可用。"
+
+#: ../../source/agent/composer.rst:65
+msgid ""
+"You can also start a message with ``/ask``, ``/agent``, ``/plan``, or "
+"``/goal`` to choose that mode for one submission. For example::"
+msgstr "你也可以在消息开头使用 ``/ask``、``/agent``、``/plan`` 或 ``/goal``，为这一次提交选择模式。例如："
+
+#: ../../source/agent/composer.rst:70
+msgid ""
+"The command prefix selects the mode; the text after it remains the "
+"request."
+msgstr "命令前缀会选择模式；其后的文本仍然是请求内容。"
+
+#: ../../source/agent/composer.rst:72
+msgid ""
+"Commands and Skills are loaded from the current runtime. If a suggestion "
+"is missing, check **Settings > Skills** or wait for Studio to finish "
+"loading its command catalog."
+msgstr "命令和 Skill 从当前运行时加载。如果缺少某个建议，请检查 **Settings > Skills**，或等待 Studio 完成命令目录加载。"
+
+#: ../../source/agent/composer.rst:77
+msgid "Send, stop, and queue"
+msgstr "发送、停止和排队"
+
+#: ../../source/agent/composer.rst:79
+msgid ""
+"Choose **Send** to start a request. While the agent is responding, the "
+"same area can offer **Stop** or **Queue message**:"
+msgstr "选择 **Send** 开始请求。agent 回复期间，同一区域可能提供 **Stop** 或 **Queue message**："
+
+#: ../../source/agent/composer.rst:82
+msgid "**Stop** asks the current run to stop safely;"
+msgstr "**Stop** 请求当前运行安全停止；"
+
+#: ../../source/agent/composer.rst:83
+msgid ""
+"**Queue message** saves the next request for later instead of "
+"interrupting the current response."
+msgstr "**Queue message** 会保存下一条请求，稍后再处理，而不是中断当前回复。"
+
+#: ../../source/agent/composer.rst:86
+msgid ""
+"Open the queue panel to edit, remove, or drag pending messages into a new"
+" order. Queued messages are not approvals; each one still runs with its "
+"own context and tool policy."
+msgstr "打开队列面板，可以编辑、移除待处理消息，或拖动它们重新排序。排队消息不是审批；每条消息仍会在自己的上下文和工具策略下运行。"
+
+#: ../../source/agent/composer.rst:91
+msgid "Hide the composer"
+msgstr "隐藏 Composer"
+
+#: ../../source/agent/composer.rst:93
+msgid ""
+"If you need more room for a diff, file editor, or browser, collapse the "
+"floating composer. Use **Show composer** to bring it back. Collapsing the"
+" composer does not discard the draft."
+msgstr "需要为 diff、文件编辑器或浏览器腾出更多空间时，可以折叠浮动 Composer。使用 **Show composer** 将其恢复。折叠 Composer 不会丢弃草稿。"
+
+#: ../../source/agent/composer.rst:98
+msgid "Before you press Send"
+msgstr "按下 Send 前"
+
+#: ../../source/agent/composer.rst:100
+msgid ""
+"Check the workspace, mode, model, approval mode, and context strip. Then "
+"write the desired result and the check that should prove it. These five "
+"seconds of setup usually prevent a long run with the wrong project or "
+"model."
+msgstr "检查工作区、模式、模型、审批模式和上下文条。然后写出期望结果，以及能够证明结果的检查。这五秒钟的准备通常可以避免在错误的项目或模型上进行长时间运行。"
+
+#: ../../source/agent/composer.rst:105
+msgid "Keyboard behavior"
+msgstr "键盘行为"
+
+#: ../../source/agent/composer.rst:107
+msgid ""
+"Press **Enter** to send. Press **Shift+Enter** to insert a new line. When"
+" the completion menu is open, **Arrow Up/Down** changes the selection, "
+"**Enter** or **Tab** inserts the selected command or Skill, and "
+"**Escape** closes the menu."
+msgstr "按 **Enter** 发送。按 **Shift+Enter** 插入新行。补全菜单打开时，**Arrow Up/Down** 更改选中项，**Enter** 或 **Tab** 插入选中的命令或 Skill，**Escape** 关闭菜单。"

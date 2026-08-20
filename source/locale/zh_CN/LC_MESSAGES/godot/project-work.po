@@ -1,0 +1,192 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, LuYingYiLong
+# This file is distributed under the same license as the Daedalus Studio
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Daedalus Studio User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-20 02:49+0800\n"
+"PO-Revision-Date: 2026-08-20 02:50+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/godot/project-work.rst:2
+msgid "Work on a Godot Project"
+msgstr "开发 Godot 项目"
+
+#: ../../source/godot/project-work.rst:4
+msgid ""
+"Two complementary tool surfaces are available. The agent chooses between "
+"them based on the task and the capabilities advertised by the connected "
+"project."
+msgstr "有两类互补的工具界面可用。agent 会根据任务以及已连接项目声明的能力，在二者之间进行选择。"
+
+#: ../../source/godot/project-work.rst:9
+msgid "Static project tools"
+msgstr "静态项目工具"
+
+#: ../../source/godot/project-work.rst:11
+msgid "Static tools operate on validated workspace paths. They are useful for:"
+msgstr "静态工具在经过验证的工作区路径上运行，适合用于："
+
+#: ../../source/godot/project-work.rst:13
+msgid "inspecting or editing scripts, shaders, scenes, and resources;"
+msgstr "检查或编辑脚本、着色器、场景和资源；"
+
+#: ../../source/godot/project-work.rst:14
+msgid ""
+"reading project settings, Input Map, Autoloads, export presets, and "
+"dependencies;"
+msgstr "读取项目设置、Input Map、Autoload、导出预设和依赖；"
+
+#: ../../source/godot/project-work.rst:16
+msgid "finding references and analyzing project structure;"
+msgstr "查找引用并分析项目结构；"
+
+#: ../../source/godot/project-work.rst:17
+msgid "running Godot headless checks;"
+msgstr "运行 Godot 无头检查；"
+
+#: ../../source/godot/project-work.rst:18
+msgid "reading LSP and diagnostic information."
+msgstr "读取 LSP 和诊断信息。"
+
+#: ../../source/godot/project-work.rst:20
+msgid ""
+"These tools do not require an editor window to be focused. Their paths "
+"remain inside the workspace boundary."
+msgstr "这些工具不要求编辑器窗口处于焦点状态。它们使用的路径始终位于工作区边界内。"
+
+#: ../../source/godot/project-work.rst:24
+msgid "Common static tasks"
+msgstr "常见静态任务"
+
+#: ../../source/godot/project-work.rst:26
+msgid ""
+"The agent can read a project summary, browse project files, list scenes "
+"and scripts, search project text, resolve resource UIDs, inspect project "
+"settings, read project logs, validate scene/script references, and read "
+"or write text files through the same workspace boundary. These are good "
+"first steps when you are not sure where a bug lives."
+msgstr "agent 可以读取项目摘要、浏览项目文件、列出场景和脚本、搜索项目文本、解析资源 UID、检查项目设置、读取项目日志、验证场景/脚本引用，并通过同一工作区边界读取或写入文本文件。当你不确定问题所在位置时，这些都是很好的第一步。"
+
+#: ../../source/godot/project-work.rst:33
+msgid "Scene and resource changes"
+msgstr "场景和资源变更"
+
+#: ../../source/godot/project-work.rst:35
+msgid ""
+"For scene work, Studio can propose or create a scene, add a node, attach "
+"a script, connect a signal, apply a scene patch, save a scene variant, "
+"and patch an open scene through the editor bridge. For resource work, it "
+"can inspect resources, re-save resources, load a sprite texture, or "
+"update project UIDs when the relevant capability is available."
+msgstr "对于场景工作，Studio 可以提议或创建场景、添加节点、附加脚本、连接信号、应用场景补丁、保存场景变体，并通过编辑器桥接修改已打开的场景。对于资源工作，在相关能力可用时，它可以检查资源、重新保存资源、加载精灵纹理或更新项目 UID。"
+
+#: ../../source/godot/project-work.rst:41
+msgid ""
+"Ask for a proposal before a structural scene change. A request such as "
+"“add a node” is not enough by itself; name the parent node, node type, "
+"desired name, properties, script, and signal connections when those "
+"details matter."
+msgstr "结构性场景变更前，请先要求提案。仅仅说“添加一个节点”是不够的；相关细节重要时，请说明父节点、节点类型、期望名称、属性、脚本和信号连接。"
+
+#: ../../source/godot/project-work.rst:46
+msgid "Project settings and editor state"
+msgstr "项目设置和编辑器状态"
+
+#: ../../source/godot/project-work.rst:48
+msgid ""
+"Studio can read project settings, propose and apply a setting, or propose"
+" and remove a setting. It can also read editor settings summaries, editor"
+" configuration files, the current editor project state, selected nodes, "
+"and recent projects. Editor state is useful context, but it is not a "
+"substitute for checking the saved project files."
+msgstr "Studio 可以读取项目设置、提议并应用设置，或提议并移除设置。它还可以读取编辑器设置摘要、编辑器配置文件、当前编辑器项目状态、选中节点和最近项目。编辑器状态是有用的上下文，但不能替代对已保存项目文件的检查。"
+
+#: ../../source/godot/project-work.rst:55
+msgid "Editor Bridge tools"
+msgstr "编辑器 Bridge 工具"
+
+#: ../../source/godot/project-work.rst:57
+msgid ""
+"When the Godot Daedalus plugin is connected, editor bridge tools can "
+"provide live editor context and typed operations for capabilities such "
+"as:"
+msgstr "当 Godot Daedalus 插件已连接时，编辑器桥接工具可以针对以下能力提供实时编辑器上下文和类型化操作："
+
+#: ../../source/godot/project-work.rst:60
+msgid "scene and resource inspection or patching;"
+msgstr "场景和资源检查或补丁；"
+
+#: ../../source/godot/project-work.rst:61
+msgid "animation, TileMap/GridMap, navigation, and audio operations;"
+msgstr "动画、TileMap/GridMap、导航和音频操作；"
+
+#: ../../source/godot/project-work.rst:62
+msgid "editor navigation and safe previews;"
+msgstr "编辑器导航和安全预览；"
+
+#: ../../source/godot/project-work.rst:63
+msgid "reimport and bake actions where supported by the project and plugin."
+msgstr "项目和插件支持时的重新导入和烘焙操作。"
+
+#: ../../source/godot/project-work.rst:65
+msgid ""
+"The available set is capability-dependent. If a tool is not advertised, "
+"ask the agent to use the static equivalent or explain what must be "
+"enabled."
+msgstr "可用工具集合取决于已声明的能力。如果某个工具未被声明，请让 agent 使用静态等效工具，或说明需要启用什么。"
+
+#: ../../source/godot/project-work.rst:68
+msgid ""
+"Editor-aware previews and operations can include scene-view capture, "
+"animation, TileMap/GridMap, navigation, audio buses, resource loading, "
+"reimport, mesh library export, and bake actions. These operations can be "
+"more powerful than editing a text file, so the agent should show a "
+"proposal or request approval before applying them."
+msgstr "编辑器感知的预览和操作可以包括场景视图捕获、动画、TileMap/GridMap、导航、音频总线、资源加载、重新导入、网格库导出和烘焙操作。这些操作可能比编辑文本文件更强大，因此 agent 应在应用前显示提案或请求审批。"
+
+#: ../../source/godot/project-work.rst:75
+msgid "Verification loop"
+msgstr "验证循环"
+
+#: ../../source/godot/project-work.rst:77
+msgid "For a project change, a useful request follows this loop:"
+msgstr "对于项目变更，一个有用的请求会遵循以下循环："
+
+#: ../../source/godot/project-work.rst:79
+msgid "Inspect the relevant scene, script, resource, or project setting."
+msgstr "检查相关场景、脚本、资源或项目设置。"
+
+#: ../../source/godot/project-work.rst:80
+msgid "Ask for a plan or proposal when the change is structural."
+msgstr "变更具有结构性时，请要求计划或提案。"
+
+#: ../../source/godot/project-work.rst:81
+msgid "Review the patch and approve it when the scope is correct."
+msgstr "审查补丁，确认范围正确后批准。"
+
+#: ../../source/godot/project-work.rst:82
+msgid "Run a targeted Godot or project check."
+msgstr "运行有针对性的 Godot 或项目检查。"
+
+#: ../../source/godot/project-work.rst:83
+msgid "Inspect diagnostics and the final diff."
+msgstr "检查诊断信息和最终 diff。"
+
+#: ../../source/godot/project-work.rst:85
+msgid ""
+"Godot LSP and diagnostics are read-only inputs. The first DAP integration"
+" is also read-only; it does not expose launch, continue, pause, stepping,"
+" breakpoints, evaluation, or arbitrary runtime method calls."
+msgstr "Godot LSP 和诊断是只读输入。第一版 DAP 集成同样是只读的，不提供启动、继续、暂停、单步、断点、求值或任意运行时方法调用。"

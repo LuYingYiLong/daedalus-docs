@@ -1,0 +1,117 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, LuYingYiLong
+# This file is distributed under the same license as the Daedalus Studio
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Daedalus Studio User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-20 02:49+0800\n"
+"PO-Revision-Date: 2026-08-20 02:50+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/godot/setup.rst:2
+msgid "Set Up Godot Integration"
+msgstr "设置 Godot 集成"
+
+#: ../../source/godot/setup.rst:5
+msgid "Requirements"
+msgstr "系统要求"
+
+#: ../../source/godot/setup.rst:7
+msgid ""
+"The bundled Godot editor integration requires Godot 4.5 or newer. Studio "
+"can still hold a workspace and work with ordinary files without a "
+"connected Godot editor, but editor-aware tools and the bundled plugin "
+"depend on a compatible Godot installation."
+msgstr "随附的 Godot 编辑器集成要求 Godot 4.5 或更高版本。即使没有连接 Godot 编辑器，Studio 仍然可以保留工作区并处理普通文件；但编辑器感知工具和随附插件依赖兼容的 Godot 安装。"
+
+#: ../../source/godot/setup.rst:13
+msgid "Select the Godot executable"
+msgstr "选择 Godot 可执行文件"
+
+#: ../../source/godot/setup.rst:15
+msgid ""
+"During first-run setup or from **Settings > General**, select the Godot "
+"executable that Studio should use for project validation and launch "
+"actions. Studio checks the executable and shows the detected version. If "
+"the executable cannot be validated, select the correct binary for your "
+"platform and confirm that it is not blocked or incomplete."
+msgstr "在首次运行设置期间，或从 **Settings > General** 中选择 Studio 用于项目验证和启动操作的 Godot 可执行文件。Studio 会检查该可执行文件并显示检测到的版本。如果无法验证，请为你的平台选择正确的二进制文件，并确认它没有被阻止或安装不完整。"
+
+#: ../../source/godot/setup.rst:22
+msgid "Install the Bridge plugin"
+msgstr "安装 Bridge 插件"
+
+#: ../../source/godot/setup.rst:24
+msgid "Open **Settings > Godot Projects**."
+msgstr "打开 **Settings > Godot Projects**。"
+
+#: ../../source/godot/setup.rst:25
+msgid "Add or rescan the project you want to connect."
+msgstr "添加或重新扫描希望连接的项目。"
+
+#: ../../source/godot/setup.rst:26
+msgid "Confirm that the project targets Godot 4.5 or newer."
+msgstr "确认项目目标版本为 Godot 4.5 或更高版本。"
+
+#: ../../source/godot/setup.rst:27
+msgid "Select the project and choose **Install**."
+msgstr "选择项目并选择 **Install**。"
+
+#: ../../source/godot/setup.rst:28
+msgid "Close and reopen Godot if Studio reports that a plugin change is pending."
+msgstr "如果 Studio 报告插件变更待处理，请关闭并重新打开 Godot。"
+
+#: ../../source/godot/setup.rst:30
+msgid ""
+"The plugin is a lightweight editor client. It connects the Godot editor "
+"to Daedalus tools and diagnostics; it does not replace the project files "
+"or the Godot editor itself."
+msgstr "该插件是轻量级编辑器客户端。它将 Godot 编辑器连接到 Daedalus 工具和诊断功能，不会替代项目文件或 Godot 编辑器本身。"
+
+#: ../../source/godot/setup.rst:35
+msgid "Connection checklist"
+msgstr "连接检查清单"
+
+#: ../../source/godot/setup.rst:37
+msgid "If editor-aware tools are unavailable:"
+msgstr "如果编辑器感知工具不可用："
+
+#: ../../source/godot/setup.rst:39
+msgid "make sure the selected executable points to the expected Godot version;"
+msgstr "确认选定的可执行文件指向预期的 Godot 版本；"
+
+#: ../../source/godot/setup.rst:40
+msgid "open the intended project in that Godot installation;"
+msgstr "在该 Godot 安装中打开目标项目；"
+
+#: ../../source/godot/setup.rst:41
+msgid "confirm the plugin is installed for that project;"
+msgstr "确认该项目已安装插件；"
+
+#: ../../source/godot/setup.rst:42
+msgid "restart Godot after a staged plugin update;"
+msgstr "插件更新暂存后重新启动 Godot；"
+
+#: ../../source/godot/setup.rst:43
+msgid ""
+"check the project and Studio versions in **Settings > About** and the "
+"Godot project status page."
+msgstr "在 **Settings > About** 和 Godot 项目状态页面中检查项目和 Studio 版本。"
+
+#: ../../source/godot/setup.rst:46
+msgid ""
+"Static project tools can still inspect validated files when no editor is "
+"connected. The agent should report when a requested operation needs a "
+"live editor capability that is not available."
+msgstr "没有连接编辑器时，静态项目工具仍可以检查经过验证的文件。如果请求的操作需要当前不可用的实时编辑器能力，agent 应该明确报告。"

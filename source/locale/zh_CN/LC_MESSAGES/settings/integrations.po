@@ -1,0 +1,159 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, LuYingYiLong
+# This file is distributed under the same license as the Daedalus Studio
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Daedalus Studio User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-20 02:49+0800\n"
+"PO-Revision-Date: 2026-08-20 02:50+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/settings/integrations.rst:2
+msgid "Integrations: MCP, Skills, Browser, and Documentation"
+msgstr "集成：MCP、Skill、浏览器与文档"
+
+#: ../../source/settings/integrations.rst:4
+msgid ""
+"Integrations extend what Studio can inspect or do. Enable only the "
+"services you understand and keep their scope narrow."
+msgstr "集成会扩展 Studio 可以检查或执行的内容。只启用你理解的服务，并将其范围保持在最小。"
+
+#: ../../source/settings/integrations.rst:8
+msgid "MCP servers"
+msgstr "MCP server"
+
+#: ../../source/settings/integrations.rst:10
+msgid ""
+"Use **Settings > MCP Servers** to add or manage custom MCP servers. "
+"Before enabling a server, review:"
+msgstr "使用 **Settings > MCP Servers** 添加或管理自定义 MCP server。启用 server 前，请检查："
+
+#: ../../source/settings/integrations.rst:13
+msgid "its URL or local command;"
+msgstr "它的 URL 或本地命令；"
+
+#: ../../source/settings/integrations.rst:14
+msgid "environment variables and headers;"
+msgstr "环境变量和 headers；"
+
+#: ../../source/settings/integrations.rst:15
+msgid "the tools it exposes and their likely side effects;"
+msgstr "它提供的工具及其可能的副作用；"
+
+#: ../../source/settings/integrations.rst:16
+msgid "whether calls will require approval;"
+msgstr "调用是否需要审批；"
+
+#: ../../source/settings/integrations.rst:17
+msgid "whether the server is local, trusted, and maintained by someone you trust."
+msgstr "server 是否为本地、可信，并由你信任的人维护。"
+
+#: ../../source/settings/integrations.rst:19
+msgid ""
+"MCP secrets are sensitive. Keep them in the secret storage supported by "
+"the configuration flow. Do not put them in ordinary settings files or "
+"logs."
+msgstr "MCP secret 属于敏感信息。请将其保存在配置流程支持的 secret store 中。不要将它们放入普通设置文件或日志。"
+
+#: ../../source/settings/integrations.rst:22
+msgid ""
+"The MCP list shows whether a server is **Connected**, **Starting**, "
+"**Failed**, or **Disabled**, and how many tools it exposes. A failed "
+"connection does not necessarily mean the server's command is wrong; check"
+" its URL, transport, environment, and startup output. Deleting a server "
+"also removes its stored secrets, so recreate the configuration only when "
+"you intend to."
+msgstr "MCP 列表会显示 server 是 **Connected**、**Starting**、**Failed** 还是 **Disabled**，以及它提供多少工具。连接失败不一定意味着 server 命令错误；请检查 URL、传输方式、环境和启动输出。删除 server 也会删除其保存的 secret，因此只有在确实打算这样做时才重新创建配置。"
+
+#: ../../source/settings/integrations.rst:29
+msgid "Skills"
+msgstr "Skill"
+
+#: ../../source/settings/integrations.rst:31
+msgid ""
+"Skills provide reusable instructions and workflows. Project and personal "
+"Skills are instructions, not permissions: they cannot grant tools, escape"
+" the workspace, or bypass the approval policy."
+msgstr "Skill 提供可复用的指令和工作流。项目 Skill 和个人 Skill 是指令，而不是权限：它们不能授予工具、逃离工作区或绕过审批策略。"
+
+#: ../../source/settings/integrations.rst:35
+msgid ""
+"Manage Skills from **Settings > Skills**. A project Skill belongs to the "
+"workspace and a personal Skill is available to you across projects. "
+"Review a Skill's contents before enabling it, especially when it asks for"
+" external services or broad file access."
+msgstr "从 **Settings > Skills** 管理 Skill。项目 Skill 属于工作区，个人 Skill 可跨项目使用。启用 Skill 前请审查其内容，尤其是它要求使用外部服务或广泛文件访问时。"
+
+#: ../../source/settings/integrations.rst:40
+msgid ""
+"Skills can be built-in, personal, or project-scoped. You can install one "
+"from a folder or ZIP, import available global Codex Skills, edit its "
+"``SKILL.md``, and delete it. Project Skills are stored under the selected"
+" source folder's ``.github/skills`` directory and therefore appear as "
+"project changes. Personal Skills live in your user directory and are "
+"available across projects."
+msgstr "Skill 可以是内置、个人或项目范围的。你可以从文件夹或 ZIP 安装 Skill，导入可用的全局 Codex Skill，编辑其 ``SKILL.md``，或删除它。项目 Skill 保存在选定源文件夹的 ``.github/skills`` 目录下，因此会显示为项目变更。个人 Skill 位于用户目录中，可以跨项目使用。"
+
+#: ../../source/settings/integrations.rst:46
+msgid ""
+"Studio validates the Skill's frontmatter, instructions, and file size "
+"before saving. An invalid Skill is not a usable Skill. The Skill can "
+"describe a workflow, but it cannot grant itself permissions or bypass "
+"approvals."
+msgstr "Studio 会在保存前验证 Skill 的 frontmatter、指令和文件大小。无效 Skill 不可使用。Skill 可以描述工作流，但不能自行授予权限或绕过审批。"
+
+#: ../../source/settings/integrations.rst:51
+msgid "Browser"
+msgstr "浏览器"
+
+#: ../../source/settings/integrations.rst:53
+msgid ""
+"The integrated browser can be configured from **Settings > Browser**. "
+"Browser automation is an external side effect: review the target page, "
+"credentials, downloads, and actions before approving a run. Keep private "
+"browser profiles separate from project work whenever possible."
+msgstr "可以从 **Settings > Browser** 配置集成浏览器。浏览器自动化会产生外部副作用：批准运行前，请审查目标页面、凭据、下载和操作。请尽可能将私密浏览器配置文件与项目工作分开。"
+
+#: ../../source/settings/integrations.rst:59
+msgid "Offline Godot documentation"
+msgstr "离线 Godot 文档"
+
+#: ../../source/settings/integrations.rst:61
+msgid ""
+"Use **Settings > Documentation** to install an official Godot "
+"documentation branch, build its local search index, enable search, repair"
+" an unhealthy index, or remove a version you no longer need. Offline "
+"documentation is useful when you want the agent to verify Godot APIs "
+"without web access."
+msgstr "使用 **Settings > Documentation** 安装官方 Godot 文档分支、构建本地搜索索引、启用搜索、修复不健康的索引，或移除不再需要的版本。当你希望 agent 在没有网页访问的情况下验证 Godot API 时，离线文档很有用。"
+
+#: ../../source/settings/integrations.rst:66
+msgid ""
+"Installation can download, extract, index, validate, and roll back. Let "
+"the operation finish or use the provided cancellation action; do not "
+"manually delete a partially indexed directory while Studio is running."
+msgstr "安装过程可能包括下载、解压、建立索引、验证和回滚。请等待操作完成，或使用提供的取消操作；Studio 运行时不要手动删除部分建立索引的目录。"
+
+#: ../../source/settings/integrations.rst:71
+msgid "Development environments and hooks"
+msgstr "开发环境和 Hook"
+
+#: ../../source/settings/integrations.rst:73
+msgid ""
+"Development environments and Hooks have their own detailed guide in :doc"
+":`workspace-tools`. In both cases, treat setup scripts, lifecycle "
+"commands, and hook commands as code execution. Review the command, "
+"network behavior, failure policy, and files it can touch before enabling "
+"it."
+msgstr "开发环境和 Hook 在 :doc:`workspace-tools` 中有各自的详细指南。无论哪一种，都应将设置脚本、生命周期命令和 Hook 命令视为代码执行。启用前，请审查命令、网络行为、失败策略以及它可能触及的文件。"

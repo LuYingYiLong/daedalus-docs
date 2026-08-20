@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, LuYingYiLong
+# This file is distributed under the same license as the Daedalus Studio
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Daedalus Studio User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-20 02:49+0800\n"
+"PO-Revision-Date: 2026-08-20 02:49+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/getting-started/first-session.rst:2
+msgid "Create Your First Session"
+msgstr "创建你的第一个会话"
+
+#: ../../source/getting-started/first-session.rst:4
+msgid ""
+"Open Studio and add a workspace from the workspace switcher. Choose the "
+"project directory you want the agent to work in."
+msgstr "打开 Studio，并通过工作区切换器添加工作区。选择你希望 agent 在其中工作的项目目录。"
+
+#: ../../source/getting-started/first-session.rst:6
+msgid "Create a new session."
+msgstr "创建一个新会话。"
+
+#: ../../source/getting-started/first-session.rst:7
+msgid ""
+"Select a configured provider and model in the composer. The model menu is"
+" populated at runtime from the backend and shows capability badges when "
+"the provider reports them."
+msgstr "在 Composer 中选择已配置的供应商和模型。模型菜单会在运行时从后端获取；当供应商提供能力信息时，菜单会显示相应的能力标记。"
+
+#: ../../source/getting-started/first-session.rst:10
+msgid ""
+"Select a mode. Use **Ask** for an explanation, **Agent** for a bounded "
+"task that may use tools, **Plan** for a proposed sequence of work, or "
+"**Goal** for a longer-running objective. See :doc:`../agent/modes`."
+msgstr "选择一种模式。需要解释时使用 **Ask**，需要 agent 使用工具完成范围明确的任务时使用 **Agent**，需要先查看工作步骤时使用 **Plan**，需要处理持续时间较长的目标时使用 **Goal**。请参阅 :doc:`../agent/modes`。"
+
+#: ../../source/getting-started/first-session.rst:13
+msgid ""
+"Describe one outcome in plain language. Mention the relevant scene, "
+"script, test command, or constraint when you know it."
+msgstr "用自然语言描述一个结果。知道相关场景、脚本、测试命令或约束条件时，请一并说明。"
+
+#: ../../source/getting-started/first-session.rst:15
+msgid ""
+"Add context only if the task needs it. You can attach files, folders, or "
+"images from the composer."
+msgstr "仅在任务需要时添加上下文。你可以从 Composer 附加文件、文件夹或图像。"
+
+#: ../../source/getting-started/first-session.rst:17
+msgid ""
+"Send the request and watch the timeline. Review tool inputs, proposed "
+"changes, terminal output, and verification status before continuing."
+msgstr "发送请求并观察时间线。继续操作前，请审查工具输入、提议的变更、终端输出和验证状态。"
+
+#: ../../source/getting-started/first-session.rst:21
+msgid "A good first request"
+msgstr "一个好的首次请求"
+
+#: ../../source/getting-started/first-session.rst:23
+msgid "Prefer a request with a visible acceptance condition, for example::"
+msgstr "优先使用带有明确验收条件的请求，例如："
+
+#: ../../source/getting-started/first-session.rst:29
+msgid ""
+"This gives the agent a target, a safety constraint, and a way to verify "
+"the result. If you already know that a file should change, name the file "
+"and say what behavior should be different."
+msgstr "这样可以为 agent 提供目标、安全约束以及验证结果的方法。如果你已经知道应该修改哪个文件，请写出文件名，并说明行为应如何变化。"
+
+#: ../../source/getting-started/first-session.rst:34
+msgid "If the agent needs more information"
+msgstr "如果 agent 需要更多信息"
+
+#: ../../source/getting-started/first-session.rst:36
+msgid ""
+"The composer can show a context-budget estimate and the session can keep "
+"attachments and plans. Prefer a small, relevant selection over attaching "
+"the whole repository. You can ask the agent to inspect the workspace "
+"first and then attach the files it identifies as relevant."
+msgstr "Composer 可以显示上下文预算估算，会话也可以保留附件和计划。相比附加整个仓库，更推荐选择少量且相关的内容。你可以先让 agent 检查工作区，再附加它识别出的相关文件。"
+
+#: ../../source/getting-started/first-session.rst:41
+msgid ""
+"When a run finishes, the session remains available in the workspace tree."
+" You can continue it, start a fresh session for a separate task, or "
+"archive it without losing its history."
+msgstr "一次运行结束后，会话仍会保留在工作区树中。你可以继续该会话，为其他任务启动全新会话，或将其归档而不丢失历史记录。"

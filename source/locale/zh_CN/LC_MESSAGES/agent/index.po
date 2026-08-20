@@ -1,0 +1,38 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, LuYingYiLong
+# This file is distributed under the same license as the Daedalus Studio
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Daedalus Studio User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-20 02:49+0800\n"
+"PO-Revision-Date: 2026-08-20 02:49+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/agent/index.rst:2
+msgid "Use the Daedalus Agent"
+msgstr "使用 Daedalus Agent"
+
+#: ../../source/agent/index.rst:4
+msgid ""
+"Studio gives the agent a controlled path from a request to a reviewable "
+"project result."
+msgstr "Studio 为 agent 提供了一条受控路径，让请求最终形成可审查的项目结果。"
+
+#: ../../source/agent/index.rst:17
+msgid ""
+"The agent can answer directly, inspect a project, propose a plan, edit "
+"files, run verification, and report evidence. It is not a replacement for"
+" your code review: use the timeline and Git diff to decide whether the "
+"result is correct."
+msgstr "agent 可以直接回答问题、检查项目、提议计划、编辑文件、运行验证并报告证据。它不能替代你的代码审查：请使用时间线和 Git diff 判断结果是否正确。"

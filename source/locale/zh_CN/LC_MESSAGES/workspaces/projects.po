@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, LuYingYiLong
+# This file is distributed under the same license as the Daedalus Studio
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Daedalus Studio User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-20 02:49+0800\n"
+"PO-Revision-Date: 2026-08-20 02:50+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/workspaces/projects.rst:2
+msgid "Add and Manage Workspaces"
+msgstr "添加和管理工作区"
+
+#: ../../source/workspaces/projects.rst:4
+msgid ""
+"A workspace is the project boundary used by Studio's file, Git, Godot, "
+"and terminal tools. The agent cannot use a path outside the allowed "
+"workspace roots simply because a model requested it."
+msgstr "工作区是 Studio 文件、Git、Godot 和终端工具使用的项目边界。即使模型提出请求，agent 也不能因此使用允许的工作区根目录之外的路径。"
+
+#: ../../source/workspaces/projects.rst:9
+msgid "Add a workspace"
+msgstr "添加工作区"
+
+#: ../../source/workspaces/projects.rst:11
+msgid "Open the workspace menu in the composer or workspace sidebar."
+msgstr "打开 Composer 或工作区侧栏中的工作区菜单。"
+
+#: ../../source/workspaces/projects.rst:12
+msgid "Choose **Add workspace**."
+msgstr "选择 **Add workspace**。"
+
+#: ../../source/workspaces/projects.rst:13
+msgid "Select the project directory."
+msgstr "选择项目目录。"
+
+#: ../../source/workspaces/projects.rst:14
+msgid "Give the workspace a recognizable name and save it."
+msgstr "为工作区设置一个易于识别的名称并保存。"
+
+#: ../../source/workspaces/projects.rst:16
+msgid ""
+"For a Godot project, choose the directory containing ``project.godot``. "
+"Studio can then resolve Godot project paths such as "
+"``res://scripts/player.gd`` while keeping the real filesystem path inside"
+" the configured root."
+msgstr "对于 Godot 项目，请选择包含 ``project.godot`` 的目录。这样 Studio 就能解析 ``res://scripts/player.gd`` 等 Godot 项目路径，同时确保实际文件系统路径位于配置的根目录内。"
+
+#: ../../source/workspaces/projects.rst:21
+msgid "Multi-root projects"
+msgstr "多根项目"
+
+#: ../../source/workspaces/projects.rst:23
+msgid ""
+"A workspace can contain more than one source folder. This is useful when "
+"a project is split across a game repository, a shared package, and a "
+"tools repository. Mark the folder that identifies the project as "
+"**Primary**, and keep each additional folder explicit so the agent knows "
+"which paths are in scope."
+msgstr "一个工作区可以包含多个源文件夹。当项目分布在游戏仓库、共享包和工具仓库中时，这很有用。将用于标识项目的文件夹标记为 **Primary**，并明确列出其他文件夹，让 agent 知道哪些路径在范围内。"
+
+#: ../../source/workspaces/projects.rst:29
+msgid ""
+"If you add the same folder twice, Studio rejects the duplicate. Removing "
+"a source folder from the workspace does not delete that folder from disk,"
+" but it does change which files future tools can see."
+msgstr "如果两次添加同一个文件夹，Studio 会拒绝重复项。从工作区移除源文件夹不会删除磁盘上的文件夹，但会改变后续工具可以看到的文件。"
+
+#: ../../source/workspaces/projects.rst:34
+msgid "Workspace tree"
+msgstr "工作区树"
+
+#: ../../source/workspaces/projects.rst:36
+msgid ""
+"The workspace tree helps you find sessions by state. Depending on the "
+"current activity, you may see pinned, recent, running, archived, or "
+"unread sessions. An unread indicator means a run completed or changed "
+"state while you were looking at another session."
+msgstr "工作区树可以帮助你按状态查找会话。根据当前活动，你可能会看到已置顶、最近使用、运行中、已归档或未读的会话。未读标记表示某次运行在你查看其他会话时完成或改变了状态。"
+
+#: ../../source/workspaces/projects.rst:42
+msgid "Renaming and appearance"
+msgstr "重命名和外观"
+
+#: ../../source/workspaces/projects.rst:44
+msgid ""
+"Use workspace actions to rename a workspace or change its icon and color."
+" The appearance is organizational metadata; it does not change the "
+"project on disk."
+msgstr "使用工作区操作重命名工作区，或更改其图标和颜色。外观属于组织元数据，不会改变磁盘上的项目。"
+
+#: ../../source/workspaces/projects.rst:49
+msgid "Removing a workspace"
+msgstr "移除工作区"
+
+#: ../../source/workspaces/projects.rst:51
+msgid ""
+"Removing a workspace from Studio removes its registration from the "
+"workspace tree and does not delete project files. Before deleting one, "
+"check its session policy: sessions may be moved to another matching "
+"project when possible, but unmatched sessions may be permanently deleted."
+" Export important sessions or move them to a matching workspace before "
+"confirming."
+msgstr "从 Studio 移除工作区会将其从工作区树中注销，但不会删除项目文件。移除前请检查会话策略：如果可能，会话可能会移动到另一个匹配的项目；但无法匹配的会话可能会被永久删除。确认前，请导出重要会话，或将它们移动到匹配的工作区。"
+
+#: ../../source/workspaces/projects.rst:58
+msgid "Git and worktrees"
+msgstr "Git 和 worktree"
+
+#: ../../source/workspaces/projects.rst:60
+msgid ""
+"Studio can show Git changes for the current workspace and provides a diff"
+" review surface. If you use Git worktrees, the **Worktrees** Settings "
+"page can manage worktree preferences and cleanup behavior. Review the "
+"selected root and automatic deletion options carefully before enabling "
+"cleanup."
+msgstr "Studio 可以显示当前工作区的 Git 变更，并提供 diff 审查界面。如果你使用 Git worktree，可以在 **Worktrees** 设置页面管理 worktree 偏好设置和清理行为。启用清理前，请仔细检查选定的根目录和自动删除选项。"

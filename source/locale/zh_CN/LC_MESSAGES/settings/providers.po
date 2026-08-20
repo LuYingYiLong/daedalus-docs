@@ -1,0 +1,244 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, LuYingYiLong
+# This file is distributed under the same license as the Daedalus Studio
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Daedalus Studio User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-20 02:49+0800\n"
+"PO-Revision-Date: 2026-08-20 02:50+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/settings/providers.rst:2
+msgid "Providers and Models"
+msgstr "供应商和模型"
+
+#: ../../source/settings/providers.rst:4
+msgid ""
+"Studio obtains the effective provider and model list from the backend at "
+"runtime. This means the model menu can reflect provider discovery, local "
+"overrides, and disabled models instead of relying on one hard-coded list."
+msgstr "Studio 会在运行时从后端获取实际供应商和模型列表。这意味着模型菜单可以反映供应商发现结果、本地覆盖和已禁用模型，而不依赖一份硬编码列表。"
+
+#: ../../source/settings/providers.rst:9
+msgid "Configure a provider"
+msgstr "配置供应商"
+
+#: ../../source/settings/providers.rst:11
+msgid "Open **Settings > Provider**."
+msgstr "打开 **Settings > Provider**。"
+
+#: ../../source/settings/providers.rst:12
+msgid "Choose a built-in provider or add a compatible custom provider."
+msgstr "选择内置供应商，或添加兼容的自定义供应商。"
+
+#: ../../source/settings/providers.rst:13
+msgid "Enter the API key and, when required, the API base URL."
+msgstr "输入 API key，并在需要时输入 API base URL。"
+
+#: ../../source/settings/providers.rst:14
+msgid "Test the connection."
+msgstr "测试连接。"
+
+#: ../../source/settings/providers.rst:15
+msgid "Save the provider and select at least one model."
+msgstr "保存供应商，并至少选择一个模型。"
+
+#: ../../source/settings/providers.rst:16
+msgid "Open **Settings > Default model** and choose the model for new sessions."
+msgstr "打开 **Settings > Default model**，选择新会话使用的模型。"
+
+#: ../../source/settings/providers.rst:18
+msgid ""
+"The same provider and model can be changed per session from the composer."
+" Provider model entries may show capabilities such as reasoning, image "
+"input, or web search. A capability badge describes what the provider "
+"reports; it is not a guarantee that every request will succeed."
+msgstr "可以在 Composer 中按会话更改供应商和模型。供应商模型条目可能显示推理、图像输入或网页搜索等能力。能力标记描述的是供应商报告的能力，并不保证每个请求都会成功。"
+
+#: ../../source/settings/providers.rst:24
+msgid "Manage the model list"
+msgstr "管理模型列表"
+
+#: ../../source/settings/providers.rst:26
+msgid ""
+"The Provider page can load models from the provider, import selected "
+"models, refresh the list, and add a model manually when the provider does"
+" not expose a model-list endpoint. Search by model ID or display name "
+"before importing."
+msgstr "Provider 页面可以从供应商加载模型、导入选定模型、刷新列表；当供应商没有提供模型列表 endpoint 时，也可以手动添加模型。导入前请按模型 ID 或显示名称搜索。"
+
+#: ../../source/settings/providers.rst:30
+msgid ""
+"You can enable or disable a provider and remove models from the available"
+" list. Studio prevents you from removing or disabling a model that is "
+"still the active model, a task route, or the Web Search model. Choose a "
+"replacement in **Default model** or **Search** first."
+msgstr "你可以启用或禁用供应商，也可以从可用列表中移除模型。对于仍是活动模型、任务路由模型或 Web Search 模型的模型，Studio 会阻止移除或禁用。请先在 **Default model** 或 **Search** 中选择替代模型。"
+
+#: ../../source/settings/providers.rst:36
+msgid "Local model overrides"
+msgstr "本地模型覆盖"
+
+#: ../../source/settings/providers.rst:38
+msgid ""
+"The catalog supplies names, context limits, output limits, capabilities, "
+"and reasoning levels. A local override changes what Studio displays or "
+"uses on this computer. Fields you leave as **Follow source** continue to "
+"receive future catalog updates. Use **Reset all to source** when local "
+"metadata has become confusing."
+msgstr "目录提供名称、上下文限制、输出限制、能力和推理级别。本地覆盖会改变 Studio 在这台电脑上显示或使用的内容。保留为 **Follow source** 的字段会继续接收未来的目录更新。本地元数据变得混乱时，使用 **Reset all to source**。"
+
+#: ../../source/settings/providers.rst:45
+msgid "Custom provider compatibility"
+msgstr "自定义供应商兼容性"
+
+#: ../../source/settings/providers.rst:47
+msgid "Custom providers can use one of the supported compatibility shapes:"
+msgstr "自定义供应商可以使用以下受支持的兼容形态之一："
+
+#: ../../source/settings/providers.rst:49
+msgid "OpenAI-compatible Chat Completions;"
+msgstr "兼容 OpenAI 的 Chat Completions；"
+
+#: ../../source/settings/providers.rst:50
+msgid "OpenAI Responses;"
+msgstr "OpenAI Responses；"
+
+#: ../../source/settings/providers.rst:51
+msgid "Anthropic-compatible Messages."
+msgstr "兼容 Anthropic 的 Messages。"
+
+#: ../../source/settings/providers.rst:53
+msgid ""
+"Use the endpoint and model identifiers required by your provider. If the "
+"provider exposes request options that Studio does not understand, keep "
+"the request configuration conservative and test a small conversation "
+"before using it for writes."
+msgstr "使用供应商要求的 endpoint 和模型标识符。如果供应商提供了 Studio 不理解的请求选项，请保持请求配置保守，并在用于写入前测试一个小型对话。"
+
+#: ../../source/settings/providers.rst:59
+msgid "Custom request settings"
+msgstr "自定义请求设置"
+
+#: ../../source/settings/providers.rst:61
+msgid ""
+"The **Custom request** editor lets you add provider-specific top-level "
+"``headers`` and ``body`` fields for text-model requests. Studio keeps "
+"authentication, model, messages, tools, and streaming fields under its "
+"own control; reserved fields are rejected when you save. Use the "
+"provider's documentation to decide which extra fields are safe and test a"
+" small Ask request before enabling a write-capable workflow."
+msgstr "**Custom request** 编辑器允许你为文本模型请求添加供应商专属的顶层 ``headers`` 和 ``body`` 字段。Studio 会自行控制身份验证、模型、消息、工具和流式字段；保存时会拒绝保留字段。请参考供应商文档判断哪些额外字段安全，并在启用可写工作流前测试一个小型 Ask 请求。"
+
+#: ../../source/settings/providers.rst:69
+msgid "Provider-specific reasoning levels"
+msgstr "供应商专属推理级别"
+
+#: ../../source/settings/providers.rst:71
+msgid ""
+"Some models accept named reasoning values that do not use Studio's names."
+" The Provider page lets you define provider values and map them to "
+"equivalent levels such as Low, Medium, High, or Maximum. Only configure "
+"these values when the provider documents them; a wrong mapping can make a"
+" request fail or use a different reasoning strength than expected."
+msgstr "某些模型接受不使用 Studio 名称的命名推理值。Provider 页面允许你定义供应商值，并将它们映射到 Low、Medium、High 或 Maximum 等等效级别。只有在供应商文档明确说明时才配置这些值；错误映射可能导致请求失败，或使用与预期不同的推理强度。"
+
+#: ../../source/settings/providers.rst:78
+msgid "Task-specific model routing"
+msgstr "任务专属模型路由"
+
+#: ../../source/settings/providers.rst:80
+msgid ""
+"**Settings > Default model** can assign separate models to background "
+"tasks:"
+msgstr "**Settings > Default model** 可以为后台任务分配独立模型："
+
+#: ../../source/settings/providers.rst:82
+msgid "session title generation;"
+msgstr "生成会话标题；"
+
+#: ../../source/settings/providers.rst:83
+msgid "next-step suggestions in the empty composer;"
+msgstr "空 Composer 中的下一步建议；"
+
+#: ../../source/settings/providers.rst:84
+msgid "Goal completion evaluation;"
+msgstr "Goal 完成评估；"
+
+#: ../../source/settings/providers.rst:85
+msgid "context compression;"
+msgstr "上下文压缩；"
+
+#: ../../source/settings/providers.rst:86
+msgid "image recognition when the active model cannot read images;"
+msgstr "活动模型无法读取图像时的图像识别；"
+
+#: ../../source/settings/providers.rst:87
+msgid "image generation and editing;"
+msgstr "图像生成和编辑；"
+
+#: ../../source/settings/providers.rst:88
+msgid "Git commit message generation;"
+msgstr "生成 Git 提交消息；"
+
+#: ../../source/settings/providers.rst:89
+msgid "command review in Auto-safe mode."
+msgstr "Auto-safe 模式中的命令审查。"
+
+#: ../../source/settings/providers.rst:91
+msgid ""
+"When a route is unset, it normally follows the active or main model. Some"
+" routes deliberately disable reasoning. Set a route only when you "
+"understand why a different model is useful."
+msgstr "未设置路由时，通常会跟随活动模型或主模型。某些路由会有意禁用推理。只有在理解使用不同模型的原因时，才设置路由。"
+
+#: ../../source/settings/providers.rst:96
+msgid "Keys and troubleshooting"
+msgstr "密钥和故障排查"
+
+#: ../../source/settings/providers.rst:98
+msgid ""
+"API keys are stored through the operating-system credential store and are"
+" not written to ordinary Daedalus JSON configuration. Do not paste a key "
+"into a prompt, custom instruction, issue report, or screenshot."
+msgstr "API key 会通过操作系统凭据存储保存，不会写入普通 Daedalus JSON 配置。不要将 key 粘贴到提示词、自定义指令、issue 报告或截图中。"
+
+#: ../../source/settings/providers.rst:102
+msgid ""
+"If testing fails, verify the endpoint, account permissions, model "
+"identifier, network access, and provider-specific request settings. A "
+"successful test only shows that the configured connection responded; it "
+"does not validate tool calling, image input, reasoning, or web search for"
+" every model."
+msgstr "如果测试失败，请验证 endpoint、账号权限、模型标识符、网络访问和供应商专属请求设置。测试成功只能说明已配置的连接返回了响应；它不会验证每个模型的工具调用、图像输入、推理或网页搜索能力。"
+
+#: ../../source/settings/providers.rst:108
+msgid "Web search"
+msgstr "网页搜索"
+
+#: ../../source/settings/providers.rst:110
+msgid ""
+"Web search is an explicit, separately configured operation. It stays "
+"disabled until its provider and settings are ready. A model marked as "
+"search-capable does not automatically grant web access."
+msgstr "网页搜索是一项明确且单独配置的操作。在其供应商和设置准备好之前，它会保持禁用。标记为支持搜索的模型不会自动获得网页访问权限。"
+
+#: ../../source/settings/providers.rst:114
+msgid ""
+"Configure search in **Settings > Search** by enabling it, selecting the "
+"provider-native search model, choosing a default result count, and "
+"limiting the number of generated keywords. A higher keyword limit may "
+"improve recall but can increase provider charges; check the provider's "
+"pricing before enabling it for every conversation."
+msgstr "在 **Settings > Search** 中配置搜索：启用搜索、选择供应商原生搜索模型、选择默认结果数量，并限制生成关键词的数量。更高的关键词上限可能提高召回率，但也会增加供应商费用；为每个对话启用前请先查看供应商定价。"

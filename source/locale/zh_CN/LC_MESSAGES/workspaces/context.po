@@ -1,0 +1,112 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, LuYingYiLong
+# This file is distributed under the same license as the Daedalus Studio
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Daedalus Studio User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-20 02:49+0800\n"
+"PO-Revision-Date: 2026-08-20 02:50+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/workspaces/context.rst:2
+msgid "Add Context Without Overloading the Session"
+msgstr "添加上下文而不过载会话"
+
+#: ../../source/workspaces/context.rst:4
+msgid ""
+"The agent can work from the workspace boundary, the conversation, and "
+"additional context you explicitly attach. Good context is specific enough"
+" to answer the question without filling the model's budget with unrelated"
+" files."
+msgstr "agent 可以依据工作区边界、对话以及你明确附加的额外上下文工作。好的上下文应当足够具体，能够回答问题，同时不会用无关文件填满模型预算。"
+
+#: ../../source/workspaces/context.rst:9
+msgid "Attach context"
+msgstr "附加上下文"
+
+#: ../../source/workspaces/context.rst:11
+msgid "From the composer, add:"
+msgstr "你可以从 Composer 添加："
+
+#: ../../source/workspaces/context.rst:13
+msgid "individual files when you know the implementation location;"
+msgstr "知道实现位置时，添加单个文件；"
+
+#: ../../source/workspaces/context.rst:14
+msgid "a folder when several files form one small feature;"
+msgstr "多个文件共同组成一个小功能时，添加一个文件夹；"
+
+#: ../../source/workspaces/context.rst:15
+msgid "images when the task depends on a visual reference or captured result."
+msgstr "任务依赖视觉参考或截图结果时，添加图像。"
+
+#: ../../source/workspaces/context.rst:17
+msgid ""
+"You can also refer to a path in the workspace, a Godot scene, or a "
+"resource in your request. Keep the path inside the selected workspace and"
+" use Godot's ``res://`` form when it makes the target unambiguous."
+msgstr "你也可以在请求中引用工作区路径、Godot 场景或资源。请确保路径位于所选工作区内；当目标不够明确时，使用 Godot 的 ``res://`` 形式。"
+
+#: ../../source/workspaces/context.rst:22
+msgid "Context budget"
+msgstr "上下文预算"
+
+#: ../../source/workspaces/context.rst:24
+msgid ""
+"Long histories and large attachments consume the selected model's context"
+" budget. Studio exposes an estimate with categories such as system and "
+"tools, history, current message, additional context, reserved output, and"
+" safety margin."
+msgstr "较长的历史记录和较大的附件会消耗所选模型的上下文预算。Studio 会显示估算值，并列出系统与工具、历史记录、当前消息、额外上下文、预留输出和安全余量等类别。"
+
+#: ../../source/workspaces/context.rst:29
+msgid "If the estimate is high:"
+msgstr "如果估算值较高："
+
+#: ../../source/workspaces/context.rst:31
+msgid "Remove attachments that do not affect the task."
+msgstr "移除与任务无关的附件。"
+
+#: ../../source/workspaces/context.rst:32
+msgid "Ask for a focused inspection instead of attaching a whole repository."
+msgstr "请求进行有针对性的检查，而不是附加整个仓库。"
+
+#: ../../source/workspaces/context.rst:33
+msgid "Start a fresh session when the task has changed substantially."
+msgstr "任务发生较大变化时，启动一个全新会话。"
+
+#: ../../source/workspaces/context.rst:34
+msgid ""
+"Use session compression when Studio makes it available and the older "
+"details are no longer needed verbatim."
+msgstr "当 Studio 提供会话压缩功能，且不再需要逐字保留旧细节时，使用会话压缩。"
+
+#: ../../source/workspaces/context.rst:37
+msgid ""
+"Compression summarizes eligible history; it does not make an active run "
+"safe to interrupt or grant access to files that were not already in "
+"scope."
+msgstr "压缩会总结符合条件的历史记录；它不会让正在运行的任务可以安全中断，也不会授予对原本不在范围内文件的访问权限。"
+
+#: ../../source/workspaces/context.rst:41
+msgid "Protect private context"
+msgstr "保护私密上下文"
+
+#: ../../source/workspaces/context.rst:43
+msgid ""
+"Do not attach API keys, MCP secrets, private certificates, or unrelated "
+"personal documents. Review pasted logs for local usernames, absolute "
+"paths, tokens, and project-specific secrets before sharing them with a "
+"provider."
+msgstr "不要附加 API key、MCP secret、私有证书或无关的个人文档。向供应商分享粘贴的日志前，请检查其中是否包含本机用户名、绝对路径、令牌和项目专属 secret。"

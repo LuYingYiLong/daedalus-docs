@@ -1,0 +1,151 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, LuYingYiLong
+# This file is distributed under the same license as the Daedalus Studio
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Daedalus Studio User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-20 02:49+0800\n"
+"PO-Revision-Date: 2026-08-20 02:49+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/agent/goals.rst:2
+msgid "Run a Goal with Progress Tracking"
+msgstr "运行带进度跟踪的 Goal"
+
+#: ../../source/agent/goals.rst:4
+msgid ""
+"A Goal is for an outcome that may need several rounds of inspection, "
+"editing, and verification. It is more persistent than a single message "
+"and more outcome-focused than a short Plan."
+msgstr "Goal 用于需要多轮检查、编辑和验证才能达成的结果。它比单条消息更持久，也比短 Plan 更关注最终结果。"
+
+#: ../../source/agent/goals.rst:9
+msgid "Write a good Goal"
+msgstr "编写好的 Goal"
+
+#: ../../source/agent/goals.rst:11
+msgid "Describe the result in a way that another person could check. Include:"
+msgstr "以他人可以检查的方式描述结果。请包含："
+
+#: ../../source/agent/goals.rst:13
+msgid "the project area and the behavior to change;"
+msgstr "项目区域和要修改的行为；"
+
+#: ../../source/agent/goals.rst:14
+msgid "important constraints, such as Godot version or files to preserve;"
+msgstr "重要约束，例如 Godot 版本或必须保留的文件；"
+
+#: ../../source/agent/goals.rst:15
+msgid ""
+"what “done” means, such as a test, scene run, or diagnostic with no "
+"errors."
+msgstr "“完成”的含义，例如测试通过、场景运行成功或诊断无错误。"
+
+#: ../../source/agent/goals.rst:17
+msgid "For example::"
+msgstr "例如："
+
+#: ../../source/agent/goals.rst:24
+msgid "Goal status"
+msgstr "Goal 状态"
+
+#: ../../source/agent/goals.rst:26
+msgid ""
+"The Goal panel shows status, cycles, tokens, active time, readiness, "
+"evaluation, and the current workflow. Common stages include:"
+msgstr "Goal 面板显示状态、周期、token、活动时间、就绪状态、评估结果和当前工作流。常见阶段包括："
+
+#: ../../source/agent/goals.rst:29
+msgid "**Checking readiness** — Studio is making sure the goal can start;"
+msgstr "**Checking readiness** — Studio 正在确认 Goal 可以开始；"
+
+#: ../../source/agent/goals.rst:30
+msgid "**Running** — the agent is executing work;"
+msgstr "**Running** — agent 正在执行工作；"
+
+#: ../../source/agent/goals.rst:31
+msgid "**Evaluating** — the completion evaluator is checking the result;"
+msgstr "**Evaluating** — 完成评估器正在检查结果；"
+
+#: ../../source/agent/goals.rst:32
+msgid ""
+"**Awaiting approval** or **Awaiting tool budget** — you must decide how "
+"to continue;"
+msgstr "**Awaiting approval** 或 **Awaiting tool budget** — 你必须决定如何继续；"
+
+#: ../../source/agent/goals.rst:34
+msgid "**Paused** — execution is stopped but the Goal is still available;"
+msgstr "**Paused** — 执行已停止，但 Goal 仍然可用；"
+
+#: ../../source/agent/goals.rst:35
+msgid ""
+"**Achieved**, **Failed**, or **Cancelled** — the Goal reached a terminal "
+"state."
+msgstr "**Achieved**、**Failed** 或 **Cancelled** — Goal 到达终止状态。"
+
+#: ../../source/agent/goals.rst:39
+msgid "Todo steps and changed files"
+msgstr "Todo 步骤和变更文件"
+
+#: ../../source/agent/goals.rst:41
+msgid ""
+"Long workflows can show a Todo list with current and completed steps. The"
+" panel can also summarize which files changed. Treat both as navigation "
+"aids: open the actual diff and verification output before deciding the "
+"Goal is safe to keep."
+msgstr "较长的工作流可以显示包含当前步骤和已完成步骤的 Todo 列表。面板还可以总结哪些文件发生了变化。请将二者都视为导航辅助：决定是否安全保留 Goal 结果前，请打开实际 diff 和验证输出。"
+
+#: ../../source/agent/goals.rst:47
+msgid "Pause, resume, and cancel"
+msgstr "暂停、恢复和取消"
+
+#: ../../source/agent/goals.rst:49
+msgid ""
+"Use **Pause** when you want to inspect the current state before the next "
+"cycle. Use **Resume** after reviewing the diff and pending decisions. "
+"**Cancel** stops the Goal after the current safe operation finishes; "
+"existing workspace changes are kept."
+msgstr "希望在下一周期前检查当前状态时，使用 **Pause**。审查 diff 和待处理决策后，使用 **Resume**。**Cancel** 会在当前安全操作完成后停止 Goal；现有工作区变更会保留。"
+
+#: ../../source/agent/goals.rst:54
+msgid ""
+"If the Goal needs more time, **Add budget** can add cycles, tokens, or "
+"active minutes. A larger budget gives the run more room; it does not fix "
+"an unclear request or a wrong workspace."
+msgstr "如果 Goal 需要更多时间，**Add budget** 可以增加周期、token 或活动分钟数。更大的预算会为运行提供更多空间，但不能修复不清晰的请求或错误的工作区。"
+
+#: ../../source/agent/goals.rst:59
+msgid "Rollback"
+msgstr "回滚"
+
+#: ../../source/agent/goals.rst:61
+msgid ""
+"When tracked changes can be restored safely, **Roll back** restores the "
+"tracked files to their state before the Goal. Rollback may be unavailable"
+" for some changes, such as files changed outside the tracked set or "
+"changes that cannot be restored confidently. Always inspect Git status "
+"after a rollback."
+msgstr "当跟踪的变更可以安全恢复时，**Roll back** 会将跟踪文件恢复到 Goal 开始前的状态。对于某些变更，回滚可能不可用，例如修改了跟踪集合之外的文件，或无法有把握地恢复的变更。回滚后请始终检查 Git status。"
+
+#: ../../source/agent/goals.rst:67
+msgid "When to use Agent instead"
+msgstr "何时改用 Agent"
+
+#: ../../source/agent/goals.rst:69
+msgid ""
+"Use **Agent** for one bounded edit or check. Use **Goal** when the task "
+"can naturally be divided into cycles and you want a visible completion "
+"judgment. For a risky multi-file refactor, start with **Plan** and "
+"approve the plan before converting the work into execution."
+msgstr "单次范围明确的编辑或检查使用 **Agent**。任务可以自然拆分为多个周期，并且你希望看到明确完成判断时，使用 **Goal**。对于高风险的多文件重构，请先使用 **Plan**，批准计划后再转入执行。"
