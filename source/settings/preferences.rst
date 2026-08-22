@@ -4,26 +4,33 @@ Preferences and Maintenance
 The Settings window also includes preferences that shape how Studio feels and
 how it keeps your workspace organized.
 
-General and appearance
-----------------------
+General
+-------
 
-Use **General** and **Appearance** to configure interface behavior, fonts,
-theme, Godot defaults, notifications, and other client preferences. These
-preferences affect Studio's presentation and local behavior; they do not
-rewrite your Godot project.
+Use **Settings > General** for language and general Studio behavior. These
+preferences affect Studio's local behavior; they do not rewrite your Godot
+project.
 
-General settings can also control whether Studio checks for updates, minimizes
-to the system tray when closed, and which Godot executable is used when a
-workspace does not provide its own path. A workspace-specific path takes
-precedence over the general default. You can also choose the display language
-or follow the system default. General settings also include whether to show a
-system notification when a background AI reply finishes and whether to show a
-next-step suggestion in the empty composer.
+General settings include:
 
-Appearance settings control the application theme and accent color, dynamic
-effects, UI font size, body font, and code font used by the editor and
-terminal. If text is hard to read, change the font size rather than adding
-formatting instructions to every request.
+* the display language, with a system-default option;
+* a system notification when a background AI reply finishes;
+* next-step suggestions in the empty composer;
+* automatic update checks; and
+* minimizing Studio to the system tray when the window closes.
+
+Theme controls and the global Godot executable are no longer on this page.
+Use **Settings > Appearance** for the former and **Settings > Development
+environments** for the latter.
+
+Appearance
+----------
+
+Use **Settings > Appearance** to control the application theme mode, accent
+color, dynamic effects, UI font size, body font, code font, and code font size.
+These options change how Studio is presented without changing the project.
+If text is hard to read, change the font size rather than adding formatting
+instructions to every request.
 
 Keyboard shortcuts
 ------------------

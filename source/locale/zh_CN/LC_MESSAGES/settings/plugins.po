@@ -1,0 +1,167 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, LuYingYiLong
+# This file is distributed under the same license as the Daedalus Studio
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Daedalus Studio User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-22 20:06+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/settings/plugins.rst:2
+msgid "Plugins"
+msgstr "插件"
+
+#: ../../source/settings/plugins.rst:4
+msgid ""
+"Plugins are optional extensions that add native Studio capabilities or "
+"connect to the Harness runtime. Manage them from **Settings > Plugins**. "
+"A plugin is separate from the Godot Bridge plugin managed on the **Godot "
+"Projects** page."
+msgstr "插件是可选扩展，可添加 Studio 原生能力或连接 Harness 运行时。请从 **Settings > Plugins** 管理插件。插件与 **Godot Projects** 页面管理的 Godot Bridge 插件相互独立。"
+
+#: ../../source/settings/plugins.rst:9
+msgid "Plugin catalog"
+msgstr "插件目录"
+
+#: ../../source/settings/plugins.rst:11
+msgid ""
+"Select a plugin to inspect its details before installing or enabling it. "
+"The detail view can show:"
+msgstr "在安装或启用插件前，选择插件查看其详细信息。详细视图可以显示："
+
+#: ../../source/settings/plugins.rst:14
+msgid "features and changelog information;"
+msgstr "功能和变更日志信息；"
+
+#: ../../source/settings/plugins.rst:15
+msgid "compatibility classification and compatibility notes;"
+msgstr "兼容性分类和兼容性说明；"
+
+#: ../../source/settings/plugins.rst:16
+msgid "declared entry points and capabilities;"
+msgstr "声明的入口点和能力；"
+
+#: ../../source/settings/plugins.rst:17
+msgid "trust state and package fingerprint;"
+msgstr "信任状态和软件包指纹；"
+
+#: ../../source/settings/plugins.rst:18
+msgid "the native or Harness runtime it uses; and"
+msgstr "它使用的原生运行时或 Harness 运行时；以及"
+
+#: ../../source/settings/plugins.rst:19
+msgid "runtime logs and an explanation of what the plugin can change."
+msgstr "运行时日志，以及插件可以更改哪些内容的说明。"
+
+#: ../../source/settings/plugins.rst:21
+msgid ""
+"Compatibility classifications include **Daedalus Native**, **Harness "
+"Bundle**, **Harness Client**, **Daedalus + Harness**, **Metadata only**, "
+"and **Unsupported**. An unsupported package cannot run in the current "
+"Studio runtime."
+msgstr "兼容性分类包括 **Daedalus Native**、**Harness Bundle**、**Harness Client**、**Daedalus + Harness**、**Metadata only** 和 **Unsupported**。不受支持的软件包无法在当前 Studio 运行时中运行。"
+
+#: ../../source/settings/plugins.rst:27
+msgid "Install or update a plugin"
+msgstr "安装或更新插件"
+
+#: ../../source/settings/plugins.rst:29
+msgid "Select **Add plugin** and choose a supported source:"
+msgstr "选择 **Add plugin**，然后选择受支持的来源："
+
+#: ../../source/settings/plugins.rst:31
+msgid "a local folder;"
+msgstr "本地文件夹；"
+
+#: ../../source/settings/plugins.rst:32
+msgid "a ``.tgz`` tarball;"
+msgstr "``.tgz`` 压缩包；"
+
+#: ../../source/settings/plugins.rst:33
+msgid "an npm package; or"
+msgstr "npm 软件包；或"
+
+#: ../../source/settings/plugins.rst:34
+msgid "a Git repository."
+msgstr "Git 仓库。"
+
+#: ../../source/settings/plugins.rst:36
+msgid ""
+"Provide an exact version, repository URL, or commit SHA when the selected"
+" source requires it. During installation, Studio copies the package, "
+"calculates its hash, and statically inspects it. Installation scripts and"
+" plugin code are not executed as part of this inspection."
+msgstr "如果选定的来源需要，请提供准确版本、仓库 URL 或提交 SHA。安装过程中，Studio 会复制软件包、计算其哈希并进行静态检查。安装脚本和插件代码不会在此检查过程中执行。"
+
+#: ../../source/settings/plugins.rst:41
+msgid ""
+"Use **Update plugin** from the plugin details when a newer package is "
+"available. Studio keeps previous versions so that you can review or roll "
+"back when necessary."
+msgstr "有更新的软件包时，请从插件详情中使用 **Update plugin**。Studio 会保留旧版本，方便你在必要时检查或回滚。"
+
+#: ../../source/settings/plugins.rst:46
+msgid "Trust and enable a plugin"
+msgstr "信任并启用插件"
+
+#: ../../source/settings/plugins.rst:48
+msgid ""
+"A plugin can be **Trusted**, **Review required**, or **Disabled**. Before"
+" trusting it, review the README, compatibility notes, declared "
+"capabilities, source, and fingerprint. A plugin that requires review "
+"cannot be enabled until you explicitly trust it."
+msgstr "插件可以处于 **Trusted**、**Review required** 或 **Disabled** 状态。信任前，请检查 README、兼容性说明、声明的能力、来源和指纹。需要审查的插件必须在你明确信任后才能启用。"
+
+#: ../../source/settings/plugins.rst:53
+msgid ""
+"Trust is not blanket permission. Tool policy and approval still control "
+"actual calls. Enable or disable the plugin for the active profile from "
+"its details view. Trusted plugins start when one of their capabilities is"
+" first used."
+msgstr "信任不是无条件授权。工具策略和审批仍然控制实际调用。请从详情视图为活动配置文件启用或禁用插件。受信任的插件会在其某项能力第一次被使用时启动。"
+
+#: ../../source/settings/plugins.rst:58
+msgid "Runtime maintenance"
+msgstr "运行时维护"
+
+#: ../../source/settings/plugins.rst:60
+msgid ""
+"The plugin details view provides actions for starting or disabling a "
+"runtime, restarting it, and inspecting runtime logs. If a plugin is "
+"quarantined, use **Clear quarantine and retry** only after addressing the"
+" reported failure. **Previous versions** and **Rollback** help return to "
+"a known version."
+msgstr "插件详情视图提供启动或禁用运行时、重启运行时以及检查运行时日志的操作。如果插件被隔离，请先处理报告的故障，再使用 **Clear quarantine and retry**。**Previous versions** 和 **Rollback** 可帮助你恢复到已知版本。"
+
+#: ../../source/settings/plugins.rst:65
+msgid ""
+"Installing plugin dependencies can require explicit network confirmation."
+" Check the dependency source and expected changes before allowing network"
+" access. For Harness Bundle plugins, the preview action lets you inspect "
+"the bundle before using it."
+msgstr "安装插件依赖可能需要明确确认网络访问。允许网络访问前，请检查依赖来源和预期变更。对于 Harness Bundle 插件，预览操作可以让你在使用前检查软件包。"
+
+#: ../../source/settings/plugins.rst:71
+msgid "Remove a plugin"
+msgstr "移除插件"
+
+#: ../../source/settings/plugins.rst:73
+msgid ""
+"**Remove** deletes the plugin package from Daedalus-managed storage. This"
+" is different from disabling a plugin: disabling keeps the package "
+"installed but excludes it from the active profile. Remove a package only "
+"when you no longer need it or have another copy available."
+msgstr "**Remove** 会从 Daedalus 管理的存储中删除插件软件包。这与禁用插件不同：禁用会保留已安装的软件包，但将其排除在活动配置文件之外。只有在不再需要软件包或已有其他副本时才移除它。"

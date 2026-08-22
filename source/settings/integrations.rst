@@ -1,5 +1,5 @@
-Integrations: MCP, Skills, Browser, and Documentation
-======================================================
+Integrations: MCP, Skills, Plugins, Browser, and Documentation
+==============================================================
 
 Integrations extend what Studio can inspect or do. Enable only the services
 you understand and keep their scope narrow.
@@ -46,6 +46,14 @@ Skills live in your user directory and are available across projects.
 Studio validates the Skill's frontmatter, instructions, and file size before
 saving. An invalid Skill is not a usable Skill. The Skill can describe a
 workflow, but it cannot grant itself permissions or bypass approvals.
+
+Plugins
+-------
+
+Plugins are optional extensions managed from **Settings > Plugins**. They can
+add native Studio capabilities or connect to the Harness runtime. Review a
+plugin's compatibility, declared capabilities, source, and trust state before
+enabling it. See :doc:`plugins` for the complete plugin workflow.
 
 Browser
 -------

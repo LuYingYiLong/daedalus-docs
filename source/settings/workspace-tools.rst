@@ -8,6 +8,24 @@ they define reusable defaults for them.
 Development environments
 ------------------------
 
+Open **Settings > Development environments** to manage global runtime defaults
+and project environment profiles.
+
+Global runtimes
+~~~~~~~~~~~~~~~
+
+The **Godot executable** setting defines the default Godot binary used when a
+workspace does not provide its own path. A workspace-specific executable takes
+precedence over this global default. Use **Browse** to select a binary or the
+reset action to return to the default value.
+
+The page also exposes the **Harness runtime** status and configuration. Review
+its runtime settings before enabling plugins or workflows that depend on the
+Harness.
+
+Environment profiles
+~~~~~~~~~~~~~~~~~~~~
+
 An environment profile is a named setup for a project or managed worktree.
 It can contain:
 
@@ -16,11 +34,11 @@ It can contain:
 * named terminal actions for common tasks;
 * whether each action may use the network.
 
-Use **Settings > Environments** to create or edit a profile for a source
-folder. Before trusting it, read every script and command. Studio describes
-the sandbox: with network disabled, scripts can write only to the worktree and
-isolated cache; with network enabled, the script can reach the network while
-the filesystem boundary still applies.
+Use **Settings > Development environments** to create or edit a profile for a
+source folder. Before trusting it, read every script and command. Studio
+describes the sandbox: with network disabled, scripts can write only to the
+worktree and isolated cache; with network enabled, the script can reach the
+network while the filesystem boundary still applies.
 
 Trusting an environment allows its commands to be used as intended. It does
 not make every command in the project trustworthy, and it does not grant the
