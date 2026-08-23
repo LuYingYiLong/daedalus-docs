@@ -36,4 +36,9 @@ html_theme_options = {
   "use_repository_button": True,
   "repository_url": "https://github.com/LuYingYiLong/daedalus-docs",
   "use_issues_button": True,
+  "logo": {
+    "image_light": "_static/logo-light.png",
+    "image_dark": "_static/logo-dark.png",
+    "link": "index",
+  }
 }
