@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Daedalus Studio User Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-22 20:06+0800\n"
+"POT-Creation-Date: 2026-08-26 01:36+0800\n"
 "PO-Revision-Date: 2026-08-20 02:50+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_Hans_CN\n"
@@ -38,7 +38,9 @@ msgid ""
 "Use **Settings > General** for language and general Studio behavior. "
 "These preferences affect Studio's local behavior; they do not rewrite "
 "your Godot project."
-msgstr "使用 **Settings > General** 配置语言和 Studio 常规行为。这些偏好影响 Studio 的本地行为，不会重写 Godot 项目。"
+msgstr ""
+"使用 **Settings > General** 配置语言和 Studio 常规行为。这些偏好影响 Studio 的本地行为，不会重写 "
+"Godot 项目。"
 
 #: ../../source/settings/preferences.rst:14
 msgid "General settings include:"
@@ -53,42 +55,71 @@ msgid "a system notification when a background AI reply finishes;"
 msgstr "后台 AI 回复完成时显示系统通知；"
 
 #: ../../source/settings/preferences.rst:18
+msgid "automatic compaction of older session activity details;"
+msgstr "自动精简旧会话活动详情；"
+
+#: ../../source/settings/preferences.rst:19
 msgid "next-step suggestions in the empty composer;"
 msgstr "在空 Composer 中显示下一步建议；"
 
-#: ../../source/settings/preferences.rst:19
+#: ../../source/settings/preferences.rst:20
 msgid "automatic update checks; and"
 msgstr "自动检查更新；以及"
 
-#: ../../source/settings/preferences.rst:20
+#: ../../source/settings/preferences.rst:21
 msgid "minimizing Studio to the system tray when the window closes."
 msgstr "窗口关闭时将 Studio 最小化到系统托盘。"
 
-#: ../../source/settings/preferences.rst:22
+#: ../../source/settings/preferences.rst:23
 msgid ""
 "Theme controls and the global Godot executable are no longer on this "
 "page. Use **Settings > Appearance** for the former and **Settings > "
 "Development environments** for the latter."
-msgstr "主题控制和全局 Godot 可执行文件已不再位于此页面。前者请使用 **Settings > Appearance**，后者请使用 **Settings > Development environments**。"
+msgstr ""
+"主题控制和全局 Godot 可执行文件已不再位于此页面。前者请使用 **Settings > Appearance**，后者请使用 "
+"**Settings > Development environments**。"
 
-#: ../../source/settings/preferences.rst:27
+#: ../../source/settings/preferences.rst:28
+msgid "Automatic history compaction"
+msgstr "自动精简历史活动详情"
+
+#: ../../source/settings/preferences.rst:30
+msgid ""
+"The **Automatically compact older session activity details** switch is "
+"enabled by default. Studio keeps full details for the 10 most recent "
+"completed user rounds. Older thinking, tool arguments, and tool output "
+"are permanently removed from the stored activity details, while tool "
+"status, approval results, and key summaries remain."
+msgstr "**自动精简旧会话活动详情** 开关默认开启。Studio 会保留最近 10 轮已完成用户轮次的完整详情。更早的 thinking、工具参数和工具输出会从已存储的活动详情中永久移除，但工具状态、审批结果和关键摘要会保留。"
+
+#: ../../source/settings/preferences.rst:36
+msgid ""
+"Compaction runs in the background for completed session activity. Turning"
+" the switch off stops future compaction, but it does not restore history "
+"that has already been compacted."
+msgstr "精简会在后台处理已完成的会话活动。关闭开关会停止未来的精简，但不会恢复已经精简的历史内容。"
+
+#: ../../source/settings/preferences.rst:41
 msgid "Appearance"
 msgstr "外观"
 
-#: ../../source/settings/preferences.rst:29
+#: ../../source/settings/preferences.rst:43
 msgid ""
 "Use **Settings > Appearance** to control the application theme mode, "
 "accent color, dynamic effects, UI font size, body font, code font, and "
 "code font size. These options change how Studio is presented without "
 "changing the project. If text is hard to read, change the font size "
 "rather than adding formatting instructions to every request."
-msgstr "使用 **Settings > Appearance** 控制应用主题模式、强调色、动态效果、UI 字体大小、正文和代码字体以及代码字体大小。这些选项只改变 Studio 的呈现方式，不会改变项目。文字难以阅读时，请调整字体大小，而不是在每个请求中添加格式要求。"
+msgstr ""
+"使用 **Settings > Appearance** 控制应用主题模式、强调色、动态效果、UI "
+"字体大小、正文和代码字体以及代码字体大小。这些选项只改变 Studio "
+"的呈现方式，不会改变项目。文字难以阅读时，请调整字体大小，而不是在每个请求中添加格式要求。"
 
-#: ../../source/settings/preferences.rst:36
+#: ../../source/settings/preferences.rst:50
 msgid "Keyboard shortcuts"
 msgstr "键盘快捷键"
 
-#: ../../source/settings/preferences.rst:38
+#: ../../source/settings/preferences.rst:52
 msgid ""
 "Open **Keyboard shortcuts** to search the available actions and replace a"
 " binding. Studio checks for conflicts and requires a modifier for "
@@ -98,11 +129,11 @@ msgstr ""
 "打开 **Keyboard shortcuts** 搜索可用操作并替换快捷键绑定。Studio 会检查冲突，并要求可打印按键使用修饰键。默认 "
 "Windows 绑定列在 :doc:`../reference/shortcuts` 中。"
 
-#: ../../source/settings/preferences.rst:44
+#: ../../source/settings/preferences.rst:58
 msgid "Personalization"
 msgstr "个性化"
 
-#: ../../source/settings/preferences.rst:46
+#: ../../source/settings/preferences.rst:60
 msgid ""
 "The **Personalization** page lets you adjust user, Git commit, and "
 "command review prompts. Keep instructions specific and avoid putting "
@@ -111,7 +142,7 @@ msgstr ""
 "**Personalization** 页面允许你调整用户提示词、Git 提交提示词和命令审查提示词。请保持指令具体，不要在这些字段中放入 "
 "secret 或会削弱审查的指令。"
 
-#: ../../source/settings/preferences.rst:50
+#: ../../source/settings/preferences.rst:64
 msgid ""
 "The Git commit prompt affects the optional commit-message model. The "
 "command review prompt affects how free terminal commands are reviewed in "
@@ -121,7 +152,7 @@ msgstr ""
 "Git 提交提示词会影响可选的提交消息模型。命令审查提示词会影响 Auto-safe "
 "模式下如何审查自由终端命令。请保持这些提示词简短具体；它们可以引导审查，但不能替代工具策略。"
 
-#: ../../source/settings/preferences.rst:55
+#: ../../source/settings/preferences.rst:69
 msgid ""
 "The general user prompt is appended to new AI requests. It is a good "
 "place for stable preferences such as “use GDScript 4 style” or “explain "
@@ -131,11 +162,11 @@ msgstr ""
 "常规用户提示词会附加到新的 AI 请求中。这里适合放置稳定偏好，例如“使用 GDScript 4 风格”或“编辑前解释高风险变更”。不要在此放入 "
 "API key 或特定请求的要求。"
 
-#: ../../source/settings/preferences.rst:60
+#: ../../source/settings/preferences.rst:74
 msgid "Web Search"
 msgstr "网页搜索"
 
-#: ../../source/settings/preferences.rst:62
+#: ../../source/settings/preferences.rst:76
 msgid ""
 "The **Search** page is a separate switch for current-information lookups."
 " It does not turn every model into a search model and it does not change "
@@ -146,11 +177,11 @@ msgstr ""
 "页面是查询当前信息的独立开关。它不会将每个模型变成搜索模型，也不会改变对话的正常模型选择。有关结果数量、关键词范围和计费取舍，请参阅 "
 ":doc:`providers`。"
 
-#: ../../source/settings/preferences.rst:68
+#: ../../source/settings/preferences.rst:82
 msgid "Archived sessions and import"
 msgstr "归档会话和导入"
 
-#: ../../source/settings/preferences.rst:70
+#: ../../source/settings/preferences.rst:84
 msgid ""
 "Use **Archived sessions** to find, filter, reopen, or remove old "
 "conversations. Use **Import** for supported session import flows. Review "
@@ -160,22 +191,22 @@ msgstr ""
 "使用 **Archived sessions** 查找、筛选、重新打开或移除旧对话。支持的会话导入流程使用 "
 "**Import**。在可写模式中继续导入的会话前，请审查导入内容；导入的提示词和附件可能包含过期路径或假设。"
 
-#: ../../source/settings/preferences.rst:76
+#: ../../source/settings/preferences.rst:90
 msgid "Statistics and About"
 msgstr "Statistics 和 About"
 
-#: ../../source/settings/preferences.rst:78
+#: ../../source/settings/preferences.rst:92
 msgid ""
 "**Statistics** helps you understand usage and context pressure over a "
 "selected range. **About** shows application and backend information "
 "useful for support and compatibility checks."
 msgstr "**Statistics** 帮助你了解选定时间范围内的用量和上下文压力。**About** 显示适合支持和兼容性检查的应用与后端信息。"
 
-#: ../../source/settings/preferences.rst:83
+#: ../../source/settings/preferences.rst:97
 msgid "Data reset"
 msgstr "重置数据"
 
-#: ../../source/settings/preferences.rst:85
+#: ../../source/settings/preferences.rst:99
 msgid ""
 "If you need to reset local application data, first export or back up "
 "anything you need and read :doc:`../reference/privacy`. A reset can "

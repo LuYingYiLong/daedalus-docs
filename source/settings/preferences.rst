@@ -15,6 +15,7 @@ General settings include:
 
 * the display language, with a system-default option;
 * a system notification when a background AI reply finishes;
+* automatic compaction of older session activity details;
 * next-step suggestions in the empty composer;
 * automatic update checks; and
 * minimizing Studio to the system tray when the window closes.
@@ -22,6 +23,19 @@ General settings include:
 Theme controls and the global Godot executable are no longer on this page.
 Use **Settings > Appearance** for the former and **Settings > Development
 environments** for the latter.
+
+Automatic history compaction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The **Automatically compact older session activity details** switch is
+enabled by default. Studio keeps full details for the 10 most recent completed
+user rounds. Older thinking, tool arguments, and tool output are permanently
+removed from the stored activity details, while tool status, approval results,
+and key summaries remain.
+
+Compaction runs in the background for completed session activity. Turning the
+switch off stops future compaction, but it does not restore history that has
+already been compacted.
 
 Appearance
 ----------
