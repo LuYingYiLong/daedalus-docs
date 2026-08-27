@@ -1,0 +1,160 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, LuYingYiLong
+# This file is distributed under the same license as the Daedalus Studio
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Daedalus Studio User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-27 19:34+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/agent/trajectory.rst:2
+msgid "Inspect a Session with the Trajectory View"
+msgstr "使用轨迹视图检查会话"
+
+#: ../../source/agent/trajectory.rst:4
+msgid ""
+"The Trajectory view is an execution-level record for a session. It helps "
+"you understand what happened during a run without searching through every"
+" message in the conversation timeline."
+msgstr "轨迹视图是会话级别的执行记录。它帮助你了解运行期间发生了什么，而无需在对话时间线中逐条查找消息。"
+
+#: ../../source/agent/trajectory.rst:9
+msgid "Open the Trajectory panel"
+msgstr "打开轨迹面板"
+
+#: ../../source/agent/trajectory.rst:11
+msgid ""
+"Open a session, use the ``+`` action in a dock, and choose **Trajectory "
+"panel**. The panel is session-specific, so select the session you want to"
+" inspect first. If no session is selected, Studio asks you to open one. "
+"If the connected Backend does not support trajectories, the panel reports"
+" that it is unavailable."
+msgstr "打开会话，使用停靠区中的 ``+`` 操作，选择 **Trajectory panel**。面板绑定当前会话，因此请先选择要检查的会话。未选择会话时，Studio 会提示你先打开会话。如果连接的 Backend 不支持轨迹功能，面板会报告不可用。"
+
+#: ../../source/agent/trajectory.rst:18
+msgid "Read the overview"
+msgstr "阅读概览"
+
+#: ../../source/agent/trajectory.rst:20
+msgid "The panel summarizes the session with:"
+msgstr "面板会汇总以下会话信息："
+
+#: ../../source/agent/trajectory.rst:22
+msgid "total duration;"
+msgstr "总耗时；"
+
+#: ../../source/agent/trajectory.rst:23
+msgid "number of turns;"
+msgstr "轮次数量；"
+
+#: ../../source/agent/trajectory.rst:24
+msgid "model calls and tool calls;"
+msgstr "模型调用和工具调用次数；"
+
+#: ../../source/agent/trajectory.rst:25
+msgid "input and output token totals; and"
+msgstr "输入和输出 Token 总数；以及"
+
+#: ../../source/agent/trajectory.rst:26
+msgid "error count."
+msgstr "错误数量。"
+
+#: ../../source/agent/trajectory.rst:28
+msgid ""
+"The timing chart shows when records started and finished. Drag across the"
+" chart to focus on a time range. The record list is grouped by turn and "
+"can include prompts, model calls, thinking, tools, approvals, retries, "
+"steps, provider reconnections, final responses, and errors."
+msgstr "耗时图表显示记录的开始和结束时间。拖动图表以聚焦某个时间范围。记录列表按轮次分组，可以包含 Prompt、模型调用、thinking、工具、审批、重试、步骤、供应商重连、最终回复和错误。"
+
+#: ../../source/agent/trajectory.rst:33
+msgid ""
+"Use the search field to find a ``requestId``, ``runId``, or "
+"``toolCallId``. Use **Load earlier records** when the first page does not"
+" contain the record you need."
+msgstr "使用搜索框查找 ``requestId``、``runId`` 或 ``toolCallId``。第一页没有所需记录时，使用 **Load earlier records**。"
+
+#: ../../source/agent/trajectory.rst:38
+msgid "Inspect a record"
+msgstr "检查记录"
+
+#: ../../source/agent/trajectory.rst:40
+msgid "Select a record to open its inspector. The inspector can show:"
+msgstr "选择一条记录以打开检查器。检查器可以显示："
+
+#: ../../source/agent/trajectory.rst:42
+msgid "record metadata, identifiers, timing, and token counts;"
+msgstr "记录元数据、标识符、耗时和 Token 数；"
+
+#: ../../source/agent/trajectory.rst:43
+msgid "prompt sections;"
+msgstr "Prompt 分段；"
+
+#: ../../source/agent/trajectory.rst:44
+msgid "the model request and response;"
+msgstr "模型请求和响应；"
+
+#: ../../source/agent/trajectory.rst:45
+msgid "fields that were redacted; and"
+msgstr "已脱敏的字段；以及"
+
+#: ../../source/agent/trajectory.rst:46
+msgid "a compacted or hidden-details notice."
+msgstr "精简或详情隐藏提示。"
+
+#: ../../source/agent/trajectory.rst:48
+msgid ""
+"Structured request and response values are displayed as expandable JSON "
+"and can be copied from the inspector. A status such as **Completed**, "
+"**Failed**, **Cancelled**, or **Approval required** describes the record "
+"outcome; it does not by itself prove that the overall task was correct."
+msgstr "结构化的请求和响应值会以可展开的 JSON 显示，也可以从检查器中复制。**Completed**、**Failed**、**Cancelled** 或 **Approval required** 等状态描述记录结果；它们本身不能证明整个任务是正确的。"
+
+#: ../../source/agent/trajectory.rst:54
+msgid "Developer mode and compacted details"
+msgstr "开发者模式和已精简详情"
+
+#: ../../source/agent/trajectory.rst:56
+msgid ""
+"The amount of body detail in the inspector follows **Settings > General >"
+" Developer mode**. With developer mode disabled, Studio still exposes "
+"structured record summaries but hides body details for inspection. Enable"
+" it only when you need diagnostic context, and review the redaction "
+"indicators before sharing a screenshot or exported log."
+msgstr "检查器中的正文详情数量由 **Settings > General > Developer mode** 控制。禁用开发者模式时，Studio 仍会显示结构化记录摘要，但会隐藏供检查的正文详情。只有在需要诊断上下文时才启用它，并在分享截图或导出日志前检查脱敏提示。"
+
+#: ../../source/agent/trajectory.rst:62
+msgid ""
+"Records marked **Details compacted** no longer contain their original "
+"detail. Automatic history compaction keeps full details for the most "
+"recent completed turns and removes older thinking, tool arguments, and "
+"tool output. The trajectory record and its key status or summary can "
+"remain after that cleanup."
+msgstr "标记为 **Details compacted** 的记录不再包含原始详情。自动精简历史会保留最近已完成轮次的完整详情，并移除更早的 thinking、工具参数和工具输出。清理后，轨迹记录及其关键状态或摘要仍可能保留。"
+
+#: ../../source/agent/trajectory.rst:68
+msgid "Refresh and export"
+msgstr "刷新和导出"
+
+#: ../../source/agent/trajectory.rst:70
+msgid ""
+"The panel updates while the active session produces new trajectory "
+"records and reloads after a Backend reconnect. Use **Export session log**"
+" to save a JSON record containing the session summary, trajectory "
+"records, and details that are still available. Inspect the exported file "
+"for prompts, paths, identifiers, and other private context before sharing"
+" it."
+msgstr "活动会话产生新的轨迹记录时，面板会更新；Backend 重连后也会重新加载。使用 **Export session log** 保存包含会话摘要、轨迹记录和当前仍可用详情的 JSON 记录。分享前，请检查导出文件中的 Prompt、路径、标识符和其他私密上下文。"

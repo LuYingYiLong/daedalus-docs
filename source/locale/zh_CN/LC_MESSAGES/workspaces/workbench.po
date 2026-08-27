@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Daedalus Studio User Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-20 02:49+0800\n"
+"POT-Creation-Date: 2026-08-27 19:34+0800\n"
 "PO-Revision-Date: 2026-08-20 02:50+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_Hans_CN\n"
@@ -64,7 +64,9 @@ msgid ""
 "The composer is the input area at the bottom. It controls the workspace, "
 "mode, model, reasoning effort, approval mode, additional context, and the"
 " message you want to send. See :doc:`../agent/composer`."
-msgstr "Composer 是底部的输入区域。它控制工作区、模式、模型、推理力度、审批模式、额外上下文以及要发送的消息。请参阅 :doc:`../agent/composer`。"
+msgstr ""
+"Composer 是底部的输入区域。它控制工作区、模式、模型、推理力度、审批模式、额外上下文以及要发送的消息。请参阅 "
+":doc:`../agent/composer`。"
 
 #: ../../source/workspaces/workbench.rst:25
 msgid "**Side dock**"
@@ -106,7 +108,9 @@ msgid ""
 "plans, and source attachments. From the summary you may also be able to "
 "run the Godot project, run a selected scene, open a diff, or start a Git "
 "commit action, depending on the workspace and available tools."
-msgstr "会话摘要可以显示环境信息、Godot 信息、计划和源文件附件。根据工作区和可用工具，你还可能可以从摘要中运行 Godot 项目、运行选定场景、打开 diff 或启动 Git 提交操作。"
+msgstr ""
+"会话摘要可以显示环境信息、Godot 信息、计划和源文件附件。根据工作区和可用工具，你还可能可以从摘要中运行 Godot 项目、运行选定场景、打开"
+" diff 或启动 Git 提交操作。"
 
 #: ../../source/workspaces/workbench.rst:47
 msgid "Panels and tabs"
@@ -131,40 +135,53 @@ msgid "**Files** — browse and edit text files;"
 msgstr "**Files** — 浏览和编辑文本文件；"
 
 #: ../../source/workspaces/workbench.rst:55
+#, fuzzy
 msgid ""
 "**Browser** — open a web page and optionally provide page context to the "
-"agent."
+"agent;"
 msgstr "**Browser** — 打开网页，并可选择向 agent 提供页面上下文。"
 
-#: ../../source/workspaces/workbench.rst:58
+#: ../../source/workspaces/workbench.rst:57
+msgid ""
+"**Trajectory** — inspect session execution records, timing, statuses, and"
+" available diagnostic details. See :doc:`../agent/trajectory`."
+msgstr "**Trajectory** — 检查会话执行记录、耗时、状态和可用的诊断详情。请参阅 :doc:`../agent/trajectory`。"
+
+#: ../../source/workspaces/workbench.rst:60
 msgid ""
 "You can move between tabs, close tabs, resize a dock, and place a dock in"
 " fullscreen. Studio remembers the arrangement for the session. A terminal"
 " process is still stopped when you leave the session or restart Studio; "
 "panel layout persistence does not mean process persistence."
-msgstr "你可以切换标签页、关闭标签页、调整停靠区大小，或将停靠区置于全屏。Studio 会记住会话的布局。离开会话或重启 Studio 时，终端进程仍会停止；面板布局持久化不代表进程持久化。"
+msgstr ""
+"你可以切换标签页、关闭标签页、调整停靠区大小，或将停靠区置于全屏。Studio 会记住会话的布局。离开会话或重启 Studio "
+"时，终端进程仍会停止；面板布局持久化不代表进程持久化。"
 
-#: ../../source/workspaces/workbench.rst:64
+#: ../../source/workspaces/workbench.rst:66
 msgid "Notifications and unread work"
 msgstr "通知和未读工作"
 
-#: ../../source/workspaces/workbench.rst:66
+#: ../../source/workspaces/workbench.rst:68
 msgid ""
 "Studio can show a native notification when a run finishes, a Goal reaches"
 " a terminal state, an approval is waiting, or a clarification is needed. "
 "If you were looking at another session, the workspace tree can mark the "
 "completed session as unread. Open that session and read the timeline "
 "before acting on the notification alone."
-msgstr "运行完成、Goal 到达终止状态、等待审批或需要澄清时，Studio 可以显示系统通知。如果你当时正在查看其他会话，工作区树可以将已完成的会话标记为未读。请打开该会话并阅读时间线，不要只根据通知采取行动。"
+msgstr ""
+"运行完成、Goal 到达终止状态、等待审批或需要澄清时，Studio "
+"可以显示系统通知。如果你当时正在查看其他会话，工作区树可以将已完成的会话标记为未读。请打开该会话并阅读时间线，不要只根据通知采取行动。"
 
-#: ../../source/workspaces/workbench.rst:73
+#: ../../source/workspaces/workbench.rst:75
 msgid "If the layout feels crowded"
 msgstr "如果布局显得拥挤"
 
-#: ../../source/workspaces/workbench.rst:75
+#: ../../source/workspaces/workbench.rst:77
 msgid ""
 "Hide the workspace sidebar, session sidebar, or bottom dock with the "
 "toolbar controls or the shortcuts in :doc:`../reference/shortcuts`. You "
 "can restore a panel at any time; hiding a panel does not delete its tabs "
 "or its session history."
-msgstr "使用工具栏控件或 :doc:`../reference/shortcuts` 中的快捷键隐藏工作区侧栏、会话侧栏或底部停靠区。你可以随时恢复面板；隐藏面板不会删除其标签页或会话历史。"
+msgstr ""
+"使用工具栏控件或 :doc:`../reference/shortcuts` "
+"中的快捷键隐藏工作区侧栏、会话侧栏或底部停靠区。你可以随时恢复面板；隐藏面板不会删除其标签页或会话历史。"

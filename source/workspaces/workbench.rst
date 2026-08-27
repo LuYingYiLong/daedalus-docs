@@ -53,7 +53,9 @@ panel types:
 * **Terminal** — run and watch a terminal process;
 * **Files** — browse and edit text files;
 * **Browser** — open a web page and optionally provide page context to the
-  agent.
+  agent;
+* **Trajectory** — inspect session execution records, timing, statuses, and
+  available diagnostic details. See :doc:`../agent/trajectory`.
 
 You can move between tabs, close tabs, resize a dock, and place a dock in
 fullscreen. Studio remembers the arrangement for the session. A terminal

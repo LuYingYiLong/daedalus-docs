@@ -16,6 +16,7 @@ General settings include:
 * the display language, with a system-default option;
 * a system notification when a background AI reply finishes;
 * automatic compaction of older session activity details;
+* developer mode for inspecting redacted request and activity details;
 * next-step suggestions in the empty composer;
 * automatic update checks; and
 * minimizing Studio to the system tray when the window closes.
@@ -27,7 +28,7 @@ environments** for the latter.
 Automatic history compaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The **Automatically compact older session activity details** switch is
+The **Automatically compact old activity details** switch is
 enabled by default. Studio keeps full details for the 10 most recent completed
 user rounds. Older thinking, tool arguments, and tool output are permanently
 removed from the stored activity details, while tool status, approval results,
@@ -36,6 +37,20 @@ and key summaries remain.
 Compaction runs in the background for completed session activity. Turning the
 switch off stops future compaction, but it does not restore history that has
 already been compacted.
+
+Developer mode
+~~~~~~~~~~~~~~
+
+The **Developer mode** switch controls how much diagnostic detail Studio keeps
+and displays. When enabled, Studio can store and show redacted prompts, model
+requests, tool inputs and outputs, and thinking actually returned by the
+provider.
+
+When developer mode is off, new calls keep structured summaries only and
+existing details are hidden without being immediately deleted. Developer mode
+does not undo history compaction, so details already removed by automatic
+compaction cannot be recovered. Treat trajectory views and exported session
+logs as potentially sensitive even when fields have been redacted.
 
 Appearance
 ----------

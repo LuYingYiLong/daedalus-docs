@@ -10,6 +10,7 @@ project result.
    modes
    composer
    timeline
+   trajectory
    goals
    review
    approvals
