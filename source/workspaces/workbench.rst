@@ -25,6 +25,8 @@ The main areas
 **Side dock**
    The side dock is useful for Git changes and file or browser panels. Open it
    when you want to keep the conversation visible while inspecting a result.
+   Computer use appears as a consent dialog and an activity overlay rather
+   than as a dock tab; configure it from **Settings > Computer use**.
 
 **Bottom dock**
    The bottom dock is useful for terminal sessions. It can also host files,

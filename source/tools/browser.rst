@@ -56,3 +56,11 @@ understanding the consequences.
 When a site requests a permission, choose **Block**, **Allow once**, or
 **Always allow** based on the site and the task. Prefer **Allow once** while
 testing an unfamiliar site.
+
+Use an external browser
+-----------------------
+
+To work with a Chrome or Edge tab outside Studio, follow
+:doc:`external-browser`. Enabling **Allow AI to control the browser (CDP)**
+only authorizes the embedded Browser panel; it does not connect or authorize
+the external browser extension.

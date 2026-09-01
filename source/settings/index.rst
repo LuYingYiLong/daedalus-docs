@@ -27,8 +27,8 @@ The Settings window uses five groups:
 * **Studio** — **General**, **Appearance**, **Keyboard shortcuts**, **Search**,
   **Statistics**, and **Personalization**;
 * **Extensions** — **MCP Servers**, **Skills**, **Hooks**, and **Plugins**;
-* **Workspace** — **Browser**, **Development environments**, **Worktrees**,
-  and **Godot Projects**;
+* **Workspace** — **Browser**, **Computer use**, **Development environments**,
+  **Worktrees**, and **Godot Projects**;
 * **Resources** — **Documentation**, **Archived sessions**, **Import**, and
   **About**.
 

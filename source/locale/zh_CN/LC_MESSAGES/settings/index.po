@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Daedalus Studio User Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-22 20:06+0800\n"
+"POT-Creation-Date: 2026-09-01 15:15+0800\n"
 "PO-Revision-Date: 2026-08-20 02:50+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_Hans_CN\n"
@@ -35,7 +35,9 @@ msgid ""
 "Settings are grouped by user task. You do not need to configure every "
 "page; start with **Provider**, **Default model**, **Development "
 "environments**, and **Godot Projects** for a basic Godot workflow."
-msgstr "设置按用户任务分组。不需要配置每个页面；要开始基本的 Godot 工作流，请先设置 **Provider**、**Default model**、**Development environments** 和 **Godot Projects**。"
+msgstr ""
+"设置按用户任务分组。不需要配置每个页面；要开始基本的 Godot 工作流，请先设置 **Provider**、**Default "
+"model**、**Development environments** 和 **Godot Projects**。"
 
 #: ../../source/settings/index.rst:22
 msgid "Settings groups"
@@ -53,7 +55,9 @@ msgstr "**Models** — **Provider** 和 **Default model**；"
 msgid ""
 "**Studio** — **General**, **Appearance**, **Keyboard shortcuts**, "
 "**Search**, **Statistics**, and **Personalization**;"
-msgstr "**Studio** — **General**、**Appearance**、**Keyboard shortcuts**、**Search**、**Statistics** 和 **Personalization**；"
+msgstr ""
+"**Studio** — **General**、**Appearance**、**Keyboard "
+"shortcuts**、**Search**、**Statistics** 和 **Personalization**；"
 
 #: ../../source/settings/index.rst:29
 msgid "**Extensions** — **MCP Servers**, **Skills**, **Hooks**, and **Plugins**;"
@@ -61,22 +65,27 @@ msgstr "**Extensions** — **MCP Servers**、**Skills**、**Hooks** 和 **Plugin
 
 #: ../../source/settings/index.rst:30
 msgid ""
-"**Workspace** — **Browser**, **Development environments**, **Worktrees**,"
-" and **Godot Projects**;"
-msgstr "**Workspace** — **Browser**、**Development environments**、**Worktrees** 和 **Godot Projects**；"
+"**Workspace** — **Browser**, **Computer use**, **Development "
+"environments**, **Worktrees**, and **Godot Projects**;"
+msgstr "**Workspace** — **Browser**、**Computer use**、**Development "
+"environments**、**Worktrees** 和 **Godot Projects**；"
 
 #: ../../source/settings/index.rst:32
 msgid ""
 "**Resources** — **Documentation**, **Archived sessions**, **Import**, and"
 " **About**."
-msgstr "**Resources** — **Documentation**、**Archived sessions**、**Import** 和 **About**。"
+msgstr ""
+"**Resources** — **Documentation**、**Archived sessions**、**Import** 和 "
+"**About**。"
 
 #: ../../source/settings/index.rst:35
 msgid ""
 "The group determines where a page appears in the Settings navigation. For"
 " example, theme controls belong to **Appearance**, while the global Godot"
 " executable belongs to **Development environments**."
-msgstr "分组决定页面在设置导航中的位置。例如，主题控制位于 **Appearance**，全局 Godot 可执行文件位于 **Development environments**。"
+msgstr ""
+"分组决定页面在设置导航中的位置。例如，主题控制位于 **Appearance**，全局 Godot 可执行文件位于 **Development "
+"environments**。"
 
 #~ msgid ""
 #~ "Open the separate Settings window to "

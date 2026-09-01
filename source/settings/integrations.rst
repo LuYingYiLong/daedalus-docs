@@ -1,5 +1,5 @@
-Integrations: MCP, Skills, Plugins, Browser, and Documentation
-==============================================================
+Integrations: MCP, Skills, Plugins, Browsers, Computer Use, and Documentation
+=============================================================================
 
 Integrations extend what Studio can inspect or do. Enable only the services
 you understand and keep their scope narrow.
@@ -62,6 +62,21 @@ The integrated browser can be configured from **Settings > Browser**. Browser
 automation is an external side effect: review the target page, credentials,
 downloads, and actions before approving a run. Keep private browser profiles
 separate from project work whenever possible.
+
+The embedded Browser panel and the external Chrome/Edge integration have
+different trust boundaries. Use :doc:`../tools/browser` for the embedded
+browser and :doc:`../tools/external-browser` for the extension workflow. The
+external integration requires an exact URL in the user's request and a new
+conversation approval before any proposed change executes.
+
+Computer use
+------------
+
+Configure Windows desktop observation and control from **Settings > Computer
+use**. Observation and input control are separate permissions, and the agent
+can access only the window you select for the current turn. See
+:doc:`../tools/computer-use` for the consent flow, supported actions, safety
+shortcut, evidence, and privacy limits.
 
 Offline Godot documentation
 ---------------------------

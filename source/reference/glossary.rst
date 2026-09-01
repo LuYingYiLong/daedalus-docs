@@ -62,6 +62,18 @@ Dock
    A resizable side or bottom panel area that holds tabs such as Changes,
    Terminal, Files, and Browser.
 
+Computer use
+   A Windows-only capability that lets the agent observe, and optionally
+   control, one user-selected desktop window for the current turn.
+
+External browser
+   A Chrome or Edge tab outside Studio that the agent can inspect through the
+   Daedalus extension and change only through a separately approved proposal.
+
+Trajectory
+   The execution-level record for a session, including timing, tool activity,
+   approvals, and diagnostic evidence that is still available.
+
 Goal
    A longer-running objective with cycles, budget, progress, and a completion
    evaluation.

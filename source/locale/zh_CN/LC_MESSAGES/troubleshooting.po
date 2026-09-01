@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Daedalus Studio User Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-20 02:40+0800\n"
+"POT-Creation-Date: 2026-09-01 15:15+0800\n"
 "PO-Revision-Date: 2026-08-20 03:00+0800\n"
 "Last-Translator: Daedalus Studio contributors\n"
 "Language: zh_CN\n"
@@ -142,32 +142,76 @@ msgstr ""
 "放进提示词或源文件来解决 secret 存储问题。"
 
 #: ../../source/troubleshooting.rst:68
+msgid "External browser does not connect"
+msgstr "外部浏览器无法连接"
+
+#: ../../source/troubleshooting.rst:70
+msgid ""
+"Open **Settings > Browser** and confirm **Allow external browser tasks** "
+"is enabled. Register the native host again if the extension reports that "
+"it is missing. In Chrome or Edge, reload the matching unpacked extension "
+"and enable **Connect to Studio** on its status page. Development Studio "
+"requires the development extension; installed Studio requires the stable "
+"extension. A successful connection is shown only after the Studio "
+"handshake completes."
+msgstr "打开 **Settings > Browser**，确认已启用 **Allow external browser tasks**。如果扩展报告找不到本地主机，请再次注册本地主机。在 Chrome 或 Edge 中重新加载匹配的未打包扩展，并在其状态页启用 **Connect to Studio**。开发版 Studio 需要开发版扩展；已安装的 Studio 需要正式版扩展。只有 Studio 握手完成后才会显示连接成功。"
+
+#: ../../source/troubleshooting.rst:77
+msgid ""
+"If the connection drops during a task, do not retry an uncertain step. "
+"Check the browser and Studio versions, reconnect read-only, and let the "
+"agent make a new proposal."
+msgstr "如果任务期间连接断开，不要重试不确定的步骤。检查浏览器和 Studio 版本，以只读方式重新连接，并让 agent 创建新方案。"
+
+#: ../../source/troubleshooting.rst:82
+msgid "Computer use is unavailable or paused"
+msgstr "Computer use 不可用或已暂停"
+
+#: ../../source/troubleshooting.rst:84
+msgid ""
+"Computer use requires a supported Windows x64 installation. In **Settings"
+" > Computer use**, enable **Allow AI to request window observation**; "
+"enable **Allow AI to request window control** separately when input is "
+"needed. The control switch also requires a Backend that advertises "
+"computer-control support."
+msgstr "Computer use 要求受支持的 Windows x64 安装。在 **Settings > Computer use** 中启用 **Allow AI to request window observation**；需要输入时，再单独启用 **Allow AI to request window control**。控制开关还要求 Backend 声明支持 computer-control。"
+
+#: ../../source/troubleshooting.rst:90
+msgid ""
+"If a run is paused, switch to the authorized window and choose "
+"**Resume**. Window activation changes, user input, an obstructed target, "
+"password controls, or a closed window can pause control. Use **Cancel** "
+"or ``Ctrl+Alt+Esc`` to stop it. For local capture testing, enable "
+"**Settings > General > Developer mode** and use **Local diagnostics**; "
+"diagnostics do not grant the agent access."
+msgstr "如果运行暂停，请切换到已授权窗口并选择 **Resume**。窗口激活状态变化、用户输入、目标被遮挡、密码控件或窗口关闭都可能暂停控制。使用 **Cancel** 或 ``Ctrl+Alt+Esc`` 停止控制。若要测试本地捕获，请启用 **Settings > General > Developer mode** 并使用 **Local diagnostics**；诊断不会授予 agent 访问权限。"
+
+#: ../../source/troubleshooting.rst:98
 msgid "What to include when asking for help"
 msgstr "寻求帮助时应提供什么"
 
-#: ../../source/troubleshooting.rst:70
+#: ../../source/troubleshooting.rst:100
 msgid "Include:"
 msgstr "请提供："
 
-#: ../../source/troubleshooting.rst:72
+#: ../../source/troubleshooting.rst:102
 msgid "Studio, backend, and Godot versions;"
 msgstr "Studio、后端和 Godot 版本；"
 
-#: ../../source/troubleshooting.rst:73
+#: ../../source/troubleshooting.rst:103
 msgid "the workspace type and the smallest reproduction;"
 msgstr "工作区类型和最小复现步骤；"
 
-#: ../../source/troubleshooting.rst:74
+#: ../../source/troubleshooting.rst:104
 msgid "the session or run state, if visible;"
 msgstr "可见的会话或运行状态；"
 
-#: ../../source/troubleshooting.rst:75
+#: ../../source/troubleshooting.rst:105
 msgid "sanitized diagnostics and relevant verification output."
 msgstr "脱敏后的诊断信息和相关验证输出。"
 
-#: ../../source/troubleshooting.rst:77
+#: ../../source/troubleshooting.rst:107
 msgid ""
 "Remove API keys, MCP secrets, browser credentials, and private project "
 "data before sharing anything."
 msgstr "分享任何内容前，请移除 API key、MCP secret、浏览器凭据和私人项目数据。"
-

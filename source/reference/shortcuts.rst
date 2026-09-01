@@ -39,6 +39,10 @@ compatible build. You can change them from **Settings > Keyboard shortcuts**.
    * - Find in conversation
      - ``Ctrl+F``
      - Search the current conversation.
+   * - Stop computer control
+     - ``Ctrl+Alt+Esc``
+     - Immediately stop active computer control. This safety shortcut is not
+       configurable.
 
 Changing a binding
 ------------------

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Daedalus Studio User Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-22 20:06+0800\n"
+"POT-Creation-Date: 2026-09-01 15:15+0800\n"
 "PO-Revision-Date: 2026-08-20 02:50+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_Hans_CN\n"
@@ -20,8 +20,10 @@ msgstr ""
 "Generated-By: Babel 2.18.0\n"
 
 #: ../../source/settings/integrations.rst:2
-msgid "Integrations: MCP, Skills, Plugins, Browser, and Documentation"
-msgstr "集成：MCP、Skill、插件、浏览器与文档"
+msgid ""
+"Integrations: MCP, Skills, Plugins, Browsers, Computer Use, and "
+"Documentation"
+msgstr "集成：MCP、Skill、插件、浏览器、Computer use 与文档"
 
 #: ../../source/settings/integrations.rst:4
 msgid ""
@@ -134,7 +136,9 @@ msgid ""
 "Review a plugin's compatibility, declared capabilities, source, and trust"
 " state before enabling it. See :doc:`plugins` for the complete plugin "
 "workflow."
-msgstr "插件是从 **Settings > Plugins** 管理的可选扩展。它们可以添加 Studio 原生能力或连接 Harness 运行时。启用插件前，请检查其兼容性、声明的能力、来源和信任状态。完整的插件工作流请参阅 :doc:`plugins`。"
+msgstr ""
+"插件是从 **Settings > Plugins** 管理的可选扩展。它们可以添加 Studio 原生能力或连接 Harness "
+"运行时。启用插件前，请检查其兼容性、声明的能力、来源和信任状态。完整的插件工作流请参阅 :doc:`plugins`。"
 
 #: ../../source/settings/integrations.rst:59
 msgid "Browser"
@@ -150,11 +154,33 @@ msgstr ""
 "可以从 **Settings > Browser** "
 "配置集成浏览器。浏览器自动化会产生外部副作用：批准运行前，请审查目标页面、凭据、下载和操作。请尽可能将私密浏览器配置文件与项目工作分开。"
 
-#: ../../source/settings/integrations.rst:67
+#: ../../source/settings/integrations.rst:66
+msgid ""
+"The embedded Browser panel and the external Chrome/Edge integration have "
+"different trust boundaries. Use :doc:`../tools/browser` for the embedded "
+"browser and :doc:`../tools/external-browser` for the extension workflow. "
+"The external integration requires an exact URL in the user's request and "
+"a new conversation approval before any proposed change executes."
+msgstr "内置 Browser 面板和外部 Chrome/Edge 集成具有不同的信任边界。内置浏览器请阅读 :doc:`../tools/browser`，扩展工作流请阅读 :doc:`../tools/external-browser`。外部集成要求用户在请求中写出确切 URL，并在执行任何建议的变更前通过新的对话审批。"
+
+#: ../../source/settings/integrations.rst:73
+msgid "Computer use"
+msgstr "Computer use"
+
+#: ../../source/settings/integrations.rst:75
+msgid ""
+"Configure Windows desktop observation and control from **Settings > "
+"Computer use**. Observation and input control are separate permissions, "
+"and the agent can access only the window you select for the current turn."
+" See :doc:`../tools/computer-use` for the consent flow, supported "
+"actions, safety shortcut, evidence, and privacy limits."
+msgstr "在 **Settings > Computer use** 中配置 Windows 桌面观察和控制。观察权限和输入控制权限彼此独立，agent 只能访问你在当前轮次选定的窗口。有关同意流程、支持的操作、安全快捷键、证据和隐私限制，请阅读 :doc:`../tools/computer-use`。"
+
+#: ../../source/settings/integrations.rst:82
 msgid "Offline Godot documentation"
 msgstr "离线 Godot 文档"
 
-#: ../../source/settings/integrations.rst:69
+#: ../../source/settings/integrations.rst:84
 msgid ""
 "Use **Settings > Documentation** to install an official Godot "
 "documentation branch, build its local search index, enable search, repair"
@@ -166,18 +192,18 @@ msgstr ""
 "文档分支、构建本地搜索索引、启用搜索、修复不健康的索引，或移除不再需要的版本。当你希望 agent 在没有网页访问的情况下验证 Godot API"
 " 时，离线文档很有用。"
 
-#: ../../source/settings/integrations.rst:74
+#: ../../source/settings/integrations.rst:89
 msgid ""
 "Installation can download, extract, index, validate, and roll back. Let "
 "the operation finish or use the provided cancellation action; do not "
 "manually delete a partially indexed directory while Studio is running."
 msgstr "安装过程可能包括下载、解压、建立索引、验证和回滚。请等待操作完成，或使用提供的取消操作；Studio 运行时不要手动删除部分建立索引的目录。"
 
-#: ../../source/settings/integrations.rst:79
+#: ../../source/settings/integrations.rst:94
 msgid "Development environments and hooks"
 msgstr "开发环境和 Hook"
 
-#: ../../source/settings/integrations.rst:81
+#: ../../source/settings/integrations.rst:96
 msgid ""
 "Development environments and Hooks have their own detailed guide in :doc"
 ":`workspace-tools`. In both cases, treat setup scripts, lifecycle "

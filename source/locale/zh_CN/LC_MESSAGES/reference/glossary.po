@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Daedalus Studio User Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-20 02:49+0800\n"
+"POT-Creation-Date: 2026-09-01 15:24+0800\n"
 "PO-Revision-Date: 2026-08-20 02:50+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_Hans_CN\n"
@@ -176,10 +176,41 @@ msgid ""
 msgstr "可调整大小的侧边或底部面板区域，用于承载 Changes、Terminal、Files 和 Browser 等标签页。"
 
 #: ../../source/reference/glossary.rst:65
+msgid "Computer use"
+msgstr "Computer use"
+
+#: ../../source/reference/glossary.rst:66
+msgid ""
+"A Windows-only capability that lets the agent observe, and optionally "
+"control, one user-selected desktop window for the current turn."
+msgstr "仅限 Windows 的能力，允许 agent 在当前轮次观察并（可选地）控制一个用户选定的桌面窗口。"
+
+#: ../../source/reference/glossary.rst:69
+msgid "External browser"
+msgstr "外部浏览器"
+
+#: ../../source/reference/glossary.rst:70
+msgid ""
+"A Chrome or Edge tab outside Studio that the agent can inspect through "
+"the Daedalus extension and change only through a separately approved "
+"proposal."
+msgstr "Studio 外部的 Chrome 或 Edge 标签页。agent 可以通过 Daedalus 扩展检查它，但只能通过单独批准的方案对其进行更改。"
+
+#: ../../source/reference/glossary.rst:73
+msgid "Trajectory"
+msgstr "轨迹"
+
+#: ../../source/reference/glossary.rst:74
+msgid ""
+"The execution-level record for a session, including timing, tool "
+"activity, approvals, and diagnostic evidence that is still available."
+msgstr "会话的执行级记录，包括耗时、工具活动、审批以及当前仍可用的诊断证据。"
+
+#: ../../source/reference/glossary.rst:77
 msgid "Goal"
 msgstr "Goal"
 
-#: ../../source/reference/glossary.rst:66
+#: ../../source/reference/glossary.rst:78
 msgid ""
 "A longer-running objective with cycles, budget, progress, and a "
 "completion evaluation."

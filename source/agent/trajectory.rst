@@ -28,7 +28,9 @@ The panel summarizes the session with:
 The timing chart shows when records started and finished. Drag across the chart
 to focus on a time range. The record list is grouped by turn and can include
 prompts, model calls, thinking, tools, approvals, retries, steps, provider
-reconnections, final responses, and errors.
+reconnections, browser activity, desktop observations, final responses, and
+errors. External browser proposals and approvals appear as approval or step
+records; computer-use observations and action summaries appear as tool records.
 
 Use the search field to find a ``requestId``, ``runId``, or ``toolCallId``. Use
 **Load earlier records** when the first page does not contain the record you
@@ -49,6 +51,12 @@ Structured request and response values are displayed as expandable JSON and
 can be copied from the inspector. A status such as **Completed**, **Failed**,
 **Cancelled**, or **Approval required** describes the record outcome; it does
 not by itself prove that the overall task was correct.
+
+When a record contains browser activity or a desktop observation, the
+inspector can expose the corresponding evidence if it is still available.
+Browser screenshots and desktop screenshots are not proof that a page or
+application accepted an action; use the next observation and the application
+state to verify important changes.
 
 Developer mode and compacted details
 ------------------------------------

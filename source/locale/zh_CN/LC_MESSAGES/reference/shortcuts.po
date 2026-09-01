@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Daedalus Studio User Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-20 02:49+0800\n"
+"POT-Creation-Date: 2026-09-01 15:15+0800\n"
 "PO-Revision-Date: 2026-08-20 02:50+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_Hans_CN\n"
@@ -29,7 +29,10 @@ msgid ""
 " means ``Ctrl`` on Windows and Linux, and ``Cmd`` on macOS if you run a "
 "compatible build. You can change them from **Settings > Keyboard "
 "shortcuts**."
-msgstr "下面列出的是 Windows 和 Linux 上的默认绑定。``Mod`` 在 Windows 和 Linux 上表示 ``Ctrl``，如果运行兼容版本，在 macOS 上表示 ``Cmd``。你可以从 **Settings > Keyboard shortcuts** 修改它们。"
+msgstr ""
+"下面列出的是 Windows 和 Linux 上的默认绑定。``Mod`` 在 Windows 和 Linux 上表示 "
+"``Ctrl``，如果运行兼容版本，在 macOS 上表示 ``Cmd``。你可以从 **Settings > Keyboard "
+"shortcuts** 修改它们。"
 
 #: ../../source/reference/shortcuts.rst:12
 msgid "Action"
@@ -151,27 +154,41 @@ msgstr "``Ctrl+F``"
 msgid "Search the current conversation."
 msgstr "搜索当前对话。"
 
+#: ../../source/reference/shortcuts.rst:42
+msgid "Stop computer control"
+msgstr "停止计算机控制"
+
+#: ../../source/reference/shortcuts.rst:43
+msgid "``Ctrl+Alt+Esc``"
+msgstr "``Ctrl+Alt+Esc``"
+
 #: ../../source/reference/shortcuts.rst:44
+msgid ""
+"Immediately stop active computer control. This safety shortcut is not "
+"configurable."
+msgstr "立即停止活动的计算机控制。此安全快捷键不可配置。"
+
+#: ../../source/reference/shortcuts.rst:48
 msgid "Changing a binding"
 msgstr "更改绑定"
 
-#: ../../source/reference/shortcuts.rst:46
+#: ../../source/reference/shortcuts.rst:50
 msgid "Open **Settings > Keyboard shortcuts**."
 msgstr "打开 **Settings > Keyboard shortcuts**。"
 
-#: ../../source/reference/shortcuts.rst:47
+#: ../../source/reference/shortcuts.rst:51
 msgid "Search for the action."
 msgstr "搜索操作。"
 
-#: ../../source/reference/shortcuts.rst:48
+#: ../../source/reference/shortcuts.rst:52
 msgid "Select the action and press the new shortcut."
 msgstr "选择操作并按下新的快捷键。"
 
-#: ../../source/reference/shortcuts.rst:49
+#: ../../source/reference/shortcuts.rst:53
 msgid "Save the change."
 msgstr "保存变更。"
 
-#: ../../source/reference/shortcuts.rst:51
+#: ../../source/reference/shortcuts.rst:55
 msgid ""
 "Printable keys cannot be used by themselves, and Studio rejects a "
 "shortcut that conflicts with another configured action. If a shortcut "

@@ -14,7 +14,8 @@ reviewed reason to share them:
 
 * provider API keys and access tokens;
 * MCP environment variables, headers, and secrets;
-* browser passwords, cookies, and private profile data;
+* browser passwords, cookies, private profile data, and external page content;
+* desktop-window text, OCR results, and screenshots captured by computer use;
 * signing certificates and deployment credentials;
 * unrelated personal documents;
 * unredacted logs containing usernames, absolute paths, or project secrets.
@@ -26,6 +27,13 @@ Daedalus runtime data normally lives under ``%USERPROFILE%\\.daedalus``. It can
 include session messages, attachments, tool results, project names, file
 paths, and diagnostics. Inspect and sanitize it before copying it to another
 computer or attaching it to an issue.
+
+Computer-use observations, external-browser activity, trajectory records, and
+exported session logs can add more detail to that local data. Developer mode
+controls whether new diagnostic bodies are stored and shown, while automatic
+history compaction permanently removes older thinking, tool arguments, tool
+output, browser details, and screenshots. Neither setting makes already shared
+provider data private again.
 
 Keys are stored through the operating-system credential store rather than in
 ordinary configuration files. This protects storage at rest, but it does not
@@ -46,3 +54,9 @@ The approval gateway separates read, verify, propose, write, and destructive
 operations. Still review the target, command, endpoint, and changed files
 before approving. A local integration can be powerful without being safe for
 every project.
+
+Computer use and external browser control deserve an additional review. Check
+the selected desktop window or browser target, the text and screenshots that
+may be sent to your model provider, and the exact action proposal before
+granting access. A window authorization is not a filesystem sandbox, and an
+external browser approval is limited to the current run.

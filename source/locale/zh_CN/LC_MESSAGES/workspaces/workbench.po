@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Daedalus Studio User Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-27 19:34+0800\n"
+"POT-Creation-Date: 2026-09-01 15:15+0800\n"
 "PO-Revision-Date: 2026-08-20 02:50+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_Hans_CN\n"
@@ -76,25 +76,26 @@ msgstr "**侧边停靠区**"
 msgid ""
 "The side dock is useful for Git changes and file or browser panels. Open "
 "it when you want to keep the conversation visible while inspecting a "
-"result."
-msgstr "侧边停靠区适合查看 Git 变更以及文件或浏览器面板。当你希望检查结果时仍保持对话可见，可以打开它。"
+"result. Computer use appears as a consent dialog and an activity overlay "
+"rather than as a dock tab; configure it from **Settings > Computer use**."
+msgstr "侧边停靠区适合查看 Git 变更以及文件或浏览器面板。当你希望检查结果时仍保持对话可见，可以打开它。Computer use 会以同意对话框和活动覆盖层出现，而不是停靠标签页；请从 **Settings > Computer use** 进行配置。"
 
-#: ../../source/workspaces/workbench.rst:29
+#: ../../source/workspaces/workbench.rst:31
 msgid "**Bottom dock**"
 msgstr "**底部停靠区**"
 
-#: ../../source/workspaces/workbench.rst:30
+#: ../../source/workspaces/workbench.rst:32
 msgid ""
 "The bottom dock is useful for terminal sessions. It can also host files, "
 "browser panels, or the Git review panel when that arrangement suits your "
 "work."
 msgstr "底部停靠区适合运行终端会话。根据工作需要，它也可以承载文件、浏览器面板或 Git 审查面板。"
 
-#: ../../source/workspaces/workbench.rst:35
+#: ../../source/workspaces/workbench.rst:37
 msgid "Home and session views"
 msgstr "主页和会话视图"
 
-#: ../../source/workspaces/workbench.rst:37
+#: ../../source/workspaces/workbench.rst:39
 msgid ""
 "When no session is selected, Studio shows a home view. It helps you "
 "choose a workspace, start a session, and launch common project actions. "
@@ -102,7 +103,7 @@ msgid ""
 "view."
 msgstr "未选择会话时，Studio 会显示主页视图。你可以在这里选择工作区、启动会话和执行常用项目操作。选择会话后，中间区域会变成对话视图。"
 
-#: ../../source/workspaces/workbench.rst:41
+#: ../../source/workspaces/workbench.rst:43
 msgid ""
 "The session summary can show environment information, Godot information, "
 "plans, and source attachments. From the summary you may also be able to "
@@ -112,42 +113,42 @@ msgstr ""
 "会话摘要可以显示环境信息、Godot 信息、计划和源文件附件。根据工作区和可用工具，你还可能可以从摘要中运行 Godot 项目、运行选定场景、打开"
 " diff 或启动 Git 提交操作。"
 
-#: ../../source/workspaces/workbench.rst:47
+#: ../../source/workspaces/workbench.rst:49
 msgid "Panels and tabs"
 msgstr "面板和标签页"
 
-#: ../../source/workspaces/workbench.rst:49
+#: ../../source/workspaces/workbench.rst:51
 msgid ""
 "Use the ``+`` action in a dock to add another panel. Studio supports "
 "these panel types:"
 msgstr "使用停靠区中的 ``+`` 操作添加其他面板。Studio 支持以下面板类型："
 
-#: ../../source/workspaces/workbench.rst:52
+#: ../../source/workspaces/workbench.rst:54
 msgid "**Changes** — review the Git diff for the workspace;"
 msgstr "**Changes** — 审查工作区的 Git diff；"
 
-#: ../../source/workspaces/workbench.rst:53
+#: ../../source/workspaces/workbench.rst:55
 msgid "**Terminal** — run and watch a terminal process;"
 msgstr "**Terminal** — 运行并观察终端进程；"
 
-#: ../../source/workspaces/workbench.rst:54
+#: ../../source/workspaces/workbench.rst:56
 msgid "**Files** — browse and edit text files;"
 msgstr "**Files** — 浏览和编辑文本文件；"
 
-#: ../../source/workspaces/workbench.rst:55
+#: ../../source/workspaces/workbench.rst:57
 #, fuzzy
 msgid ""
 "**Browser** — open a web page and optionally provide page context to the "
 "agent;"
 msgstr "**Browser** — 打开网页，并可选择向 agent 提供页面上下文。"
 
-#: ../../source/workspaces/workbench.rst:57
+#: ../../source/workspaces/workbench.rst:59
 msgid ""
 "**Trajectory** — inspect session execution records, timing, statuses, and"
 " available diagnostic details. See :doc:`../agent/trajectory`."
 msgstr "**Trajectory** — 检查会话执行记录、耗时、状态和可用的诊断详情。请参阅 :doc:`../agent/trajectory`。"
 
-#: ../../source/workspaces/workbench.rst:60
+#: ../../source/workspaces/workbench.rst:62
 msgid ""
 "You can move between tabs, close tabs, resize a dock, and place a dock in"
 " fullscreen. Studio remembers the arrangement for the session. A terminal"
@@ -157,11 +158,11 @@ msgstr ""
 "你可以切换标签页、关闭标签页、调整停靠区大小，或将停靠区置于全屏。Studio 会记住会话的布局。离开会话或重启 Studio "
 "时，终端进程仍会停止；面板布局持久化不代表进程持久化。"
 
-#: ../../source/workspaces/workbench.rst:66
+#: ../../source/workspaces/workbench.rst:68
 msgid "Notifications and unread work"
 msgstr "通知和未读工作"
 
-#: ../../source/workspaces/workbench.rst:68
+#: ../../source/workspaces/workbench.rst:70
 msgid ""
 "Studio can show a native notification when a run finishes, a Goal reaches"
 " a terminal state, an approval is waiting, or a clarification is needed. "
@@ -172,11 +173,11 @@ msgstr ""
 "运行完成、Goal 到达终止状态、等待审批或需要澄清时，Studio "
 "可以显示系统通知。如果你当时正在查看其他会话，工作区树可以将已完成的会话标记为未读。请打开该会话并阅读时间线，不要只根据通知采取行动。"
 
-#: ../../source/workspaces/workbench.rst:75
+#: ../../source/workspaces/workbench.rst:77
 msgid "If the layout feels crowded"
 msgstr "如果布局显得拥挤"
 
-#: ../../source/workspaces/workbench.rst:77
+#: ../../source/workspaces/workbench.rst:79
 msgid ""
 "Hide the workspace sidebar, session sidebar, or bottom dock with the "
 "toolbar controls or the shortcuts in :doc:`../reference/shortcuts`. You "

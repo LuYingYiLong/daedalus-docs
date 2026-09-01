@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Daedalus Studio User Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-20 02:40+0800\n"
+"POT-Creation-Date: 2026-09-01 15:24+0800\n"
 "PO-Revision-Date: 2026-08-20 03:00+0800\n"
 "Last-Translator: Daedalus Studio contributors\n"
 "Language: zh_CN\n"
@@ -94,109 +94,139 @@ msgstr "运行终端检查，并读取 Godot 工具提供的诊断信息。"
 
 #: ../../source/overview.rst:35
 msgid ""
+"Inspect a selected Windows desktop window or control supported UI "
+"elements after granting per-turn access."
+msgstr "授予每轮访问权限后，检查选定的 Windows 桌面窗口或控制受支持的 UI 元素。"
+
+#: ../../source/overview.rst:37
+msgid ""
+"Research with the embedded Browser, or use an approved external "
+"Chrome/Edge browser workflow when the task explicitly names its URL."
+msgstr "使用内置 Browser 进行研究，或在任务明确写出 URL 时，使用经过批准的外部 Chrome/Edge 浏览器工作流。"
+
+#: ../../source/overview.rst:39
+msgid ""
 "Pause for approval, resume after an interruption, and retry from recorded"
 " evidence rather than blindly replaying completed writes."
 msgstr "在等待审批时暂停，在中断后恢复，并依据已记录的证据重试，而不是盲目重放已经完成的写入。"
 
-#: ../../source/overview.rst:37
+#: ../../source/overview.rst:41
 msgid ""
 "Add providers, custom models, MCP servers, and Skills while keeping them "
 "inside Studio's tool and approval policies."
 msgstr "添加供应商、自定义模型、MCP server 和 Skill，同时让它们受 Studio 的工具与审批策略约束。"
 
-#: ../../source/overview.rst:41
+#: ../../source/overview.rst:45
 msgid "How to think about Studio"
 msgstr "如何理解 Studio"
 
-#: ../../source/overview.rst:43
+#: ../../source/overview.rst:47
 msgid "There are four useful layers:"
 msgstr "可以把 Studio 理解为四个层次："
 
-#: ../../source/overview.rst:45
+#: ../../source/overview.rst:49
 msgid "``Workspace``"
 msgstr "工作区 ``Workspace``"
 
-#: ../../source/overview.rst:46
+#: ../../source/overview.rst:50
 msgid ""
 "A project or directory boundary. File, Git, Godot, and terminal "
 "operations are checked against this boundary."
 msgstr "项目或目录边界。文件、Git、Godot 和终端操作都会针对这个边界进行检查。"
 
-#: ../../source/overview.rst:49
+#: ../../source/overview.rst:53
 msgid "``Session``"
 msgstr "会话 ``Session``"
 
-#: ../../source/overview.rst:50
+#: ../../source/overview.rst:54
 msgid ""
 "A durable conversation and its project context. A session remembers its "
 "messages, attachments, run history, approvals, and layout state."
 msgstr "持久化的对话及其项目上下文。会话会记住消息、附件、运行历史、审批和布局状态。"
 
-#: ../../source/overview.rst:53
+#: ../../source/overview.rst:57
 msgid "``Run``"
 msgstr "运行 ``Run``"
 
-#: ../../source/overview.rst:54
+#: ../../source/overview.rst:58
 msgid ""
 "One execution of a request. A run may be a direct answer, an inspection, "
 "a small edit, or a multi-stage workflow."
 msgstr "一次请求的执行。一次运行可以是直接回答、检查、少量编辑或多阶段工作流。"
 
-#: ../../source/overview.rst:57
+#: ../../source/overview.rst:61
 msgid "``Evidence``"
 msgstr "证据 ``Evidence``"
 
-#: ../../source/overview.rst:58
+#: ../../source/overview.rst:62
 msgid ""
 "The inputs and results that let you judge the run: tool calls, patches, "
 "terminal output, diagnostics, warnings, and verification status."
 msgstr "帮助你判断运行结果的输入和产物：工具调用、补丁、终端输出、诊断、警告和验证状态。"
 
-#: ../../source/overview.rst:61
+#: ../../source/overview.rst:65
 msgid ""
 "The most reliable habit is to state the desired outcome, give the agent "
 "the smallest useful context, and inspect the evidence before you accept a"
 " change."
 msgstr "最可靠的使用习惯是说明期望结果，向 agent 提供最小但有用的上下文，并在接受变更前检查证据。"
 
-#: ../../source/overview.rst:65
+#: ../../source/overview.rst:69
 msgid "Find the right feature"
 msgstr "找到合适的功能"
 
-#: ../../source/overview.rst:67
+#: ../../source/overview.rst:71
 msgid "If you want to..."
 msgstr "如果你想要……"
 
-#: ../../source/overview.rst:69
+#: ../../source/overview.rst:73
 msgid "set up Studio for the first time, start with :doc:`getting-started/index`;"
 msgstr "首次设置 Studio，请从 :doc:`getting-started/index` 开始；"
 
-#: ../../source/overview.rst:70
+#: ../../source/overview.rst:74
 msgid ""
 "understand the main window and its panels, read "
 ":doc:`workspaces/workbench`;"
 msgstr "了解主窗口及其面板，请阅读 :doc:`workspaces/workbench`；"
 
-#: ../../source/overview.rst:72
+#: ../../source/overview.rst:76
 msgid "write or review a request, read :doc:`agent/composer`;"
 msgstr "编写或审查请求，请阅读 :doc:`agent/composer`；"
 
-#: ../../source/overview.rst:73
+#: ../../source/overview.rst:77
 msgid "understand what happened during a run, read :doc:`agent/timeline`;"
 msgstr "了解一次运行中发生了什么，请阅读 :doc:`agent/timeline`；"
 
-#: ../../source/overview.rst:74
+#: ../../source/overview.rst:78
+msgid ""
+"inspect model, tool, browser, or desktop execution records, read "
+":doc:`agent/trajectory`;"
+msgstr "检查模型、工具、浏览器或桌面执行记录，请阅读 :doc:`agent/trajectory`；"
+
+#: ../../source/overview.rst:80
 msgid "make a longer task track its own progress, read :doc:`agent/goals`;"
 msgstr "让较长任务跟踪自身进度，请阅读 :doc:`agent/goals`；"
 
-#: ../../source/overview.rst:75
+#: ../../source/overview.rst:81
+msgid ""
+"inspect or control a Windows desktop window, read :doc:`tools/computer-"
+"use`;"
+msgstr "检查或控制 Windows 桌面窗口，请阅读 :doc:`tools/computer-use`；"
+
+#: ../../source/overview.rst:82
+msgid ""
+"control a Chrome or Edge tab outside Studio, read :doc:`tools/external-"
+"browser`;"
+msgstr "控制 Studio 外部的 Chrome 或 Edge 标签页，请阅读 :doc:`tools/external-browser`；"
+
+#: ../../source/overview.rst:84
 msgid "inspect files, Git, commands, or web pages, read :doc:`tools/index`;"
 msgstr "检查文件、Git、命令或网页，请阅读 :doc:`tools/index`；"
 
-#: ../../source/overview.rst:76
+#: ../../source/overview.rst:85
 msgid "connect Godot, read :doc:`godot/index`;"
 msgstr "连接 Godot，请阅读 :doc:`godot/index`；"
 
-#: ../../source/overview.rst:77
+#: ../../source/overview.rst:86
 msgid "configure providers and integrations, read :doc:`settings/index`."
 msgstr "配置供应商和集成，请阅读 :doc:`settings/index`。"

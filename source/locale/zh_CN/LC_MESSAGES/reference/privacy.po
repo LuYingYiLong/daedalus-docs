@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Daedalus Studio User Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-20 02:49+0800\n"
+"POT-Creation-Date: 2026-09-01 15:15+0800\n"
 "PO-Revision-Date: 2026-08-20 02:50+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_Hans_CN\n"
@@ -30,7 +30,9 @@ msgid ""
 " request and the context needed to answer it. External MCP servers, "
 "browser services, and web search are additional destinations that you "
 "choose to enable."
-msgstr "Studio 可以看到你提供的项目上下文，以及已批准工具读取或修改的文件。已配置的模型供应商会接收请求和回答所需的上下文。外部 MCP server、浏览器服务和网页搜索是你选择启用的额外目的地。"
+msgstr ""
+"Studio 可以看到你提供的项目上下文，以及已批准工具读取或修改的文件。已配置的模型供应商会接收请求和回答所需的上下文。外部 MCP "
+"server、浏览器服务和网页搜索是你选择启用的额外目的地。"
 
 #: ../../source/reference/privacy.rst:10
 msgid "What to protect"
@@ -51,35 +53,55 @@ msgid "MCP environment variables, headers, and secrets;"
 msgstr "MCP 环境变量、headers 和 secret；"
 
 #: ../../source/reference/privacy.rst:17
-msgid "browser passwords, cookies, and private profile data;"
-msgstr "浏览器密码、cookie 和私密配置文件数据；"
+msgid ""
+"browser passwords, cookies, private profile data, and external page "
+"content;"
+msgstr "浏览器密码、cookie、私密配置文件数据和外部页面内容；"
 
 #: ../../source/reference/privacy.rst:18
+msgid ""
+"desktop-window text, OCR results, and screenshots captured by computer "
+"use;"
+msgstr "计算机使用捕获的桌面窗口文本、OCR 结果和屏幕截图；"
+
+#: ../../source/reference/privacy.rst:19
 msgid "signing certificates and deployment credentials;"
 msgstr "签名证书和部署凭据；"
 
-#: ../../source/reference/privacy.rst:19
+#: ../../source/reference/privacy.rst:20
 msgid "unrelated personal documents;"
 msgstr "无关的个人文档；"
 
-#: ../../source/reference/privacy.rst:20
+#: ../../source/reference/privacy.rst:21
 msgid "unredacted logs containing usernames, absolute paths, or project secrets."
 msgstr "包含用户名、绝对路径或项目 secret 的未脱敏日志。"
 
-#: ../../source/reference/privacy.rst:23
+#: ../../source/reference/privacy.rst:24
 msgid "Local runtime data"
 msgstr "本地运行时数据"
 
-#: ../../source/reference/privacy.rst:25
+#: ../../source/reference/privacy.rst:26
 msgid ""
 "Daedalus runtime data normally lives under "
 "``%USERPROFILE%\\\\.daedalus``. It can include session messages, "
 "attachments, tool results, project names, file paths, and diagnostics. "
 "Inspect and sanitize it before copying it to another computer or "
 "attaching it to an issue."
-msgstr "Daedalus 运行时数据通常位于 ``%USERPROFILE%\\.daedalus`` 下。它可能包含会话消息、附件、工具结果、项目名称、文件路径和诊断信息。复制到其他电脑或附加到 issue 前，请检查并脱敏。"
+msgstr ""
+"Daedalus 运行时数据通常位于 ``%USERPROFILE%\\.daedalus`` "
+"下。它可能包含会话消息、附件、工具结果、项目名称、文件路径和诊断信息。复制到其他电脑或附加到 issue 前，请检查并脱敏。"
 
-#: ../../source/reference/privacy.rst:30
+#: ../../source/reference/privacy.rst:31
+msgid ""
+"Computer-use observations, external-browser activity, trajectory records,"
+" and exported session logs can add more detail to that local data. "
+"Developer mode controls whether new diagnostic bodies are stored and "
+"shown, while automatic history compaction permanently removes older "
+"thinking, tool arguments, tool output, browser details, and screenshots. "
+"Neither setting makes already shared provider data private again."
+msgstr "Computer-use 观察、外部浏览器活动、轨迹记录和导出的会话日志都可能为这些本地数据增加更多详情。Developer mode 控制新的诊断正文是否存储和显示，而自动历史精简会永久移除较早的 thinking、工具参数、工具输出、浏览器详情和屏幕截图。这两个设置都不能让已经共享给供应商的数据重新变得私密。"
+
+#: ../../source/reference/privacy.rst:38
 msgid ""
 "Keys are stored through the operating-system credential store rather than"
 " in ordinary configuration files. This protects storage at rest, but it "
@@ -87,26 +109,40 @@ msgid ""
 " custom tool."
 msgstr "密钥通过操作系统凭据存储保存，而不是写入普通配置文件。这可以保护静态存储中的密钥，但不代表将 key 粘贴到提示词中或通过自定义工具暴露它是安全的。"
 
-#: ../../source/reference/privacy.rst:35
+#: ../../source/reference/privacy.rst:43
 msgid "Safe bug reports"
 msgstr "安全的错误报告"
 
-#: ../../source/reference/privacy.rst:37
+#: ../../source/reference/privacy.rst:45
 msgid ""
 "Include the Studio, backend, and Godot versions; the smallest "
 "reproduction; the relevant workspace type; and sanitized startup or "
 "session diagnostics. Remove API keys, custom MCP secrets, private file "
 "contents, and unnecessary absolute paths."
-msgstr "请提供 Studio、后端和 Godot 版本、最小复现步骤、相关工作区类型，以及脱敏后的启动或会话诊断。移除 API key、自定义 MCP secret、私有文件内容和不必要的绝对路径。"
+msgstr ""
+"请提供 Studio、后端和 Godot 版本、最小复现步骤、相关工作区类型，以及脱敏后的启动或会话诊断。移除 API key、自定义 MCP "
+"secret、私有文件内容和不必要的绝对路径。"
 
-#: ../../source/reference/privacy.rst:43
+#: ../../source/reference/privacy.rst:51
 msgid "Review before external actions"
 msgstr "外部操作前审查"
 
-#: ../../source/reference/privacy.rst:45
+#: ../../source/reference/privacy.rst:53
 msgid ""
 "The approval gateway separates read, verify, propose, write, and "
 "destructive operations. Still review the target, command, endpoint, and "
 "changed files before approving. A local integration can be powerful "
 "without being safe for every project."
-msgstr "审批网关会区分 read、verify、propose、write 和 destructive 操作。批准前仍请审查目标、命令、endpoint 和变更文件。本地集成可能功能强大，但不一定对每个项目都安全。"
+msgstr ""
+"审批网关会区分 read、verify、propose、write 和 destructive 操作。批准前仍请审查目标、命令、endpoint "
+"和变更文件。本地集成可能功能强大，但不一定对每个项目都安全。"
+
+#: ../../source/reference/privacy.rst:58
+msgid ""
+"Computer use and external browser control deserve an additional review. "
+"Check the selected desktop window or browser target, the text and "
+"screenshots that may be sent to your model provider, and the exact action"
+" proposal before granting access. A window authorization is not a "
+"filesystem sandbox, and an external browser approval is limited to the "
+"current run."
+msgstr "Computer use 和外部浏览器控制需要额外审查。授予访问权限前，请检查选定的桌面窗口或浏览器目标、可能发送给模型供应商的文本和屏幕截图，以及确切的操作方案。窗口授权不是文件系统沙箱，外部浏览器审批也仅限于当前运行。"

@@ -64,6 +64,36 @@ enabled state, and approval requirement. Review its tool list and try a small
 read-only action first. Never solve a secret-storage problem by placing the
 secret in a prompt or source file.
 
+External browser does not connect
+---------------------------------
+
+Open **Settings > Browser** and confirm **Allow external browser tasks** is
+enabled. Register the native host again if the extension reports that it is
+missing. In Chrome or Edge, reload the matching unpacked extension and enable
+**Connect to Studio** on its status page. Development Studio requires the
+development extension; installed Studio requires the stable extension. A
+successful connection is shown only after the Studio handshake completes.
+
+If the connection drops during a task, do not retry an uncertain step. Check
+the browser and Studio versions, reconnect read-only, and let the agent make a
+new proposal.
+
+Computer use is unavailable or paused
+--------------------------------------
+
+Computer use requires a supported Windows x64 installation. In **Settings >
+Computer use**, enable **Allow AI to request window observation**; enable
+**Allow AI to request window control** separately when input is needed. The
+control switch also requires a Backend that advertises computer-control
+support.
+
+If a run is paused, switch to the authorized window and choose **Resume**.
+Window activation changes, user input, an obstructed target, password controls,
+or a closed window can pause control. Use **Cancel** or ``Ctrl+Alt+Esc`` to
+stop it. For local capture testing, enable **Settings > General > Developer
+mode** and use **Local diagnostics**; diagnostics do not grant the agent
+access.
+
 What to include when asking for help
 ------------------------------------
 

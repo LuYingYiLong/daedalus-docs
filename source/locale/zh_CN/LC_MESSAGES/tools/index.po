@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Daedalus Studio User Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-20 02:49+0800\n"
+"POT-Creation-Date: 2026-09-01 15:15+0800\n"
 "PO-Revision-Date: 2026-08-20 02:50+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_Hans_CN\n"
@@ -20,8 +20,8 @@ msgstr ""
 "Generated-By: Babel 2.18.0\n"
 
 #: ../../source/tools/index.rst:2
-msgid "Files, Git, Terminal, and Browser"
-msgstr "文件、Git、终端和浏览器"
+msgid "Files, Git, Terminal, Browser, and Computer Use"
+msgstr "文件、Git、终端、浏览器和 Computer use"
 
 #: ../../source/tools/index.rst:4
 msgid ""
@@ -29,27 +29,27 @@ msgid ""
 "yourself, or let the agent request them inside a session."
 msgstr "Studio 在 agent 周围提供了一组实用工具。你可以自己使用它们，也可以让 agent 在会话中请求使用。"
 
-#: ../../source/tools/index.rst:15
+#: ../../source/tools/index.rst:17
 msgid "The important distinction is simple:"
 msgstr "重要区别很简单："
 
-#: ../../source/tools/index.rst:17
+#: ../../source/tools/index.rst:19
 msgid "a **read** operation tells you what is already there;"
 msgstr "**read** 操作告诉你当前已有的内容；"
 
-#: ../../source/tools/index.rst:18
+#: ../../source/tools/index.rst:20
 msgid "a **propose** operation shows what a write would do;"
 msgstr "**propose** 操作展示写入将会做什么；"
 
-#: ../../source/tools/index.rst:19
+#: ../../source/tools/index.rst:21
 msgid "a **write** operation changes the project;"
 msgstr "**write** 操作会修改项目；"
 
-#: ../../source/tools/index.rst:20
+#: ../../source/tools/index.rst:22
 msgid "a **verify** operation checks the result."
 msgstr "**verify** 操作会检查结果。"
 
-#: ../../source/tools/index.rst:22
+#: ../../source/tools/index.rst:24
 msgid ""
 "The approval mode and tool policy decide which operations pause for your "
 "permission. You should still review the target and the result."

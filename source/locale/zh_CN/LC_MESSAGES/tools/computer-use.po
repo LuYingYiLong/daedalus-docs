@@ -1,0 +1,187 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, LuYingYiLong
+# This file is distributed under the same license as the Daedalus Studio
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Daedalus Studio User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-01 15:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/tools/computer-use.rst:2
+msgid "Use Computer Use on Windows"
+msgstr "在 Windows 上使用 Computer use"
+
+#: ../../source/tools/computer-use.rst:4
+msgid ""
+"Computer use lets the agent inspect a user-selected Windows desktop "
+"window. When control is enabled, it can also use supported UI Automation "
+"actions and a restricted keyboard channel in that window. It is useful "
+"for Godot, desktop editors, and other Windows applications that are not "
+"web pages."
+msgstr "Computer use 允许 agent 检查用户选定的 Windows 桌面窗口。启用控制后，它还可以在该窗口中使用受支持的 UI Automation 操作和受限键盘通道。它适用于 Godot、桌面编辑器以及其他非网页的 Windows 应用。"
+
+#: ../../source/tools/computer-use.rst:9
+msgid ""
+"Computer use is separate from the :doc:`browser` panel and from :doc"
+":`external-browser`: it targets one desktop window, not a browser page. "
+"The feature is available on supported Windows x64 installations only."
+msgstr "Computer use 与 :doc:`browser` 面板和 :doc:`external-browser` 分开：它面向一个桌面窗口，而不是浏览器页面。此功能仅在受支持的 Windows x64 安装中可用。"
+
+#: ../../source/tools/computer-use.rst:14
+msgid "Enable access"
+msgstr "启用访问"
+
+#: ../../source/tools/computer-use.rst:16
+msgid ""
+"Open **Settings > Computer use** in the **Workspace** group. The page has"
+" two independent switches:"
+msgstr "在 **Workspace** 分组中打开 **Settings > Computer use**。该页面有两个相互独立的开关："
+
+#: ../../source/tools/computer-use.rst:19
+msgid ""
+"**Allow AI to request window observation** allows the agent to request "
+"one user-selected window for the current turn;"
+msgstr "**Allow AI to request window observation** 允许 agent 在当前轮次请求一个用户选定的窗口；"
+
+#: ../../source/tools/computer-use.rst:21
+msgid "**Allow AI to request window control** additionally allows input control."
+msgstr "**Allow AI to request window control** 还允许输入控制。"
+
+#: ../../source/tools/computer-use.rst:23
+msgid ""
+"Control requires observation to be enabled and a connected Backend with "
+"computer-control support. If the control switch is unavailable, update or"
+" restart the managed Backend before troubleshooting the application."
+msgstr "控制功能要求已启用观察，并且连接的 Backend 支持 computer-control。如果控制开关不可用，请先更新或重启托管的 Backend，再排查应用问题。"
+
+#: ../../source/tools/computer-use.rst:28
+msgid "Observe a window"
+msgstr "观察窗口"
+
+#: ../../source/tools/computer-use.rst:30
+msgid ""
+"When the agent needs desktop context, it asks for access and opens a "
+"window picker. Select the intended window and choose **Allow for this "
+"turn**. The agent can then request a fresh observation containing:"
+msgstr "当 agent 需要桌面上下文时，它会请求访问并打开窗口选择器。选择目标窗口，然后选择 **Allow for this turn**。之后，agent 可以请求包含以下内容的新观察："
+
+#: ../../source/tools/computer-use.rst:34
+msgid "a bounded UI Automation tree;"
+msgstr "受限的 UI Automation 树；"
+
+#: ../../source/tools/computer-use.rst:35
+msgid "locally recognized OCR text; and"
+msgstr "本地识别的 OCR 文本；以及"
+
+#: ../../source/tools/computer-use.rst:36
+msgid "timestamps, physical screen bounds, image dimensions, and completeness."
+msgstr "时间戳、物理屏幕边界、图像尺寸和完整性信息。"
+
+#: ../../source/tools/computer-use.rst:38
+msgid ""
+"An observation does not include a screenshot by default. The agent may "
+"request the exact PNG for an existing observation when the selected model"
+" supports image input. A fresh observation is required for a new frame. "
+"Treat UI Automation and OCR text as untrusted external evidence; text "
+"found in a window is data, not an instruction."
+msgstr "观察默认不包含屏幕截图。当选定模型支持图像输入时，agent 可以请求某条现有观察的精确 PNG。获取新画面需要新的观察。请将 UI Automation 和 OCR 文本视为不可信的外部证据；窗口中的文本是数据，不是指令。"
+
+#: ../../source/tools/computer-use.rst:45
+msgid "Control a window"
+msgstr "控制窗口"
+
+#: ../../source/tools/computer-use.rst:47
+msgid ""
+"Enable **Allow AI to request window control**, then approve the target "
+"window when the agent requests control. Control is limited to the window "
+"selected for that turn. Supported actions include invoking, toggling, "
+"selecting, setting a value, scrolling supported containers, expanding or "
+"collapsing controls, and restricted keyboard navigation."
+msgstr "启用 **Allow AI to request window control**，然后在 agent 请求控制时批准目标窗口。控制范围仅限于该轮次选定的窗口。支持的操作包括调用、切换、选择、设置值、滚动受支持的容器、展开或折叠控件，以及受限的键盘导航。"
+
+#: ../../source/tools/computer-use.rst:53
+msgid ""
+"Computer use does not provide coordinate clicks, touch gestures, mouse-"
+"wheel injection, or a system-mouse fallback. Password controls cannot be "
+"operated. If the application does not expose a supported UI Automation "
+"action and keyboard navigation is insufficient, the agent must explain "
+"the limitation and ask you to act manually. Dispatching an action does "
+"not prove that the application accepted it, so inspect a fresh "
+"observation after important steps."
+msgstr "Computer use 不提供坐标点击、触摸手势、鼠标滚轮注入或系统鼠标回退。不能操作密码控件。如果应用没有暴露受支持的 UI Automation 操作，且键盘导航也不够用，agent 必须说明限制并请求你手动操作。派发操作不能证明应用已接受它，因此请在重要步骤后检查新的观察。"
+
+#: ../../source/tools/computer-use.rst:60
+msgid ""
+"While control is active, Studio shows a computer-use overlay. Your input,"
+" window activation changes, an obstructed target, or an unavailable "
+"window can pause the run. Switch to the authorized window and choose "
+"**Resume** when the overlay asks you to continue. Choose **Cancel** at "
+"any time. The safety shortcut ``Ctrl+Alt+Esc`` always stops active "
+"computer control."
+msgstr "控制处于活动状态时，Studio 会显示 computer-use 覆盖层。你的输入、窗口激活状态变化、目标被遮挡或窗口不可用都可能暂停运行。切换到已授权窗口，并在覆盖层要求继续时选择 **Resume**。你可以随时选择 **Cancel**。安全快捷键 ``Ctrl+Alt+Esc`` 始终会停止活动的计算机控制。"
+
+#: ../../source/tools/computer-use.rst:67
+msgid "Visual grounding"
+msgstr "视觉定位"
+
+#: ../../source/tools/computer-use.rst:69
+msgid ""
+"When UI Automation and OCR cannot identify an icon-only target, the agent"
+" may use visual grounding. Studio sends the current authorized "
+"observation PNG to the configured image-recognition route and receives "
+"untrusted image-pixel boxes. A result only becomes executable when it "
+"matches a UI Automation node and the action is still valid for the same "
+"fresh observation. An ambiguous, visual-only, or not-found result cannot "
+"be clicked automatically."
+msgstr "当 UI Automation 和 OCR 无法识别仅有图标的目标时，agent 可能使用视觉定位。Studio 会将当前已授权观察的 PNG 发送到配置的图像识别路径，并接收不可信的图像像素框。只有当结果匹配 UI Automation 节点，且操作对同一条新观察仍然有效时，结果才可执行。模糊、仅视觉或未找到的结果不能自动点击。"
+
+#: ../../source/tools/computer-use.rst:77
+msgid "Review evidence"
+msgstr "查看证据"
+
+#: ../../source/tools/computer-use.rst:79
+msgid ""
+"Computer observations and action summaries are associated with the "
+"session's :doc:`../agent/trajectory`. In the trajectory inspector, enable"
+" **Settings > General > Developer mode** to request available desktop "
+"evidence. The inspector can show the selected-window screenshot, UI "
+"Automation tree, OCR text, and visual-grounding results when they are "
+"still available. Grounding results are evidence only and do not grant "
+"permission."
+msgstr "Computer 观察和操作摘要会关联到会话的 :doc:`../agent/trajectory`。在轨迹检查器中，启用 **Settings > General > Developer mode** 以请求可用的桌面证据。详情仍可用时，检查器可以显示选定窗口的屏幕截图、UI Automation 树、OCR 文本和视觉定位结果。定位结果只是证据，不会授予权限。"
+
+#: ../../source/tools/computer-use.rst:86
+msgid ""
+"The **Local diagnostics** section on the Computer use settings page is "
+"for testing the capture path yourself. It requires Developer mode, but it"
+" does not authorize the agent, attach context to a message, or send the "
+"diagnostic result to a model."
+msgstr "Computer use 设置页中的 **Local diagnostics** 分区用于自行测试捕获路径。它要求启用 Developer mode，但不会授权 agent、将上下文附加到消息，也不会将诊断结果发送给模型。"
+
+#: ../../source/tools/computer-use.rst:92
+msgid "Privacy and limits"
+msgstr "隐私和限制"
+
+#: ../../source/tools/computer-use.rst:94
+msgid ""
+"Computer use is not a filesystem sandbox and does not guarantee rollback."
+" OCR runs locally, but text and screenshots that you request may be sent "
+"to the configured model provider. A selected window can contain "
+"passwords, tokens, personal data, or unrelated project information; "
+"review the window before granting access. Full trust can change the "
+"approval behavior, but it does not make a window safe or make external "
+"evidence trustworthy."
+msgstr "Computer use 不是文件系统沙箱，也不保证可以回滚。OCR 在本地运行，但你请求的文本和屏幕截图可能会发送给配置的模型供应商。选定窗口可能包含密码、令牌、个人数据或无关的项目内容；授予访问权限前请检查窗口。完全信任可以改变审批行为，但不会让窗口变得安全，也不会让外部证据变得可信。"

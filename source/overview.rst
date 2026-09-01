@@ -32,6 +32,10 @@ windows:
 * Inspect and edit Godot scenes, resources, scripts, and project settings.
 * Review file patches and Git diffs before accepting a result.
 * Run terminal checks and read diagnostics from Godot tooling.
+* Inspect a selected Windows desktop window or control supported UI elements
+  after granting per-turn access.
+* Research with the embedded Browser, or use an approved external Chrome/Edge
+  browser workflow when the task explicitly names its URL.
 * Pause for approval, resume after an interruption, and retry from recorded
   evidence rather than blindly replaying completed writes.
 * Add providers, custom models, MCP servers, and Skills while keeping them
@@ -71,7 +75,12 @@ If you want to...
   :doc:`workspaces/workbench`;
 * write or review a request, read :doc:`agent/composer`;
 * understand what happened during a run, read :doc:`agent/timeline`;
+* inspect model, tool, browser, or desktop execution records, read
+  :doc:`agent/trajectory`;
 * make a longer task track its own progress, read :doc:`agent/goals`;
+* inspect or control a Windows desktop window, read :doc:`tools/computer-use`;
+* control a Chrome or Edge tab outside Studio, read
+  :doc:`tools/external-browser`;
 * inspect files, Git, commands, or web pages, read :doc:`tools/index`;
 * connect Godot, read :doc:`godot/index`;
 * configure providers and integrations, read :doc:`settings/index`.

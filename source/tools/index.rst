@@ -1,5 +1,5 @@
-Files, Git, Terminal, and Browser
-=================================
+Files, Git, Terminal, Browser, and Computer Use
+================================================
 
 Studio includes practical tools around the agent. You can use them yourself,
 or let the agent request them inside a session.
@@ -11,6 +11,8 @@ or let the agent request them inside a session.
    git
    terminal
    browser
+   external-browser
+   computer-use
 
 The important distinction is simple:
 

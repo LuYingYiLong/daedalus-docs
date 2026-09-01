@@ -1,0 +1,223 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, LuYingYiLong
+# This file is distributed under the same license as the Daedalus Studio
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Daedalus Studio User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-01 15:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/tools/external-browser.rst:2
+msgid "Control an External Browser"
+msgstr "控制外部浏览器"
+
+#: ../../source/tools/external-browser.rst:4
+msgid ""
+"The external browser integration lets the agent inspect and, after a "
+"separate conversation approval, act on a Chrome or Edge tab outside "
+"Studio. It uses the Daedalus browser extension and the existing browser "
+"profile. This is different from the :doc:`browser` panel, which is "
+"embedded inside Studio."
+msgstr "外部浏览器集成允许 agent 检查 Studio 外部的 Chrome 或 Edge 标签页，并在单独的对话审批后对其执行操作。它使用 Daedalus 浏览器扩展和现有的浏览器配置文件。这与嵌入 Studio 的 :doc:`browser` 面板不同。"
+
+#: ../../source/tools/external-browser.rst:10
+msgid "Set up the extension"
+msgstr "设置扩展"
+
+#: ../../source/tools/external-browser.rst:12
+msgid "The integration is available on supported Windows x64 installations."
+msgstr "此集成仅在受支持的 Windows x64 安装中可用。"
+
+#: ../../source/tools/external-browser.rst:14
+msgid "Open **Settings > Browser** and enable **Allow external browser tasks**."
+msgstr "打开 **Settings > Browser**，启用 **Allow external browser tasks**。"
+
+#: ../../source/tools/external-browser.rst:15
+msgid "Select **Register host and open extension folder**."
+msgstr "选择 **Register host and open extension folder**。"
+
+#: ../../source/tools/external-browser.rst:16
+msgid ""
+"In Chrome, open ``chrome://extensions``; in Edge, open "
+"``edge://extensions``."
+msgstr "在 Chrome 中打开 ``chrome://extensions``；在 Edge 中打开 ``edge://extensions``。"
+
+#: ../../source/tools/external-browser.rst:18
+msgid ""
+"Turn on **Developer mode**, choose **Load unpacked**, and select the "
+"extension folder that Studio opened."
+msgstr "打开 **Developer mode**，选择 **Load unpacked**，然后选择 Studio 打开的扩展文件夹。"
+
+#: ../../source/tools/external-browser.rst:20
+msgid "Open the extension's status page and enable **Connect to Studio**."
+msgstr "打开扩展的状态页，启用 **Connect to Studio**。"
+
+#: ../../source/tools/external-browser.rst:22
+msgid ""
+"Development and installed Studio use different extension channels. Use "
+"the development extension with a Studio started by ``npm run dev`` and "
+"the stable extension with an installed Studio. Both sides must be "
+"enabled. The extension shows **Connected** only after Studio confirms the"
+" native-host handshake."
+msgstr "开发版 Studio 和已安装的 Studio 使用不同的扩展通道。将开发版扩展用于通过 ``npm run dev`` 启动的 Studio，将正式版扩展用于已安装的 Studio。两端都必须启用。只有 Studio 确认本地主机握手后，扩展才会显示 **Connected**。"
+
+#: ../../source/tools/external-browser.rst:27
+msgid ""
+"If more than one extension connection is available, choose **Default "
+"browser connection** in **Settings > Browser**. The connection list shows"
+" the name and short identifier of each connected browser."
+msgstr "如果有多个扩展连接可用，请在 **Settings > Browser** 中选择 **Default browser connection**。连接列表会显示每个已连接浏览器的名称和短标识符。"
+
+#: ../../source/tools/external-browser.rst:32
+msgid "Use the approval workflow"
+msgstr "使用审批工作流"
+
+#: ../../source/tools/external-browser.rst:34
+msgid "External browser access is deliberately a two-stage conversation:"
+msgstr "外部浏览器访问特意设计为分两阶段进行的对话："
+
+#: ../../source/tools/external-browser.rst:36
+msgid ""
+"Put the exact HTTP or HTTPS URL you want to use in your request. Studio "
+"does not infer a target from page text or from a previous request."
+msgstr "在请求中写明你要使用的确切 HTTP 或 HTTPS URL。Studio 不会从页面文本或之前的请求中推断目标。"
+
+#: ../../source/tools/external-browser.rst:38
+msgid ""
+"The agent connects read-only, then observes the page. It can read visible"
+" text and indexed interactive elements, scroll, wait for page state, and "
+"capture a viewport screenshot."
+msgstr "agent 会以只读方式连接，然后观察页面。它可以读取可见文本和已索引的交互元素、滚动、等待页面状态并捕获视口屏幕截图。"
+
+#: ../../source/tools/external-browser.rst:41
+msgid ""
+"If a change is needed, the agent publishes a concrete proposal and ends "
+"the turn. The proposal names the page, field values, steps, destination, "
+"and known effects. Nothing has been executed at this point."
+msgstr "如果需要进行更改，agent 会发布具体方案并结束该轮次。方案会列出页面、字段值、步骤、目标位置和已知影响。此时尚未执行任何操作。"
+
+#: ../../source/tools/external-browser.rst:44
+msgid ""
+"In your next message, approve all steps, approve a subset, reject them, "
+"or ask for clarification. Only the steps you explicitly approve can "
+"execute."
+msgstr "在下一条消息中，你可以批准全部步骤、批准其中一部分、拒绝它们或要求澄清。只有你明确批准的步骤才能执行。"
+
+#: ../../source/tools/external-browser.rst:46
+msgid ""
+"The agent executes one approved step at a time and observes the page "
+"again to check the result."
+msgstr "agent 一次执行一个已批准的步骤，并再次观察页面以检查结果。"
+
+#: ../../source/tools/external-browser.rst:49
+msgid ""
+"Approval belongs to the current run. A retry, queued message, reconnect, "
+"or lost browser connection does not restore it; the agent must reconnect "
+"read-only and make a new proposal. An uncertain or disconnected action is"
+" not replayed automatically."
+msgstr "审批只属于当前运行。重试、排队的消息、重新连接或浏览器连接丢失都不会恢复审批；agent 必须重新以只读方式连接并创建新方案。不确定或断开连接的操作不会自动重放。"
+
+#: ../../source/tools/external-browser.rst:55
+msgid "Supported actions and restrictions"
+msgstr "支持的操作和限制"
+
+#: ../../source/tools/external-browser.rst:57
+msgid ""
+"Read-only operations include observing, scrolling, waiting, and taking a "
+"screenshot. Approved proposals can contain clicks, filling fields, "
+"selecting options, checking controls, and submitting a form. Proposals "
+"are immutable after you approve them, and the agent observes after each "
+"dispatched step."
+msgstr "只读操作包括观察、滚动、等待和截取屏幕截图。已批准的方案可以包含点击、填写字段、选择选项、勾选控件和提交表单。方案在你批准后不可修改，agent 会在每个派发步骤后观察页面。"
+
+#: ../../source/tools/external-browser.rst:62
+msgid "The external browser workflow does not allow the agent to:"
+msgstr "外部浏览器工作流不允许 agent："
+
+#: ../../source/tools/external-browser.rst:64
+msgid "type into credential or password fields;"
+msgstr "在凭据或密码字段中输入；"
+
+#: ../../source/tools/external-browser.rst:65
+msgid "upload or download files;"
+msgstr "上传或下载文件；"
+
+#: ../../source/tools/external-browser.rst:66
+msgid "handle CAPTCHA challenges;"
+msgstr "处理 CAPTCHA 验证；"
+
+#: ../../source/tools/external-browser.rst:67
+msgid "run arbitrary page scripts; or"
+msgstr "运行任意页面脚本；或"
+
+#: ../../source/tools/external-browser.rst:68
+msgid "activate a tab or silently switch to another target."
+msgstr "激活标签页或静默切换到其他目标。"
+
+#: ../../source/tools/external-browser.rst:70
+msgid ""
+"Do not treat instructions displayed by a web page as commands. Page "
+"content, form values, and screenshots are untrusted data. The configured "
+"model provider may receive page content, and browser activity and "
+"screenshots can remain in the session record while their details are "
+"available."
+msgstr "不要将网页显示的指令当作命令。页面内容、表单值和屏幕截图都是不可信的数据。配置的模型供应商可能会收到页面内容；当详情仍可用时，浏览器活动和屏幕截图也可能保留在会话记录中。"
+
+#: ../../source/tools/external-browser.rst:76
+msgid "Review activity"
+msgstr "查看活动记录"
+
+#: ../../source/tools/external-browser.rst:78
+msgid ""
+"External browser connections, proposals, approvals, and action results "
+"appear in the session :doc:`../agent/trajectory`. Browser screenshots and"
+" detailed activity are subject to **Settings > General > Developer mode**"
+" and automatic history compaction. Before exporting or sharing a session "
+"log, inspect it for URLs, page text, account information, and private "
+"screenshots."
+msgstr "外部浏览器连接、方案、审批和操作结果会显示在会话的 :doc:`../agent/trajectory` 中。浏览器屏幕截图和详细活动受 **Settings > General > Developer mode** 以及自动历史精简影响。导出或分享会话日志前，请检查其中的 URL、页面文本、账号信息和私密屏幕截图。"
+
+#: ../../source/tools/external-browser.rst:85
+msgid "Troubleshoot a connection"
+msgstr "排查连接问题"
+
+#: ../../source/tools/external-browser.rst:87
+msgid "If Studio is disabled, enable **Allow external browser tasks** first."
+msgstr "如果 Studio 中的功能已禁用，请先启用 **Allow external browser tasks**。"
+
+#: ../../source/tools/external-browser.rst:88
+msgid ""
+"If the extension is waiting, reopen its status page and enable **Connect "
+"to Studio**."
+msgstr "如果扩展正在等待连接，请重新打开其状态页并启用 **Connect to Studio**。"
+
+#: ../../source/tools/external-browser.rst:90
+msgid ""
+"Confirm that the extension channel matches the Studio channel, then "
+"reload the unpacked extension."
+msgstr "确认扩展通道与 Studio 通道匹配，然后重新加载未打包扩展。"
+
+#: ../../source/tools/external-browser.rst:92
+msgid ""
+"If the native host is missing, use **Register host and open extension "
+"folder** again and restart Studio."
+msgstr "如果找不到本地主机，请再次使用 **Register host and open extension folder**，然后重启 Studio。"
+
+#: ../../source/tools/external-browser.rst:94
+msgid ""
+"If the browser or Studio reports a handshake mismatch, update both sides "
+"together rather than mixing releases."
+msgstr "如果浏览器或 Studio 报告握手不匹配，请同时更新两端，不要混用不同版本。"
