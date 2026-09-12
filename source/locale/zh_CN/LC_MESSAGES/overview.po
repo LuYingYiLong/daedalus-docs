@@ -111,6 +111,14 @@ msgid ""
 msgstr "在等待审批时暂停，在中断后恢复，并依据已记录的证据重试，而不是盲目重放已经完成的写入。"
 
 #: ../../source/overview.rst:41
+msgid "Use the local desktop pet for lightweight activity feedback and interaction."
+msgstr "使用本地桌宠获得轻量的活动反馈并进行互动。"
+
+#: ../../source/overview.rst:43
+msgid "Let an Agent or Goal delegate independent work to recoverable Subagents."
+msgstr "让 Agent 或 Goal 将独立工作委派给可恢复的 Subagent。"
+
+#: ../../source/overview.rst:41
 msgid ""
 "Add providers, custom models, MCP servers, and Skills while keeping them "
 "inside Studio's tool and approval policies."
@@ -207,7 +215,15 @@ msgstr "检查模型、工具、浏览器或桌面执行记录，请阅读 :doc:
 msgid "make a longer task track its own progress, read :doc:`agent/goals`;"
 msgstr "让较长任务跟踪自身进度，请阅读 :doc:`agent/goals`；"
 
-#: ../../source/overview.rst:81
+#: ../../source/overview.rst:84
+msgid "delegate parallel research, implementation, testing, or review work, read :doc:`agent/subagents`;"
+msgstr "委派并行的研究、实现、测试或审阅工作，请阅读 :doc:`agent/subagents`；"
+
+#: ../../source/overview.rst:86
+msgid "configure or hide the desktop pet, read :doc:`settings/mascot`;"
+msgstr "配置或隐藏桌宠，请阅读 :doc:`settings/mascot`；"
+
+#: ../../source/overview.rst:87
 msgid ""
 "inspect or control a Windows desktop window, read :doc:`tools/computer-"
 "use`;"

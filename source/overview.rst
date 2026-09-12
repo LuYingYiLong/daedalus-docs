@@ -38,6 +38,9 @@ windows:
   browser workflow when the task explicitly names its URL.
 * Pause for approval, resume after an interruption, and retry from recorded
   evidence rather than blindly replaying completed writes.
+* Use the local desktop pet for lightweight activity feedback and
+  interaction.
+* Let an Agent or Goal delegate independent work to recoverable Subagents.
 * Add providers, custom models, MCP servers, and Skills while keeping them
   inside Studio's tool and approval policies.
 
@@ -78,6 +81,9 @@ If you want to...
 * inspect model, tool, browser, or desktop execution records, read
   :doc:`agent/trajectory`;
 * make a longer task track its own progress, read :doc:`agent/goals`;
+* delegate parallel research, implementation, testing, or review work, read
+  :doc:`agent/subagents`;
+* configure or hide the desktop pet, read :doc:`settings/mascot`;
 * inspect or control a Windows desktop window, read :doc:`tools/computer-use`;
 * control a Chrome or Edge tab outside Studio, read
   :doc:`tools/external-browser`;

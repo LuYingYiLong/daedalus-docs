@@ -1,0 +1,148 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, LuYingYiLong
+# This file is distributed under the same license as the Daedalus Studio
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Daedalus Studio User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-12 00:40+0800\n"
+"PO-Revision-Date: 2026-09-12 00:40+0800\n"
+"Last-Translator: Daedalus Studio contributors\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/settings/mascot.rst:2
+msgid "Use the Desktop Pet"
+msgstr "使用桌宠"
+
+#: ../../source/settings/mascot.rst:4
+msgid "Daedalus Studio includes a small local desktop pet, called the mascot. It is shown on the new-session home and, when a session is open, near the chat composer. The mascot is visual feedback only: it does not change the model, the project, or the permissions of a run."
+msgstr "Daedalus Studio 包含一个名为 mascot 的本地桌宠。它会显示在新会话主页上；打开会话后，还会显示在聊天 Composer 附近。桌宠仅提供视觉反馈，不会改变模型、项目或运行权限。"
+
+#: ../../source/settings/mascot.rst:10
+msgid "Show or hide the mascot"
+msgstr "显示或隐藏桌宠"
+
+#: ../../source/settings/mascot.rst:12
+msgid "Open **Settings > Personalization > Mascot**. The **Show mascot** switch controls both placements:"
+msgstr "打开 **Settings > Personalization > Mascot**。**Show mascot** 开关会同时控制两个位置："
+
+#: ../../source/settings/mascot.rst:15
+msgid "the mascot above the greeting on the new-session home; and"
+msgstr "新会话主页问候语上方的桌宠；以及"
+
+#: ../../source/settings/mascot.rst:16
+msgid "the mascot at the lower-right of the active session's composer."
+msgstr "活动会话 Composer 右下方的桌宠。"
+
+#: ../../source/settings/mascot.rst:18
+msgid "The setting is stored as a Studio preference and applies to future renders of the home and session surfaces. It does not add anything to your Godot project."
+msgstr "此设置会作为 Studio 偏好保存，并应用于主页和会话界面的后续渲染。它不会向 Godot 项目添加任何内容。"
+
+#: ../../source/settings/mascot.rst:22
+msgid "Change the size"
+msgstr "调整大小"
+
+#: ../../source/settings/mascot.rst:24
+msgid "Use **Mascot size** on the same page to adjust the scale from **60%** to **140%**. The default is **100%**. The size applies to both the new-session home and the session composer."
+msgstr "在同一页面使用 **Mascot size** 将缩放比例调整为 **60%** 至 **140%**。默认值为 **100%**。该大小同时应用于新会话主页和会话 Composer。"
+
+#: ../../source/settings/mascot.rst:29
+msgid "Interact with it"
+msgstr "与桌宠互动"
+
+#: ../../source/settings/mascot.rst:31
+msgid "When the mascot is idle, the main star accepts a mouse drag. Press and move over the star with the left, middle, or right mouse button to pet it. The mascot briefly changes expression, then returns to its normal idle state when you release the button."
+msgstr "桌宠处于空闲状态时，可以拖动中央星星。按住鼠标左键、中键或右键，在星星上移动即可抚摸它。桌宠会短暂改变表情，松开按键后恢复正常空闲状态。"
+
+#: ../../source/settings/mascot.rst:36
+msgid "The mascot is deliberately kept out of the layout's main interaction path. In the composer it floats above the lower edge and the message list reserves enough space for the last message to remain readable. It may be temporarily hidden while a full-screen dock or an approval, budget, or plan-decision surface occupies that area."
+msgstr "桌宠不会阻挡界面的主要交互路径。在 Composer 中，它悬浮于底部边缘上方，消息列表会预留足够空间，让最后一条消息保持可读。当全屏 dock 或审批、预算、计划决策界面占用该区域时，桌宠可能会暂时隐藏。"
+
+#: ../../source/settings/mascot.rst:43
+msgid "Activity states"
+msgstr "活动状态"
+
+#: ../../source/settings/mascot.rst:45
+msgid "The mascot changes its appearance in response to local Studio state:"
+msgstr "桌宠会根据 Studio 的本地状态改变外观："
+
+#: ../../source/settings/mascot.rst:51
+msgid "State"
+msgstr "状态"
+
+#: ../../source/settings/mascot.rst:52
+msgid "Meaning"
+msgstr "含义"
+
+#: ../../source/settings/mascot.rst:53
+msgid "Idle"
+msgstr "空闲"
+
+#: ../../source/settings/mascot.rst:54
+msgid "The session is not currently sending a request. The mascot breathes, the planet orbits, and the gaze can follow the pointer when the window is focused."
+msgstr "会话当前没有发送请求。桌宠会呼吸，行星会绕行；窗口获得焦点时，视线可以跟随指针。"
+
+#: ../../source/settings/mascot.rst:57
+msgid "Thinking"
+msgstr "思考"
+
+#: ../../source/settings/mascot.rst:58
+msgid "Studio is sending a request for the active session."
+msgstr "Studio 正在为活动会话发送请求。"
+
+#: ../../source/settings/mascot.rst:59
+msgid "Enjoying"
+msgstr "享受"
+
+#: ../../source/settings/mascot.rst:60
+msgid "You are petting the mascot."
+msgstr "你正在抚摸桌宠。"
+
+#: ../../source/settings/mascot.rst:61
+msgid "Sleeping"
+msgstr "睡眠"
+
+#: ../../source/settings/mascot.rst:62
+msgid "The mascot has been idle for about three minutes. Mouse, keyboard, or window activity wakes it."
+msgstr "桌宠已空闲约三分钟。鼠标、键盘或窗口活动会将它唤醒。"
+
+#: ../../source/settings/mascot.rst:64
+msgid "Disconnected"
+msgstr "已断开"
+
+#: ../../source/settings/mascot.rst:65
+msgid "The Studio-to-Backend connection is unavailable. The mascot returns to live activity after reconnection."
+msgstr "Studio 到 Backend 的连接不可用。重新连接后，桌宠会恢复实时活动状态。"
+
+#: ../../source/settings/mascot.rst:68
+msgid "Execution feedback can also use waiting, executing, completed, and failed visual states when the corresponding runtime status is available. A completed animation plays once and returns to idle; a failure state remains visible until the runtime returns to automatic status."
+msgstr "当运行时提供对应状态时，执行反馈也可以使用等待、执行中、已完成和失败等视觉状态。完成动画只播放一次，随后回到空闲；失败状态会保持显示，直到运行时恢复自动状态。"
+
+#: ../../source/settings/mascot.rst:73
+msgid "Normal session requests currently use the idle and thinking states. The additional execution states depend on the runtime integration used by the current build."
+msgstr "普通会话请求目前使用空闲和思考状态。其他执行状态取决于当前版本使用的运行时集成。"
+
+#: ../../source/settings/mascot.rst:74
+msgid "Reduced motion"
+msgstr "减少动态效果"
+
+#: ../../source/settings/mascot.rst:76
+msgid "When Windows asks applications to reduce motion, Studio disables the mascot's looping animations and transitions while retaining the state appearance. This setting is controlled by the operating system's accessibility preference."
+msgstr "当 Windows 要求应用减少动态效果时，Studio 会关闭桌宠的循环动画和过渡，同时保留状态外观。此设置由操作系统的辅助功能偏好控制。"
+
+#: ../../source/settings/mascot.rst:81
+msgid "Troubleshooting"
+msgstr "故障排查"
+
+#: ../../source/settings/mascot.rst:83
+msgid "If the mascot is missing, check **Settings > Personalization > Show mascot**. If it is visible on the home but not in a session, check whether a dock is in full-screen mode or Studio is currently showing an approval or plan-decision surface. A disconnected mascot indicates a Backend connection problem; use the normal Backend reconnect or restart flow before investigating the model provider."
+msgstr "如果看不到桌宠，请检查 **Settings > Personalization > Show mascot**。如果桌宠在主页可见、但会话中不可见，请检查 dock 是否处于全屏模式，或 Studio 是否正在显示审批或计划决策界面。桌宠显示已断开通常表示 Backend 连接存在问题；请先使用常规 Backend 重连或重启流程，再排查模型供应商。"

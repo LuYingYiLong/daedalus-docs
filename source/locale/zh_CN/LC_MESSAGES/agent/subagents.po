@@ -1,0 +1,271 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026, LuYingYiLong
+# This file is distributed under the same license as the Daedalus Studio
+# User Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Daedalus Studio User Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-12 00:40+0800\n"
+"PO-Revision-Date: 2026-09-12 00:40+0800\n"
+"Last-Translator: Daedalus Studio contributors\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/agent/subagents.rst:2
+msgid "Work with Subagents"
+msgstr "使用 Subagent"
+
+#: ../../source/agent/subagents.rst:4
+msgid "Subagents are child Agent runs that a parent **Agent** or **Goal** run can use to divide a larger task into focused pieces. A parent can delegate research, planning, implementation, testing, or review, then use the structured results to decide what to do next."
+msgstr "Subagent 是父级 **Agent** 或 **Goal** 运行所创建的子 Agent，可用于把较大的任务拆分为多个专注的小任务。父 Agent 可以委派研究、规划、实现、测试或审阅工作，再根据结构化结果决定下一步。"
+
+#: ../../source/agent/subagents.rst:9
+msgid "You do not normally create a Subagent by typing a separate conversation. Start an **Agent** or **Goal** run, describe the outcome and any work that can happen in parallel, and let the parent Agent decide whether delegation is useful. An active session is required. The Subagent tools are available to the parent run, not to a child Subagent, so a child cannot recursively create another Subagent."
+msgstr "通常无需通过单独的对话创建 Subagent。启动 **Agent** 或 **Goal** 运行，描述期望结果以及可以并行进行的工作，由父 Agent 判断是否适合委派。此功能需要打开活动会话。Subagent 工具只提供给父级运行，不提供给子 Subagent，因此子任务不能递归创建另一个 Subagent。"
+
+#: ../../source/agent/subagents.rst:17
+msgid "How delegation works"
+msgstr "委派如何工作"
+
+#: ../../source/agent/subagents.rst:19
+msgid "The parent creates a recoverable graph containing one or more named nodes. A node has a role, an objective, an explicit tool scope, and an optional list of dependencies. A node starts only after every node in ``dependsOn`` has completed successfully. Independent nodes can run in parallel when provider, worktree, terminal, and system resources are available."
+msgstr "父 Agent 会创建一个可恢复的图，其中包含一个或多个命名节点。每个节点都有角色、目标、明确的工具范围以及可选的依赖列表。只有当 ``dependsOn`` 中的所有节点都成功完成后，节点才会启动。在供应商、工作树、终端和系统资源允许时，相互独立的节点可以并行运行。"
+
+#: ../../source/agent/subagents.rst:25
+msgid "The parent does not automatically copy its entire conversation to a child. Only explicitly delegated messages, context blocks, artifacts, source-folder references, and dependency results are provided. Sensitive values such as API keys, authorization data, cookies, headers, environment secrets, and tokens are excluded from delegated context."
+msgstr "父 Agent 不会自动把完整对话复制给子 Agent。只会提供明确委派的消息、上下文块、工件、源文件夹引用和依赖结果。API key、授权数据、Cookie、请求头、环境机密和 token 等敏感值不会进入委派上下文。"
+
+#: ../../source/agent/subagents.rst:32
+msgid "Roles and workspace modes"
+msgstr "角色与工作区模式"
+
+#: ../../source/agent/subagents.rst:34
+msgid "Each role provides an upper bound for the tools a node may use. The parent's explicit tool scope can narrow that bound, but cannot widen it."
+msgstr "每个角色为节点可使用的工具提供上限。父 Agent 指定的工具范围可以进一步收窄这个上限，但不能扩大它。"
+
+#: ../../source/agent/subagents.rst:41
+msgid "Role"
+msgstr "角色"
+
+#: ../../source/agent/subagents.rst:42
+msgid "Typical use"
+msgstr "典型用途"
+
+#: ../../source/agent/subagents.rst:43
+msgid "Capability ceiling"
+msgstr "能力上限"
+
+#: ../../source/agent/subagents.rst:44
+msgid "Workspace requirement"
+msgstr "工作区要求"
+
+#: ../../source/agent/subagents.rst:45
+msgid "Researcher"
+msgstr "研究"
+
+#: ../../source/agent/subagents.rst:46
+msgid "Inspect project context and verify facts"
+msgstr "检查项目上下文并核实事实"
+
+#: ../../source/agent/subagents.rst:47
+#: ../../source/agent/subagents.rst:63
+msgid "Read, verify"
+msgstr "读取、验证"
+
+#: ../../source/agent/subagents.rst:48
+#: ../../source/agent/subagents.rst:52
+#: ../../source/agent/subagents.rst:64
+msgid "Shared read-only"
+msgstr "共享只读"
+
+#: ../../source/agent/subagents.rst:49
+msgid "Planner"
+msgstr "规划"
+
+#: ../../source/agent/subagents.rst:50
+msgid "Break down work or compare approaches"
+msgstr "拆分工作或比较方案"
+
+#: ../../source/agent/subagents.rst:51
+msgid "Read"
+msgstr "读取"
+
+#: ../../source/agent/subagents.rst:53
+msgid "Implementer"
+msgstr "实现"
+
+#: ../../source/agent/subagents.rst:54
+msgid "Make the requested project change"
+msgstr "实现请求的项目变更"
+
+#: ../../source/agent/subagents.rst:55
+msgid "Read, verify, propose, write, destructive, execute"
+msgstr "读取、验证、提议、写入、破坏性操作、执行"
+
+#: ../../source/agent/subagents.rst:56
+msgid "Managed worktree is required"
+msgstr "必须使用受管理的工作树"
+
+#: ../../source/agent/subagents.rst:57
+msgid "Tester"
+msgstr "测试"
+
+#: ../../source/agent/subagents.rst:58
+msgid "Run checks and report verification results"
+msgstr "运行检查并报告验证结果"
+
+#: ../../source/agent/subagents.rst:59
+msgid "Read, verify, execute"
+msgstr "读取、验证、执行"
+
+#: ../../source/agent/subagents.rst:60
+msgid "Shared read-only by default"
+msgstr "默认共享只读"
+
+#: ../../source/agent/subagents.rst:61
+msgid "Reviewer"
+msgstr "审阅"
+
+#: ../../source/agent/subagents.rst:62
+msgid "Inspect a proposed result and identify risks"
+msgstr "检查提议的结果并识别风险"
+
+#: ../../source/agent/subagents.rst:66
+msgid "``shared_read_only`` nodes can inspect only the selected source folders and cannot write to them. A ``managed_worktree`` node receives a separate managed worktree for its scoped source folders. Its edits are isolated from the parent workspace until a separate merge flow is approved."
+msgstr "``shared_read_only`` 节点只能检查选定的源文件夹，不能向其中写入。``managed_worktree`` 节点会为其限定的源文件夹获得独立的受管理工作树。它的编辑会与父工作区隔离，直到单独的合并流程获得批准。"
+
+#: ../../source/agent/subagents.rst:71
+msgid "The implementation node's result is structured so the parent can see a summary, findings, changed files, tests, artifacts, and whether a parent decision is needed. A malformed or incomplete child response is reported as a partial result instead of being treated as a successful implementation."
+msgstr "实现节点会返回结构化结果，父 Agent 可以看到摘要、发现、变更文件、测试、工件以及是否需要父 Agent 决策。格式错误或不完整的子 Agent 回复会被报告为部分结果，不会被当作成功实现。"
+
+#: ../../source/agent/subagents.rst:77
+msgid "Monitor a Subagent"
+msgstr "监视 Subagent"
+
+#: ../../source/agent/subagents.rst:79
+msgid "To open the user-facing view, open a session and choose **Subagent panel** from the dock's **Add panel** menu. The panel is session-scoped and can show more than one graph. It provides:"
+msgstr "要打开面向用户的视图，请先打开会话，然后从 dock 的 **Add panel** 菜单选择 **Subagent panel**。面板按会话隔离，可以显示多个图。它提供："
+
+#: ../../source/agent/subagents.rst:83
+msgid "a graph selector when the session has multiple delegated graphs;"
+msgstr "会话包含多个委派图时的图选择器；"
+
+#: ../../source/agent/subagents.rst:84
+msgid "a live summary of total, running, queued, approval-waiting, and failed nodes;"
+msgstr "节点总数、运行中、排队中、等待审批和失败节点的实时摘要；"
+
+#: ../../source/agent/subagents.rst:86
+msgid "a node list with each node's human-readable name and status; and"
+msgstr "包含节点可读名称和状态的节点列表；以及"
+
+#: ../../source/agent/subagents.rst:87
+msgid "the selected node's delegated conversation, status messages, retry events, approval events, and final result."
+msgstr "所选节点的委派对话、状态消息、重试事件、审批事件和最终结果。"
+
+#: ../../source/agent/subagents.rst:90
+msgid "The graph and node state is persisted with the session, so a recoverable graph can remain visible after an interruption. The panel does not replace the main timeline: use the main timeline and review surfaces for the parent run's overall decision."
+msgstr "图和节点状态会与会话一起持久化，因此可恢复的图在中断后仍可能可见。面板不会取代主时间线：父级运行的整体决策仍应通过主时间线和审查界面完成。"
+
+#: ../../source/agent/subagents.rst:96
+msgid "Understand statuses"
+msgstr "理解状态"
+
+#: ../../source/agent/subagents.rst:98
+msgid "Common node statuses are:"
+msgstr "常见节点状态包括："
+
+#: ../../source/agent/subagents.rst:100
+msgid "**Pending** — the node exists but is waiting for its dependencies or for the scheduler to refresh it;"
+msgstr "**Pending** — 节点已经存在，但正在等待依赖完成或调度器刷新；"
+
+#: ../../source/agent/subagents.rst:102
+msgid "**Ready** — all dependencies completed and the node can start;"
+msgstr "**Ready** — 所有依赖都已完成，节点可以启动；"
+
+#: ../../source/agent/subagents.rst:103
+msgid "**Queued** — execution is waiting for provider, worktree, terminal, system, or automatic-retry capacity;"
+msgstr "**Queued** — 执行正在等待供应商、工作树、终端、系统或自动重试资源；"
+
+#: ../../source/agent/subagents.rst:105
+msgid "**Running** — the child Agent is executing its objective;"
+msgstr "**Running** — 子 Agent 正在执行目标；"
+
+#: ../../source/agent/subagents.rst:106
+msgid "**Waiting for approval** — a tool action needs the active approval flow;"
+msgstr "**Waiting for approval** — 某个工具操作需要通过当前审批流程；"
+
+#: ../../source/agent/subagents.rst:107
+msgid "**Blocked** — the node cannot continue with its current dependency or execution state;"
+msgstr "**Blocked** — 节点无法在当前依赖或执行状态下继续；"
+
+#: ../../source/agent/subagents.rst:109
+msgid "**Completed** — the child returned a usable result;"
+msgstr "**Completed** — 子 Agent 返回了可用结果；"
+
+#: ../../source/agent/subagents.rst:110
+msgid "**Failed** — execution or the child's reported result failed; and"
+msgstr "**Failed** — 执行失败或子 Agent 报告的结果失败；以及"
+
+#: ../../source/agent/subagents.rst:111
+msgid "**Cancelled** — the node or its graph was stopped."
+msgstr "**Cancelled** — 节点或其所在的图已停止。"
+
+#: ../../source/agent/subagents.rst:113
+msgid "Queued is not itself an error. A queued node starts when the reported resource condition clears. A graph may finish with warnings when some work completed but another node did not."
+msgstr "Queued 本身不是错误。报告的资源条件解除后，排队节点会启动。如果部分工作已完成但另一个节点未完成，图可能以带警告的状态结束。"
+
+#: ../../source/agent/subagents.rst:118
+msgid "Approvals, retry, and cancellation"
+msgstr "审批、重试与取消"
+
+#: ../../source/agent/subagents.rst:120
+msgid "Subagents use the same Tool Policy and approval boundary as the parent run. Creating a graph changes persisted execution state, writing or executing in a managed worktree still requires the applicable approval, and a child cannot use delegation to bypass read-only mode or workspace boundaries."
+msgstr "Subagent 与父级运行使用相同的 Tool Policy 和审批边界。创建图会修改持久化的执行状态，在受管理工作树中写入或执行仍需经过适用的审批，子 Agent 不能利用委派绕过只读模式或工作区边界。"
+
+#: ../../source/agent/subagents.rst:125
+msgid "In the Subagent panel:"
+msgstr "在 Subagent 面板中："
+
+#: ../../source/agent/subagents.rst:127
+msgid "choose **Retry** for a failed, blocked, or cancelled node after reviewing its objective and failure details. A retry is a new attempt;"
+msgstr "检查失败详情和目标后，对失败、阻塞或取消的节点选择 **Retry**。重试会创建新的尝试；"
+
+#: ../../source/agent/subagents.rst:129
+msgid "choose **Cancel node** to stop the selected active node; or"
+msgstr "选择 **Cancel node** 停止当前选中的活动节点；或"
+
+#: ../../source/agent/subagents.rst:130
+msgid "choose **Cancel all Subagents** to stop the active graph. Independently completed nodes are retained."
+msgstr "选择 **Cancel all Subagents** 停止活动图。独立完成的节点会保留。"
+
+#: ../../source/agent/subagents.rst:133
+msgid "For a node that changed files in a managed worktree, completion does not automatically modify the parent workspace. The basic Subagent panel provides status, conversation, retry, and cancellation controls; merge preview and application are separate operations. Use the merge workflow to preview the diff and possible conflicts first, then apply the merge only after the preview still matches the current source and target state. If the target has changed or the preview reports a conflict, resolve the workspace situation and create a fresh preview."
+msgstr "对于在受管理工作树中修改了文件的节点，完成不会自动修改父工作区。基础 Subagent 面板提供状态、对话、重试和取消控件；合并预览和应用是单独的操作。先使用合并流程预览差异和可能的冲突，确认预览仍与当前源和目标状态一致后再应用合并。如果目标已经变化或预览报告冲突，请先处理工作区状态，再创建新的预览。"
+
+#: ../../source/agent/subagents.rst:141
+msgid "Good delegation requests"
+msgstr "编写好的委派请求"
+
+#: ../../source/agent/subagents.rst:143
+msgid "Delegation works best when each piece has a clear boundary and acceptance condition. For example::"
+msgstr "每个部分都有清晰边界和验收条件时，委派效果最好。例如："
+
+#: ../../source/agent/subagents.rst:151
+msgid "If a task depends on a previous result, say so explicitly. Keep the parent responsible for the final integration, especially when multiple worktrees or conflicting edits are involved."
+msgstr "如果任务依赖之前的结果，请明确说明。最终集成应由父 Agent 负责，尤其是在涉及多个工作树或相互冲突的编辑时。"
+
+#: ../../source/agent/subagents.rst:156
+msgid "Troubleshooting"
+msgstr "故障排查"
+
+#: ../../source/agent/subagents.rst:158
+msgid "If the panel is empty, confirm that a session is open and that the current run is an **Agent** or **Goal** run that actually delegated work. If a node remains queued, read the queue reason before cancelling it. If it is waiting for approval, use the normal approval controls for the pending action. For a failure, inspect the child conversation and structured result before retrying; repeating a failed objective without changing its context usually does not help."
+msgstr "如果面板为空，请确认已打开会话，并且当前运行确实是委派了工作的 **Agent** 或 **Goal** 运行。如果节点一直排队，请先查看排队原因，再决定是否取消。如果节点正在等待审批，请使用常规审批控件处理待处理操作。发生失败时，先检查子 Agent 对话和结构化结果，再决定是否重试；不改变上下文而重复失败目标通常没有帮助。"

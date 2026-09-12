@@ -12,6 +12,7 @@ project result.
    timeline
    trajectory
    goals
+   subagents
    review
    approvals
 

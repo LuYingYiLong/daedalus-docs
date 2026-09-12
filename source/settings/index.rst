@@ -12,6 +12,7 @@ extensions, development environments, worktrees, and local resources.
    plugins
    workspace-tools
    preferences
+   mascot
    maintenance
 
 Settings are grouped by user task. You do not need to configure every page;
