@@ -1,0 +1,291 @@
+# Daedalus Studio User Guide Chinese translation.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Daedalus Studio User Guide\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-23 00:00+0800\n"
+"PO-Revision-Date: 2026-09-23 00:00+0800\n"
+"Last-Translator: Daedalus Studio contributors\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/flow.rst:2
+msgid "Build workflows with Flow"
+msgstr "使用 Flow 构建工作流"
+
+#: ../../source/flow.rst:4
+msgid "Flow is Studio's visual workspace for turning a repeatable task into a graph of connected nodes. A node receives typed values, transforms or generates a result, and passes that result to the next node. The graph is saved as you edit it, so you can return to the same workflow, inspect previous runs, and retry only the work that needs attention."
+msgstr "Flow 是 Studio 的可视化工作区，用于把可重复的任务转换为由节点连接而成的图。节点接收带类型的值，转换或生成结果，再把结果传递给下一个节点。图会随着编辑自动保存，因此你可以返回同一个工作流、检查之前的运行，并只重试需要处理的部分。"
+
+#: ../../source/flow.rst:10
+msgid "Flow is useful when a task has more structure than a single chat request:"
+msgstr "当任务的结构超出单次聊天请求时，Flow 很有用："
+
+#: ../../source/flow.rst:12
+msgid "connect prompts, models, files, tools, and outputs into an explicit path;"
+msgstr "将提示词、模型、文件、工具和输出连接成明确的路径；"
+
+#: ../../source/flow.rst:13
+msgid "branch or merge values without rewriting the same prompt by hand;"
+msgstr "分支或合并值，无需手动重复编写相同提示词；"
+
+#: ../../source/flow.rst:14
+msgid "process images or videos before displaying or saving them; and"
+msgstr "在展示或保存图像、视频前处理它们；以及"
+
+#: ../../source/flow.rst:15
+msgid "run a batch of parameterized media requests and retry failed items."
+msgstr "运行一批参数化媒体请求，并重试失败项。"
+
+#: ../../source/flow.rst:18
+msgid "Open Flow"
+msgstr "打开 Flow"
+
+#: ../../source/flow.rst:20
+msgid "On the Studio home page, use the **Chat / Flow** switcher in the left sidebar, then select **New Flow**. A new Flow can be unbound to a workspace, or you can choose a workspace when you create it. A workspace is required by nodes that read project files, run commands, use workspace tools, or save media."
+msgstr "在 Studio 主页中，使用左侧边栏的 **Chat / Flow** 切换器，然后选择 **新建 Flow**。新 Flow 可以不绑定工作区，也可以在创建时选择工作区。读取项目文件、运行命令、使用工作区工具或保存媒体的节点都需要工作区。"
+
+#: ../../source/flow.rst:27
+msgid "The Flow sidebar groups workflows into pinned, workspace, and recent sections. You can rename, pin, archive, move, or export a Flow from its context menu. Moving a Flow is disabled while it has an active run."
+msgstr "Flow 侧边栏会按置顶、工作区和最近使用分组显示工作流。你可以在 Flow 的上下文菜单中重命名、置顶、归档、移动或导出它。Flow 处于活动运行状态时不能移动。"
+
+#: ../../source/flow.rst:30
+msgid "Create and edit a graph"
+msgstr "创建和编辑图"
+
+#: ../../source/flow.rst:32
+msgid "When the canvas is empty, choose **Add node**. On an existing canvas, right click an empty area or press ``Shift+A`` to open the node picker. Search by node name or category, then select a node to place it on the canvas. Drag from an output port to a compatible input port to create an edge."
+msgstr "画布为空时，选择 **添加节点**。在已有画布中，右键单击空白区域或按 ``Shift+A`` 打开节点选择器。按节点名称或类别搜索，然后选择节点将其放到画布上。从输出端口拖到兼容的输入端口即可创建边。"
+
+#: ../../source/flow.rst:37
+msgid "Category"
+msgstr "类别"
+
+#: ../../source/flow.rst:38
+msgid "Examples"
+msgstr "示例"
+
+#: ../../source/flow.rst:40
+msgid "Basic"
+msgstr "基础"
+
+#: ../../source/flow.rst:41
+msgid "Prompts, text, templates, merge, JSON extraction, conditions, outputs, and notes"
+msgstr "提示词、文本、模板、合并、JSON 提取、条件、输出和便签"
+
+#: ../../source/flow.rst:43
+msgid "AI"
+msgstr "AI"
+
+#: ../../source/flow.rst:44
+msgid "LLM calls with provider, model, and reasoning settings"
+msgstr "带供应商、模型和推理设置的大模型调用"
+
+#: ../../source/flow.rst:46
+msgid "Workspace"
+msgstr "工作区"
+
+#: ../../source/flow.rst:47
+msgid "File input, tools, and commands"
+msgstr "文件输入、工具和命令"
+
+#: ../../source/flow.rst:49
+msgid "Media input and processing"
+msgstr "媒体输入与处理"
+
+#: ../../source/flow.rst:50
+msgid "Read images, resize, crop, rotate, composite, and convert formats"
+msgstr "读取图像、缩放、裁剪、旋转、叠加和转换格式"
+
+#: ../../source/flow.rst:52
+msgid "Media generation"
+msgstr "媒体生成"
+
+#: ../../source/flow.rst:53
+msgid "Text-to-image, image-to-image, text-to-video, and image-to-video"
+msgstr "文生图、图生图、文生视频和图生视频"
+
+#: ../../source/flow.rst:55
+msgid "Media output"
+msgstr "媒体输出"
+
+#: ../../source/flow.rst:56
+msgid "Preview generated images, videos, audio, and other artifacts"
+msgstr "预览生成的图像、视频、音频和其他工件"
+
+#: ../../source/flow.rst:58
+msgid "Parameters"
+msgstr "参数"
+
+#: ../../source/flow.rst:59
+msgid "Number, boolean, color, and size values"
+msgstr "数字、布尔、颜色和尺寸值"
+
+#: ../../source/flow.rst:61
+msgid "Lists and batches"
+msgstr "列表与批量"
+
+#: ../../source/flow.rst:62
+msgid "Build, select, and merge lists; define parameter sets; run batch media generation"
+msgstr "构建、选择和合并列表；定义参数组；运行批量媒体生成"
+
+#: ../../source/flow.rst:64
+msgid "Workspace media"
+msgstr "工作区媒体"
+
+#: ../../source/flow.rst:65
+msgid "Save images or videos into a workspace-relative directory"
+msgstr "将图像或视频保存到相对于工作区的目录中"
+
+#: ../../source/flow.rst:67
+msgid "Ports and values"
+msgstr "端口和值"
+
+#: ../../source/flow.rst:69
+msgid "Ports are typed. Common value types are text, JSON, image, video, audio, frames, artifact, number, boolean, color, and size. A colored port shows its value type; a list port is marked as accepting multiple values. Connect only compatible types. Use **To Text** when a value needs to become text, or **List Item** when a list needs to provide one item."
+msgstr "端口带有类型。常见值类型包括文本、JSON、图像、视频、音频、帧、工件、数字、布尔、颜色和尺寸。彩色端口表示其值类型；列表端口会标记为可接收多个值。只能连接兼容的类型。当值需要转换为文本时使用 **转为文本**，当列表需要提供一个元素时使用 **列表取项**。"
+
+#: ../../source/flow.rst:75
+msgid "Some parameters are hybrid inputs: they can use the value entered in the node or a value supplied by an edge. Once connected, the local control is hidden; when disconnected, the previous local value is available again. Nodes that accept a list do not automatically pair or convert two lists, so make the pairing explicit in the graph."
+msgstr "有些参数是混合输入：可以使用节点中填写的值，也可以使用边提供的值。连接后，本地控件会隐藏；断开后，之前的本地值会重新可用。接收列表的节点不会自动配对或转换两个列表，因此应在图中明确表达配对关系。"
+
+#: ../../source/flow.rst:80
+msgid "Canvas controls"
+msgstr "画布控制"
+
+#: ../../source/flow.rst:82
+msgid "Drag nodes to lay out the graph. Select a node or edge and press ``Delete`` to remove it. Use the node header to collapse or expand a node, and use its corners to resize it. The canvas toolbar provides **Zoom in**, **Zoom out**, **Fit canvas**, and grid snapping. Flow remembers the layout and collapsed state as part of the saved graph."
+msgstr "拖动节点来布局图。选择节点或边并按 ``Delete`` 删除它。使用节点标题栏折叠或展开节点，使用节点四角调整大小。画布工具栏提供 **放大画布**、**缩小画布**、**适应画布** 和网格吸附。Flow 会将布局和折叠状态作为已保存图的一部分记住。"
+
+#: ../../source/flow.rst:87
+msgid "Run a Flow"
+msgstr "运行 Flow"
+
+#: ../../source/flow.rst:89
+msgid "Press **Run** after the graph has finished saving. If the graph contains **Flow Input** nodes, you can run one input or several compatible entries. If there is no selected entry, Studio runs the available graph path. An **Output** or **Media Output** node makes the result visible at the end of a path."
+msgstr "等待图保存完成后按 **运行**。如果图中包含 **运行输入** 节点，可以运行一个输入或多个兼容的入口。如果没有选择入口，Studio 会运行可用的图路径。**输出** 或 **媒体输出** 节点会让路径末端的结果可见。"
+
+#: ../../source/flow.rst:95
+msgid "The editor shows node and run states as work progresses. A run can be queued, running, waiting, completed, partially failed, failed, or stopped. A Flow can run only one active branch at a time. Press **Stop** to cancel the active run; completed results remain available for inspection."
+msgstr "编辑器会随着工作推进显示节点和运行状态。运行可以处于排队、运行中、等待、已完成、部分失败、失败或已停止状态。一个 Flow 同时只能运行一条活动分支。按 **停止** 取消活动运行；已完成的结果仍可供检查。"
+
+#: ../../source/flow.rst:101
+msgid "Nodes that call tools, commands, or save files can pause at **Pending approvals**. Review the operation and its reason, then choose **Approve** or **Reject**. The approval mode in the Flow toolbar controls how much of this boundary is automatic:"
+msgstr "调用工具、命令或保存文件的节点可能会在 **待审批操作** 处暂停。检查操作及其原因，然后选择 **批准** 或 **拒绝**。Flow 工具栏中的审批模式控制这条边界有多少部分会自动执行："
+
+#: ../../source/flow.rst:105
+msgid "**Manual** asks for approval for every applicable operation;"
+msgstr "**手动** 会为每个适用操作请求审批；"
+
+#: ../../source/flow.rst:106
+msgid "**Auto safe** can proceed with operations allowed by the safe policy; and"
+msgstr "**自动安全** 可以自动执行安全策略允许的操作；以及"
+
+#: ../../source/flow.rst:107
+msgid "**Full trust** allows the configured tool policy to run without the normal per-operation pause."
+msgstr "**完全信任** 允许配置的工具策略运行，而不在每个操作前暂停。"
+
+#: ../../source/flow.rst:109
+msgid "Use the same care as in a chat session when enabling a less restrictive mode. See :doc:`agent/approvals` for the general approval model."
+msgstr "启用限制更少的模式时，请像在聊天会话中一样谨慎。一般审批模型请参阅 :doc:`agent/approvals`。"
+
+#: ../../source/flow.rst:112
+msgid "Media and image workflows"
+msgstr "媒体与图像工作流"
+
+#: ../../source/flow.rst:114
+msgid "Flow keeps generated media as run-scoped artifacts. Nodes pass artifact references through the graph, while the canvas loads previews only when they are needed. This lets a graph connect generation, image processing, media preview, and saving without putting the full media bytes into every node."
+msgstr "Flow 会将生成的媒体作为限定在本次运行中的工件保存。节点在图中传递工件引用，画布只在需要时加载预览。这样，图可以连接生成、图像处理、媒体预览和保存，而无需把完整媒体字节放进每个节点。"
+
+#: ../../source/flow.rst:120
+msgid "A typical image workflow is:"
+msgstr "典型的图像工作流如下："
+
+#: ../../source/flow.rst:127
+msgid "**Image Input** reads a file inside the selected workspace. **Image Resize** supports contain, cover, and fill modes. **Image Crop**, **Image Rotate**, **Image Composite**, and **Image Convert** can be chained or used on a list of images. The original file is not modified."
+msgstr "**读取图片** 会读取所选工作区内的文件。**缩放图片** 支持 contain、cover 和 fill 模式。**裁剪图片**、**旋转与翻转**、**叠加图片** 和 **转换图片格式** 可以串联，也可以处理图像列表。原始文件不会被修改。"
+
+#: ../../source/flow.rst:132
+msgid "Use **Media Output** for preview, download, or workspace-oriented output. A gallery can show thumbnails, open a full preview, compare two results, and show basic media metadata. Use **Save Images** or **Save Videos** when the result should become a file in the workspace. Saving is a side effect and can require approval."
+msgstr "使用 **媒体输出** 进行预览、下载或面向工作区的输出。画廊可以显示缩略图、打开完整预览、比较两个结果并显示基本媒体元数据。当结果需要成为工作区中的文件时，使用 **保存图片** 或 **保存视频**。保存属于副作用，可能需要审批。"
+
+#: ../../source/flow.rst:137
+msgid "Batch generation"
+msgstr "批量生成"
+
+#: ../../source/flow.rst:139
+msgid "Use **Parameter Sets** to define one row per request, then connect it to **Batch Text to Image** or **Batch Image to Image**. A row can include a prompt, negative prompt, optional seed, dimensions, and image count. The editor shows both the number of requests and the planned image count."
+msgstr "使用 **参数组** 为每个请求定义一行，然后将其连接到 **批量文生图** 或 **批量图生图**。每行可以包含提示词、反向提示词、可选种子、尺寸和图像数量。编辑器会同时显示请求数和计划图像数。"
+
+#: ../../source/flow.rst:145
+msgid "The current limits are:"
+msgstr "当前限制如下："
+
+#: ../../source/flow.rst:147
+msgid "up to 50 parameter rows;"
+msgstr "最多 50 个参数行；"
+
+#: ../../source/flow.rst:148
+msgid "1–4 images per row; and"
+msgstr "每行 1–4 张图像；以及"
+
+#: ../../source/flow.rst:149
+msgid "at most 100 planned images in one batch."
+msgstr "一次批量最多计划 100 张图像。"
+
+#: ../../source/flow.rst:151
+msgid "Batch results are tracked per row. If some items succeed and others fail, the successful items can continue through downstream image-processing nodes and the run is marked **partial failure**. Choose **Retry failed items** to reuse successful results and submit only the failed rows. Choose **Regenerate all** only when you intentionally want to submit every row again."
+msgstr "批量结果会按行跟踪。如果部分项目成功、其他项目失败，成功项目仍可继续通过下游图像处理节点，运行会标记为 **部分失败**。选择 **重试失败项** 可以复用成功结果，只提交失败行。只有确实希望再次提交所有行时，才选择 **全部重新生成**。"
+
+#: ../../source/flow.rst:158
+msgid "If a provider returns a job identifier, Flow can use it to recover an interrupted job. If submission succeeded but no recovery identifier exists, Flow avoids silently resubmitting a potentially billable request; confirm a new generation explicitly when prompted."
+msgstr "如果供应商返回任务标识符，Flow 可以用它恢复中断的任务。如果提交成功但没有可恢复的标识符，Flow 会避免无提示地重新提交可能产生费用的请求；出现提示时，请明确确认新的生成操作。"
+
+#: ../../source/flow.rst:162
+msgid "Manage results and data"
+msgstr "管理结果和数据"
+
+#: ../../source/flow.rst:164
+msgid "Flow results, node state, approvals, and batch progress are persisted with the Flow. Select a completed run or its output nodes to review what was produced. Unread completed results are marked in the Flow list until you open the Flow again."
+msgstr "Flow 的结果、节点状态、审批和批量进度会与 Flow 一起持久化。选择已完成的运行或其输出节点即可检查生成的内容。未读的已完成结果会在 Flow 列表中标记，直到你重新打开该 Flow。"
+
+#: ../../source/flow.rst:169
+msgid "To create a portable backup, open a Flow's context menu and choose **Export Flow data**. Studio writes a Flow SQLite export and embeds available media artifacts. If an artifact file is missing, Studio completes the export and reports the missing-file count. Do not overwrite Studio's application data with an export destination."
+msgstr "要创建可移植备份，请打开 Flow 的上下文菜单并选择 **导出 Flow 数据**。Studio 会写出 Flow SQLite 导出文件，并嵌入可用的媒体工件。如果某个工件文件缺失，Studio 仍会完成导出并报告缺失文件数量。不要用导出目标覆盖 Studio 的应用数据。"
+
+#: ../../source/flow.rst:175
+msgid "The **workspace** boundary still applies to file input, commands, tools, and media saving. Keep a Flow in the workspace that owns its relative file paths, or move it before running nodes that require workspace access. For general workspace behavior, see :doc:`workspaces/index`."
+msgstr "文件输入、命令、工具和媒体保存仍受 **工作区** 边界约束。请将 Flow 保存在拥有其相对文件路径的工作区中，或在运行需要工作区访问的节点前移动它。一般工作区行为请参阅 :doc:`workspaces/index`。"
+
+#: ../../source/flow.rst:179
+msgid "Troubleshooting"
+msgstr "故障排查"
+
+#: ../../source/flow.rst:181
+msgid "**A node is unavailable.** It may require a workspace, a configured provider/model, or an installed and trusted plugin. Select a workspace or check the relevant provider and plugin settings."
+msgstr "**节点不可用。** 它可能需要工作区、已配置的供应商/模型，或已安装并信任的插件。请选择工作区，或检查相关供应商和插件设置。"
+
+#: ../../source/flow.rst:184
+msgid "**The Run button is disabled.** Wait for graph changes to finish saving and make sure the selected Flow Input and Output nodes still exist."
+msgstr "**运行按钮不可用。** 请等待图的修改保存完成，并确认选中的运行输入和输出节点仍然存在。"
+
+#: ../../source/flow.rst:187
+msgid "**The run is waiting.** Review the approval queue. A tool, command, or save operation may be waiting for a decision."
+msgstr "**运行正在等待。** 请检查审批队列。某个工具、命令或保存操作可能正在等待决定。"
+
+#: ../../source/flow.rst:190
+msgid "**Only part of a batch failed.** Open the batch node, inspect the per-item errors, and use **Retry failed items** after correcting the cause."
+msgstr "**批量只有部分失败。** 打开批量节点检查每项错误，修复原因后使用 **重试失败项**。"
+
+#: ../../source/flow.rst:193
+msgid "**A preview is missing.** Check the run and node status first. A missing source artifact, an unsupported media type, or an expired cleanup result can prevent a preview from loading."
+msgstr "**预览缺失。** 先检查运行和节点状态。源工件缺失、不支持的媒体类型或已清理过期的结果都可能导致预览无法加载。"
+
+#: ../../source/flow.rst:196
+msgid "For keyboard commands that apply while the Flow surface is active, see :doc:`reference/shortcuts`."
+msgstr "Flow 页面处于活动状态时适用的键盘命令请参阅 :doc:`reference/shortcuts`。"

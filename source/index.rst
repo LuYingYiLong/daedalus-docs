@@ -28,6 +28,7 @@ Contents
    overview
    getting-started/index
    workspaces/index
+   flow
    agent/index
    tools/index
    godot/index

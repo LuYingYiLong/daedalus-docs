@@ -77,6 +77,10 @@ msgid "Keep multiple project workspaces and persistent sessions."
 msgstr "维护多个项目工作区和持久会话。"
 
 #: ../../source/overview.rst:31
+msgid "Build visual workflows with connected nodes, media processing, batch generation, approvals, and saved results in Flow."
+msgstr "在 Flow 中使用连接节点构建可视化工作流，处理媒体、批量生成、管理审批并保存结果。"
+
+#: ../../source/overview.rst:34
 msgid "Attach files, folders, images, or other project context to a request."
 msgstr "为请求附加文件、文件夹、图像或其他项目上下文。"
 
@@ -197,7 +201,12 @@ msgid ""
 ":doc:`workspaces/workbench`;"
 msgstr "了解主窗口及其面板，请阅读 :doc:`workspaces/workbench`；"
 
-#: ../../source/overview.rst:76
+#: ../../source/overview.rst:77
+msgid "build a repeatable node workflow or batch media pipeline, read "
+":doc:`flow`;"
+msgstr "构建可重复的节点工作流或批量媒体流水线，请阅读 :doc:`flow`；"
+
+#: ../../source/overview.rst:80
 msgid "write or review a request, read :doc:`agent/composer`;"
 msgstr "编写或审查请求，请阅读 :doc:`agent/composer`；"
 

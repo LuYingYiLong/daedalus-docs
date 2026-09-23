@@ -28,6 +28,8 @@ Studio combines several activities that are usually spread across separate
 windows:
 
 * Keep multiple project workspaces and persistent sessions.
+* Build visual workflows with connected nodes, media processing, batch
+  generation, approvals, and saved results in Flow.
 * Attach files, folders, images, or other project context to a request.
 * Inspect and edit Godot scenes, resources, scripts, and project settings.
 * Review file patches and Git diffs before accepting a result.
@@ -76,6 +78,8 @@ If you want to...
 * set up Studio for the first time, start with :doc:`getting-started/index`;
 * understand the main window and its panels, read
   :doc:`workspaces/workbench`;
+* build a repeatable node workflow or batch media pipeline, read
+  :doc:`flow`;
 * write or review a request, read :doc:`agent/composer`;
 * understand what happened during a run, read :doc:`agent/timeline`;
 * inspect model, tool, browser, or desktop execution records, read
