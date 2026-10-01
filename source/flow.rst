@@ -172,10 +172,16 @@ Unread completed results are marked in the Flow list until you open the Flow
 again.
 
 To create a portable backup, open a Flow's context menu and choose **Export
-Flow data**. Studio writes a Flow SQLite export and embeds available media
-artifacts. If an artifact file is missing, Studio completes the export and
-reports the missing-file count. Do not overwrite Studio's application data
-with an export destination.
+Flow data**. Studio writes a ``.daedalus-flow`` archive containing the workflow,
+node layout, run history, and media artifacts. If media files are missing,
+Studio completes the export and reports the missing-file count. Do not use
+Studio's application data as the export destination.
+
+To restore a Flow, import a compatible ``.daedalus-flow`` archive. The archive
+restores the workflow, node layout, run history, and media artifacts. An import
+is rejected if the Flow ID is already present. Legacy SQLite exports are not
+supported. If the package version is incompatible, re-export it as a
+``.daedalus-flow`` file with the latest Daedalus.
 
 The **workspace** boundary still applies to file input, commands, tools, and
 media saving. Keep a Flow in the workspace that owns its relative file paths,

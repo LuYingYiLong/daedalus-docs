@@ -254,38 +254,42 @@ msgstr "管理结果和数据"
 msgid "Flow results, node state, approvals, and batch progress are persisted with the Flow. Select a completed run or its output nodes to review what was produced. Unread completed results are marked in the Flow list until you open the Flow again."
 msgstr "Flow 的结果、节点状态、审批和批量进度会与 Flow 一起持久化。选择已完成的运行或其输出节点即可检查生成的内容。未读的已完成结果会在 Flow 列表中标记，直到你重新打开该 Flow。"
 
-#: ../../source/flow.rst:169
-msgid "To create a portable backup, open a Flow's context menu and choose **Export Flow data**. Studio writes a Flow SQLite export and embeds available media artifacts. If an artifact file is missing, Studio completes the export and reports the missing-file count. Do not overwrite Studio's application data with an export destination."
-msgstr "要创建可移植备份，请打开 Flow 的上下文菜单并选择 **导出 Flow 数据**。Studio 会写出 Flow SQLite 导出文件，并嵌入可用的媒体工件。如果某个工件文件缺失，Studio 仍会完成导出并报告缺失文件数量。不要用导出目标覆盖 Studio 的应用数据。"
+#: ../../source/flow.rst:174
+msgid "To create a portable backup, open a Flow's context menu and choose **Export Flow data**. Studio writes a ``.daedalus-flow`` archive containing the workflow, node layout, run history, and media artifacts. If media files are missing, Studio completes the export and reports the missing-file count. Do not use Studio's application data as the export destination."
+msgstr "要创建可移植备份，请打开 Flow 的上下文菜单并选择 **导出 Flow 数据**。Studio 会写入一个 ``.daedalus-flow`` 归档，其中包含工作流、节点布局、运行记录和媒体产物。如果媒体文件缺失，Studio 仍会完成导出并报告缺失文件数。请勿将 Studio 的应用数据用作导出目标。"
 
-#: ../../source/flow.rst:175
+#: ../../source/flow.rst:180
+msgid "To restore a Flow, import a compatible ``.daedalus-flow`` archive. The archive restores the workflow, node layout, run history, and media artifacts. An import is rejected if the Flow ID is already present. Legacy SQLite exports are not supported. If the package version is incompatible, re-export it as a ``.daedalus-flow`` file with the latest Daedalus."
+msgstr "要还原 Flow，请导入兼容的 ``.daedalus-flow`` 归档。归档会还原工作流、节点布局、运行记录和媒体产物。如果目标中已存在相同的 Flow ID，导入会被拒绝。旧版 SQLite 导出不再支持导入。如果 Flow 包版本不兼容，请在最新版 Daedalus 中重新导出为 ``.daedalus-flow`` 文件。"
+
+#: ../../source/flow.rst:181
 msgid "The **workspace** boundary still applies to file input, commands, tools, and media saving. Keep a Flow in the workspace that owns its relative file paths, or move it before running nodes that require workspace access. For general workspace behavior, see :doc:`workspaces/index`."
 msgstr "文件输入、命令、工具和媒体保存仍受 **工作区** 边界约束。请将 Flow 保存在拥有其相对文件路径的工作区中，或在运行需要工作区访问的节点前移动它。一般工作区行为请参阅 :doc:`workspaces/index`。"
 
-#: ../../source/flow.rst:179
+#: ../../source/flow.rst:185
 msgid "Troubleshooting"
 msgstr "故障排查"
 
-#: ../../source/flow.rst:181
+#: ../../source/flow.rst:187
 msgid "**A node is unavailable.** It may require a workspace, a configured provider/model, or an installed and trusted plugin. Select a workspace or check the relevant provider and plugin settings."
 msgstr "**节点不可用。** 它可能需要工作区、已配置的供应商/模型，或已安装并信任的插件。请选择工作区，或检查相关供应商和插件设置。"
 
-#: ../../source/flow.rst:184
+#: ../../source/flow.rst:190
 msgid "**The Run button is disabled.** Wait for graph changes to finish saving and make sure the selected Flow Input and Output nodes still exist."
 msgstr "**运行按钮不可用。** 请等待图的修改保存完成，并确认选中的运行输入和输出节点仍然存在。"
 
-#: ../../source/flow.rst:187
+#: ../../source/flow.rst:193
 msgid "**The run is waiting.** Review the approval queue. A tool, command, or save operation may be waiting for a decision."
 msgstr "**运行正在等待。** 请检查审批队列。某个工具、命令或保存操作可能正在等待决定。"
 
-#: ../../source/flow.rst:190
+#: ../../source/flow.rst:196
 msgid "**Only part of a batch failed.** Open the batch node, inspect the per-item errors, and use **Retry failed items** after correcting the cause."
 msgstr "**批量只有部分失败。** 打开批量节点检查每项错误，修复原因后使用 **重试失败项**。"
 
-#: ../../source/flow.rst:193
+#: ../../source/flow.rst:199
 msgid "**A preview is missing.** Check the run and node status first. A missing source artifact, an unsupported media type, or an expired cleanup result can prevent a preview from loading."
 msgstr "**预览缺失。** 先检查运行和节点状态。源工件缺失、不支持的媒体类型或已清理过期的结果都可能导致预览无法加载。"
 
-#: ../../source/flow.rst:196
+#: ../../source/flow.rst:202
 msgid "For keyboard commands that apply while the Flow surface is active, see :doc:`reference/shortcuts`."
 msgstr "Flow 页面处于活动状态时适用的键盘命令请参阅 :doc:`reference/shortcuts`。"
